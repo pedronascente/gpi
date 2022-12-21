@@ -1,0 +1,21 @@
+<?php
+include_once (__DIR__ . "\bootstrap.php");
+?>
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Modulo de Log</title>
+</head>
+<body>
+        <?php
+		switch ($pg) {
+			case 41 :
+				include_once __DIR__ . '/src/controllers/controller_lst_log.php';
+				include_once __DIR__ . '/src/views/formularios/frm_log.php';
+				include_once __DIR__ . '/src/views/listas/lst_log.php';
+				break;
+		}
+		?>
+            </body>
+</html>

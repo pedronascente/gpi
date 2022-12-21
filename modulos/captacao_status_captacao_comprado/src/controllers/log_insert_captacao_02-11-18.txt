@@ -1,0 +1,9 @@
+[02-11-18] [01:14:14] ID :12 , USUARIO:DANIEL LIMA , INTERESSE:5 , CLIENTE: Mayte Wieth  , TELEFONE: (51)99372-7710, EMAIL: tetewieth@gmail.com , ORIGEM: http://volpatorastreamento.com.br , INDICADOR:  
+[02-11-18] [03:09:35] ID :350 , USUARIO:THIAGO FERREIRA , INTERESSE:5 , CLIENTE: Leandro Rinco  , TELEFONE: (51)99818-1242, EMAIL: leandro.rinco@gmail.com , ORIGEM: http://volpatorastreamento.com.br , INDICADOR:  
+[02-11-18] [12:02:57] ID :421 , USUARIO:LUIS FERNANDO , INTERESSE:5 , CLIENTE: MARCIA   , TELEFONE: (51)98301-4491, EMAIL:  , ORIGEM: monitoramento , INDICADOR: outros 
+[02-11-18] [12:49:11] ID :423 , USUARIO:Gabriel Santos , INTERESSE:5 , CLIENTE: Lauri Pick  , TELEFONE: (51)98439-0059, EMAIL: lauri.pick@terra.com.br , ORIGEM: http://volpatorastreamento.com.br , INDICADOR:  
+[02-11-18] [16:27:08] ID :603 , USUARIO:FERNANDA PIRES , INTERESSE:5 , CLIENTE: Vinicius Gisch  , TELEFONE: (51)98230-6592, EMAIL: Viniciusgisch@frigelar.com.br , ORIGEM: http://volpatorastreamento.com.br , INDICADOR:  
+[02-11-18] [18:01:05] ID :636 , USUARIO:Marcelo Torres , INTERESSE:5 , CLIENTE: José Henrique Luttjohann Nágera  , TELEFONE: (51)99287-0743, EMAIL: jhnagera@gmail.com , ORIGEM: http://volpatorastreamento.com.br , INDICADOR:  
+[02-11-18] [18:11:01] ID :647 , USUARIO:Leandro Prestes , INTERESSE:5 , CLIENTE: Felipe  , TELEFONE: (51)99630-4936, EMAIL: felipec-chaves@hotmail.com , ORIGEM: http://volpatorastreamento.com.br , INDICADOR:  
+[02-11-18] [19:18:44] ID :668 , USUARIO:Juliana Moura , INTERESSE:5 , CLIENTE: Neiva  , TELEFONE: (51)99846-4519, EMAIL: neiva.Severo@Terra.Com.Br , ORIGEM: http://volpatorastreamento.com.br , INDICADOR:  
+[02-11-18] [20:18:45] ID :703 , USUARIO:Taisson Barbosa , INTERESSE:5 , CLIENTE: Jean Michel  , TELEFONE: (41)99800-9848, EMAIL: jeanserenatto@hotmail.com , ORIGEM: http://rastreadorvolpato.com/leads , INDICADOR:  

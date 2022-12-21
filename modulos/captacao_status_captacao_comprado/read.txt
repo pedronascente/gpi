@@ -1,0 +1,18 @@
+Instalação do Módulo:
+
+Requisitos:
+
+- Classes de conexão com o banco: C:\wamp\www\gpi_new\application\models\Conn
+_ Classe de autload: C:\wamp\www\gpi_new\COnfig.inc.php
+_ Classe necessária: C:\wamp\www\gpi_new\application\models\classes\Url.class
+_ Classe necessária: C:\wamp\www\gpi_new\application\models\classes\Cliente.class
+_ Classe necessária: C:\wamp\www\gpi_new\application\models\classes\Municipio.class
+_ Classe necessária: C:\wamp\www\gpi_new\application\models\classes\Regiao.class
+_ Classe necessária: C:\wamp\www\gpi_new\application\models\classes\Sms.class
+_ Classe necessária: C:\wamp\www\gpi_new\application\models\classes\Veiculos.class
+_ Classes que fazem a paginação: C:\wamp\www\gpi_new\application\models\classes\paginacao
+_ Classes manda sms: C:\wamp\www\gpi_new\application\models\classes\api_sms
+_ Classes manda email: C:\wamp\www\gpi_new\application\models\classes\phpmailer
+_ Classe que contêm as funcões gerais do sistema: C:\wamp\www\gpi_new\application\models\classes\Funcoes.class
+_ Arquivo que contêm o js geral do sistema: C:\wamp\www\gpi_new\public\js\funcoes.js
+_ Classes e arquivos necessários para gerar arquivos externos: C:\wamp\www\gpi_new\fpdf\

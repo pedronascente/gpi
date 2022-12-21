@@ -1,0 +1,11 @@
+Instalação do Módulo:
+
+Requisitos:
+
+- Classes de conexão com o banco: C:\wamp\www\gpi_new\application\models\Conn
+_ Classe de autload: C:\wamp\www\gpi_new\COnfig.inc.php
+_ Classe que contem a URL das páginas: C:\wamp\www\gpi_new\application\models\classes\Url.class
+_ Classe necessária: C:\wamp\www\gpi_new\application\models\classes\Estado.class
+_ Classes que fazem a paginação: C:\wamp\www\gpi_new\application\models\classes\paginacao
+_ Classe que contêm as funcões gerais do sistema: C:\wamp\www\gpi_new\application\models\classes\Funcoes.class
+_ Arquivo que contêm o js geral do sistema: C:\wamp\www\gpi_new\public\js\funcoes.js

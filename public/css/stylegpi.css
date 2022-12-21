@@ -1,0 +1,50 @@
+
+body.gpi_classic {padding-top:70px}
+/* max-width  */
+        @media screen and   (min-width:775px) and (  max-width: 1400px) { 
+            body.gpi_classic  {padding-top: 120px ; }
+        }
+        
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus{
+    background:  #CCE7F4 ; 
+}
+.scrollbar {overflow:auto; max-height:400px; padding: 0 5px; border: 1px solid #b7b7b7;}
+.scrollbar_2 {overflow:auto; max-height:250px; padding: 0 5px; border: 1px solid #b7b7b7;}
+
+#modalInconsistenciasPlanilha .modal-dialog {width:1010px;}
+#modalInconsistencias .modal-dialog {width:1010px;}
+#modalVisualizaContrato .modal-dialog {width:900px;}
+#modalVeiculos .modal-dialog {width:750px;}
+#modalAssinatura .modal-dialog  {width:650px;}
+
+._cursor-pointer{
+    cursor: pointer !important;
+}
+
+.btn-contratos
+{
+	background-image: linear-gradient(to bottom, #fff 0px, #e0e0e0 100%);
+    background-repeat: repeat-x;
+    border-color: #ccc;
+    box-sizing: border-box;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.15) inset, 0 1px 1px rgba(0, 0, 0, 0.075);
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+    border-color: #ccc;
+	
+}
+
+.IMG_placa {
+	background: url(../img/_placa.gif) no-repeat center;
+	width: 250px;
+	height: 80px;
+}
+
+.IMG_placa strong._text {
+	float: left;
+	font-size: 30px;
+	margin: 26px 0 0 50px;
+}
+
+ .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{background: #3175AF; color: #fff}

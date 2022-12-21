@@ -1,0 +1,79 @@
+html {
+  overflow-y: scroll;
+}
+
+.table > thead > tr > th{
+  text-align:center;
+}
+.txt-center{
+  text-align:center !important;
+}
+.notVisible{
+  display: none !important;
+}
+.isVisible{      
+  display: block !important;
+}
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -64px;
+  margin-left: -64px;
+}
+.my-dropdown-content{
+  margin-top:2px;
+  padding: 5px;
+  user-select: none;
+  position: absolute;
+  z-index: 1000;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, .15);
+  border-radius: 4px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+.my-dropdown-content *{
+  font-size: 13px;
+}
+.my-dropdown-content .divider{
+  padding: 2px !important;
+  border-top: 1px solid #e0e0e0;
+}
+.my-dropdown-content .title{
+  padding: 0px !important;
+}
+.my-dropdown-content .title > span{
+  padding: 0px 0px 0px 18px !important;
+  color: #343434;
+}
+.my-dropdown-content li{
+  padding: 1px 8px 1px 8px !important;
+  white-space: nowrap;
+  list-style-type:none;
+}
+.my-dropdown-content ul{
+  padding: 0px !important;
+}
+[my-dropdown-content-status~=desactive]{
+  display: none;
+}
+[my-dropdown-content-status~=active]{
+  /*anythingHere*/
+}
+th{
+  padding: 0px !important;
+}
+.my-dropdown-activator{
+  padding-top:5px;
+  padding-bottom:5px;
+  text-align: center;
+}
+tr > td{
+  vertical-align: middle !important;
+  padding: 3px !important;
+}
+.pagination{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}

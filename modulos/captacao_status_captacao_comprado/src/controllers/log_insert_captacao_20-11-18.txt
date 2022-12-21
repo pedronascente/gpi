@@ -1,0 +1,133 @@
+[20-11-18] [00:01:54] ID :12 , USUARIO:DANIEL LIMA , INTERESSE:5 , CLIENTE: Ricardo  , TELEFONE: (54)99715-2242, EMAIL: jessica.silvaritter98@gmail.com , ORIGEM: http://rastreadorvolpato.com/leads , INDICADOR:  
+[20-11-18] [05:29:36] ID :350 , USUARIO:THIAGO FERREIRA , INTERESSE:5 , CLIENTE: becky.chan  , TELEFONE: (51), EMAIL: becky.chan@bandlab.com , ORIGEM: http://volpatorastreamento.com.br , INDICADOR:  
+[20-11-18] [05:46:32] ID :421 , USUARIO:LUIS FERNANDO , INTERESSE:5 , CLIENTE: joaniemorita  , TELEFONE: (51), EMAIL: joaniemorita@yahoo.com , ORIGEM: http://volpatorastreamento.com.br , INDICADOR:  
+[20-11-18] [06:42:12] ID :423 , USUARIO:Gabriel Santos , INTERESSE:5 , CLIENTE: Leonardo mezzomo  , TELEFONE: (51)99693-8397, EMAIL: leonardobmezzomo@gmail.com , ORIGEM: http://volpatorastreamento.com.br , INDICADOR:  
+[20-11-18] [08:02:08] ID :636 , USUARIO:Marcelo Torres , INTERESSE:5 , CLIENTE: Ailana  , TELEFONE: (51)99999-9999, EMAIL: ailana@rocketmail.com , ORIGEM: http://volpatorastreamento.com.br , INDICADOR:  
+[20-11-18] [08:06:23] ID :647 , USUARIO:Leandro Prestes , INTERESSE:5 , CLIENTE: marcos de jezus costa  , TELEFONE: (51)98526-8528, EMAIL: marcosjc1987@yahoo.com.br , ORIGEM: http://volpatorastreamento.com.br , INDICADOR:  
+[20-11-18] [08:14:59] ID :448 , USUARIO:Agendamento , INTERESSE:1 , CLIENTE: Administrativo Hanoff  ( Grupo de Advogados) - TACIANE SANTOS (FINANCEIRO)  , TELEFONE: (51)30128-500, EMAIL: administrativo@hanoff.com.br , ORIGEM: monitoramento , INDICADOR: internet 
+[20-11-18] [08:39:51] ID :642 , USUARIO:Raylan Rodrigues , INTERESSE:6 , CLIENTE: Condominios 20 - Talla Imobiliária   , TELEFONE: (51)33306-557, EMAIL: cond20@talla.com.br , ORIGEM: monitoramento , INDICADOR: internet 
+[20-11-18] [08:40:09] ID :668 , USUARIO:Juliana Moura , INTERESSE:5 , CLIENTE: BERNARDO PAIVA  , TELEFONE: (51)99660-8292, EMAIL:  , ORIGEM: monitoramento , INDICADOR: whatsApp 
+[20-11-18] [08:42:40] ID :703 , USUARIO:Taisson Barbosa , INTERESSE:5 , CLIENTE: OSVALDO  , TELEFONE: (51)99444-8360, EMAIL:  , ORIGEM: monitoramento , INDICADOR: whatsApp 
+[20-11-18] [08:50:49] ID :12 , USUARIO:DANIEL LIMA , INTERESSE:5 , CLIENTE: ANDRÉ  , TELEFONE: (51)98157-0904, EMAIL:  , ORIGEM: monitoramento , INDICADOR: whatsApp 
+[20-11-18] [08:51:52] ID :350 , USUARIO:THIAGO FERREIRA , INTERESSE:5 , CLIENTE: Paulo  , TELEFONE: (51)98434-8060, EMAIL: ricardobbseguro@gmail.com , ORIGEM: http://volpatorastreamento.com.br , INDICADOR:  
+[20-11-18] [09:30:47] ID :421 , USUARIO:LUIS FERNANDO , INTERESSE:5 , CLIENTE: Gilberto  , TELEFONE: (51)99817-9644, EMAIL: gilbertoheiden@gmail.com , ORIGEM: www.grupovolpato.com/form-home , INDICADOR:  
+[20-11-18] [09:42:36] ID :423 , USUARIO:Gabriel Santos , INTERESSE:5 , CLIENTE: giuvanni bagatini  , TELEFONE: (51)99348-3524, EMAIL: giuvanni.bagatini@gmail.com , ORIGEM: http://rastreadorvolpato.com/leads , INDICADOR:  
+[20-11-18] [09:47:57] ID :636 , USUARIO:Marcelo Torres , INTERESSE:5 , CLIENTE: Fabricio germiniani dos santos  , TELEFONE: (51)99635-5925, EMAIL: germiniani78@gmail.com , ORIGEM: http://volpatorastreamento.com.br , INDICADOR:  
+[20-11-18] [09:51:48] ID :647 , USUARIO:Leandro Prestes , INTERESSE:5 , CLIENTE: Deivis Saraiva  , TELEFONE: (51)99757-6204, EMAIL: deivis.saraiva@gmail.com , ORIGEM: http://rastreadorvolpato.com/leads , INDICADOR:  
+[20-11-18] [09:53:49] ID :448 , USUARIO:Agendamento , INTERESSE:2 , CLIENTE: Douglas Schreck  , TELEFONE: (51)98542-6987, EMAIL: douglas.schreck@gmail.com , ORIGEM: www.volpato.rs/obrigado.php , INDICADOR:  
+[20-11-18] [09:56:34] ID : , USUARIO: , INTERESSE:5 , CLIENTE: Sergio R. Bernardo  , TELEFONE: (44)99167-7069, EMAIL: sergiorbernardo@hotmail.com , ORIGEM: monitoramento , INDICADOR: facebook 
+[20-11-18] [09:58:14] ID : , USUARIO: , INTERESSE:5 , CLIENTE: HELITON LARA MARQUES FRANCO  , TELEFONE: (42)88128-484, EMAIL: helitonmarques@yahoo.com.br , ORIGEM: http://volpatorastreamento.com.br , INDICADOR:  
+[20-11-18] [09:58:31] ID : , USUARIO: , INTERESSE:5 , CLIENTE: Clequel Bia Be  , TELEFONE: (48)98458-0553, EMAIL: cle_quel@hotmail.com , ORIGEM: monitoramento , INDICADOR: facebook 
+[20-11-18] [09:58:55] ID :448 , USUARIO:Agendamento , INTERESSE:1 , CLIENTE: Rubens   , TELEFONE: (51)98439-9404, EMAIL: portoalegre@sulshein.com.br , ORIGEM: monitoramento , INDICADOR: internet 
+[20-11-18] [09:59:05] ID : , USUARIO: , INTERESSE:5 , CLIENTE: Marciano Estefani  , TELEFONE: (41)88892-188, EMAIL: marciano.estefani@hotmail.com , ORIGEM: monitoramento , INDICADOR: facebook 
+[20-11-18] [10:00:35] ID : , USUARIO: , INTERESSE:5 , CLIENTE: Luiz Batista  , TELEFONE: (45)91092-009, EMAIL: luizgrillofoz5@gmail.com , ORIGEM: monitoramento , INDICADOR: facebook 
+[20-11-18] [10:01:10] ID :12 , USUARIO:DANIEL LIMA , INTERESSE:5 , CLIENTE: Douglas Morgão  , TELEFONE: (51)99319-4485, EMAIL: financeiro@astrltecnologia.com.br , ORIGEM: monitoramento , INDICADOR: facebook 
+[20-11-18] [10:01:51] ID :350 , USUARIO:THIAGO FERREIRA , INTERESSE:5 , CLIENTE: Ivan Cesar Fank  , TELEFONE: (51)99725-6569, EMAIL: ivan.fank@yahoo.com.br , ORIGEM: monitoramento , INDICADOR: facebook 
+[20-11-18] [10:02:24] ID :421 , USUARIO:LUIS FERNANDO , INTERESSE:5 , CLIENTE: Roberto Jardim  , TELEFONE: (51)91910-008, EMAIL: robert_jardim@hotmail.com , ORIGEM: monitoramento , INDICADOR: facebook 
+[20-11-18] [10:03:20] ID :423 , USUARIO:Gabriel Santos , INTERESSE:5 , CLIENTE: Cesar Antunes Cardoso  , TELEFONE: (51)81887-908, EMAIL: cardoso.cesar45racing@gmail.com , ORIGEM: monitoramento , INDICADOR: facebook 
+[20-11-18] [10:03:52] ID :636 , USUARIO:Marcelo Torres , INTERESSE:5 , CLIENTE: Daniel Laga  , TELEFONE: (51)99353-4965, EMAIL: Danielfoerster31@yahoo.com.br , ORIGEM: monitoramento , INDICADOR: facebook 
+[20-11-18] [10:03:55] ID :448 , USUARIO:Agendamento , INTERESSE:2 , CLIENTE: NANCI SEVERO  , TELEFONE: (51)98590-2403, EMAIL:  , ORIGEM: monitoramento , INDICADOR: internet 
+[20-11-18] [10:07:49] ID : , USUARIO: , INTERESSE:5 , CLIENTE: ANDRE TOLINO NETO  , TELEFONE: (43)99914-4947, EMAIL: prof.andre.floko@gmail.com , ORIGEM: http://volpatorastreamento.com.br , INDICADOR:  
+[20-11-18] [10:10:01] ID : , USUARIO: , INTERESSE:5 , CLIENTE: Jair Ferreira Costa  , TELEFONE: (43)96312-555, EMAIL: jafer_jfc@hotmail.com , ORIGEM: monitoramento , INDICADOR: facebook 
+[20-11-18] [10:10:45] ID : , USUARIO: , INTERESSE:5 , CLIENTE: Alessandro Dionizio  , TELEFONE: (43)84263-885, EMAIL: alessandro.dionisio.ana@gmail.com , ORIGEM: monitoramento , INDICADOR: facebook 
+[20-11-18] [10:17:13] ID :12 , USUARIO:DANIEL LIMA , INTERESSE:5 , CLIENTE: Marcelo Miranda  , TELEFONE: (51)98524-8676, EMAIL: teknet2011@hotmail.com , ORIGEM: monitoramento , INDICADOR: facebook 
+[20-11-18] [10:17:43] ID :350 , USUARIO:THIAGO FERREIRA , INTERESSE:5 , CLIENTE: Jorge Pagani  , TELEFONE: (53)98413-4213, EMAIL: jafpagani@hotmail.com , ORIGEM: monitoramento , INDICADOR: facebook 
+[20-11-18] [10:18:49] ID :707 , USUARIO:Vendedor Auxiliar , INTERESSE:5 , CLIENTE: Priscilla Monteiro Barbosa Santos  , TELEFONE: (67)99006-445, EMAIL: valdinei181180@gmail.com , ORIGEM: monitoramento , INDICADOR: facebook 
+[20-11-18] [10:20:35] ID : , USUARIO: , INTERESSE:5 , CLIENTE: Cleusio Diemon  , TELEFONE: (47)99443-283, EMAIL: Cleusio1@bol.com.br , ORIGEM: monitoramento , INDICADOR: facebook 
+[20-11-18] [10:21:33] ID :12 , USUARIO:DANIEL LIMA , INTERESSE:5 , CLIENTE: Douglas Andrada  , TELEFONE: (51)82957-545, EMAIL: douglasandrada@hotmail.com , ORIGEM: monitoramento , INDICADOR: facebook 
+[20-11-18] [10:21:36] ID :448 , USUARIO:Agendamento , INTERESSE:2 , CLIENTE: Rayana  , TELEFONE: (51)99770-0220, EMAIL: rayana.minuzzo@icloud.com , ORIGEM: www.grupovolpato.com/residencial/obrigado.php , INDICADOR:  
+[20-11-18] [10:22:05] ID :350 , USUARIO:THIAGO FERREIRA , INTERESSE:5 , CLIENTE: Rodrigo Rosario Bueno  , TELEFONE: (51)97577-900, EMAIL: rodrigorosariobueno@gmail.com , ORIGEM: monitoramento , INDICADOR: facebook 
+[20-11-18] [10:22:35] ID :421 , USUARIO:LUIS FERNANDO , INTERESSE:5 , CLIENTE: Diego Rocha  , TELEFONE: (51)99613-7229, EMAIL: diegorocha400@gmail.com , ORIGEM: monitoramento , INDICADOR: facebook 
+[20-11-18] [10:26:04] ID :273 , USUARIO:Julio Dreher , INTERESSE:6 , CLIENTE: Thiago  , TELEFONE: (51)98189-8792, EMAIL: thiago.tec@gmail.com , ORIGEM: http://portariavolpato.com/leads , INDICADOR:  
+[20-11-18] [10:26:13] ID :606 , USUARIO:LIDIO VARGAS DA SILVA , INTERESSE:6 , CLIENTE: Thiago  , TELEFONE: (51)98189-8792, EMAIL: thiago.tec@gmail.com , ORIGEM: http://portariavolpato.com/leads , INDICADOR:  
+[20-11-18] [10:28:21] ID :423 , USUARIO:Gabriel Santos , INTERESSE:5 , CLIENTE: ROBERTA  , TELEFONE: (51)99854-3157, EMAIL:  , ORIGEM: monitoramento , INDICADOR: whatsApp 
+[20-11-18] [10:37:57] ID : , USUARIO: , INTERESSE:5 , CLIENTE: Valdenir Ismael da Silva  , TELEFONE: (41)96799-939, EMAIL: val.churros@hotmail.com , ORIGEM: monitoramento , INDICADOR: facebook 
+[20-11-18] [10:38:48] ID :12 , USUARIO:DANIEL LIMA , INTERESSE:5 , CLIENTE: MARCO AURELIO  , TELEFONE: (51)99647-6110, EMAIL: MARCOAURELIO.DIAS@HOTMAIL.COM , ORIGEM: http://rastreadorvolpato.com/leads , INDICADOR:  
+[20-11-18] [10:39:44] ID :707 , USUARIO:Vendedor Auxiliar , INTERESSE:5 , CLIENTE: Elias José dos Santos  , TELEFONE: (11)98495-5254, EMAIL: josedossantoselias@yahoo.com.br , ORIGEM: monitoramento , INDICADOR: facebook 
+[20-11-18] [10:40:58] ID : , USUARIO: , INTERESSE:5 , CLIENTE: Jaqueline Machado de Ávila  , TELEFONE: (48)96049-407, EMAIL: ja.juja@hotmail.com , ORIGEM: monitoramento , INDICADOR: whatsApp 
+[20-11-18] [10:41:31] ID : , USUARIO: , INTERESSE:5 , CLIENTE: Edilson Gunha  , TELEFONE: (41)99897-885, EMAIL: edilsongunha@yahoo.com.br , ORIGEM: monitoramento , INDICADOR: facebook 
+[20-11-18] [10:48:39] ID :642 , USUARIO:Raylan Rodrigues , INTERESSE:6 , CLIENTE: THIAGO   , TELEFONE: (51)98189-8792, EMAIL: thiago.tec@gmail.com , ORIGEM: monitoramento , INDICADOR: whatsApp 
+[20-11-18] [10:48:52] ID :448 , USUARIO:Agendamento , INTERESSE:2 , CLIENTE: Graziela   , TELEFONE: (51)98687-3544, EMAIL:  , ORIGEM: monitoramento , INDICADOR: internet 
+[20-11-18] [10:50:37] ID :448 , USUARIO:Agendamento , INTERESSE:2 , CLIENTE: Graziela   , TELEFONE: (51)98687-3544, EMAIL:  , ORIGEM: monitoramento , INDICADOR: internet 
+[20-11-18] [10:52:33] ID :12 , USUARIO:DANIEL LIMA , INTERESSE:5 , CLIENTE: Camila pedroso  , TELEFONE: (51)99279-0280, EMAIL: camilinha.185@hotmail.com , ORIGEM: http://volpatorastreamento.com.br , INDICADOR:  
+[20-11-18] [10:55:00] ID :350 , USUARIO:THIAGO FERREIRA , INTERESSE:5 , CLIENTE: MARCO AURELIO DIAS  , TELEFONE: (51)99647-6110, EMAIL:  , ORIGEM: monitoramento , INDICADOR: whatsApp 
+[20-11-18] [11:00:08] ID :421 , USUARIO:LUIS FERNANDO , INTERESSE:5 , CLIENTE: Anderson Ribeiro  , TELEFONE: (51)98181-2107, EMAIL: andyaribeiro@gmail.com , ORIGEM: http://volpatorastreamento.com.br , INDICADOR:  
+[20-11-18] [11:04:47] ID :423 , USUARIO:Gabriel Santos , INTERESSE:5 , CLIENTE: Cleiton  , TELEFONE: (51)99144-2580, EMAIL: cleitonkorok@gmail.com , ORIGEM: http://volpatorastreamento.com.br , INDICADOR:  
+[20-11-18] [11:15:58] ID :636 , USUARIO:Marcelo Torres , INTERESSE:5 , CLIENTE: Fabiano  , TELEFONE: (51)98276-8139, EMAIL: fabiano.reichert@gmail.com , ORIGEM: http://volpatorastreamento.com.br , INDICADOR:  
+[20-11-18] [11:42:27] ID :647 , USUARIO:Leandro Prestes , INTERESSE:5 , CLIENTE: Rafael de Castro Quevedo  , TELEFONE: (51)99589-6518, EMAIL: rafaelcastro.quevedo@hotmail.com , ORIGEM: http://rastreadorvolpato.com/leads , INDICADOR:  
+[20-11-18] [11:47:43] ID :707 , USUARIO:Vendedor Auxiliar , INTERESSE:6 , CLIENTE: Caroline  , TELEFONE: (51)99373-0771, EMAIL: Caroline bairros de Souza@gmail.com , ORIGEM: www.portariavirtualvolpato.com.br/home , INDICADOR:  
+[20-11-18] [12:12:06] ID :668 , USUARIO:Juliana Moura , INTERESSE:5 , CLIENTE: Salatiel  , TELEFONE: (51)99784-3489, EMAIL:  , ORIGEM: monitoramento , INDICADOR: outros 
+[20-11-18] [12:27:14] ID :707 , USUARIO:Vendedor Auxiliar , INTERESSE:5 , CLIENTE: Elwis  , TELEFONE: (65)99608-9615, EMAIL: rodrigueselwis9@gmail.com , ORIGEM: http://volpatorastreamento.com.br , INDICADOR:  
+[20-11-18] [12:44:11] ID :703 , USUARIO:Taisson Barbosa , INTERESSE:5 , CLIENTE: luis  , TELEFONE: (51)98506-7068, EMAIL: luis.borges@bol.com.br , ORIGEM: http://volpatorastreamento.com.br , INDICADOR:  
+[20-11-18] [12:57:15] ID :12 , USUARIO:DANIEL LIMA , INTERESSE:5 , CLIENTE: EDSON   , TELEFONE: (51)99133-0800, EMAIL:  , ORIGEM: monitoramento , INDICADOR: facebook 
+[20-11-18] [13:03:21] ID :350 , USUARIO:THIAGO FERREIRA , INTERESSE:5 , CLIENTE: FELIPE  , TELEFONE: (51)99699-8686, EMAIL:  , ORIGEM: monitoramento , INDICADOR: indicacao 
+[20-11-18] [13:03:42] ID :421 , USUARIO:LUIS FERNANDO , INTERESSE:5 , CLIENTE: teste  , TELEFONE: (51), EMAIL: marketing@grupovolpato.com , ORIGEM: http://rastreadorvolpato.com/leads , INDICADOR:  
+[20-11-18] [13:08:08] ID :423 , USUARIO:Gabriel Santos , INTERESSE:5 , CLIENTE: teste  , TELEFONE: (51)99323-1275, EMAIL: christian.markus@gmail.com , ORIGEM: http://rastreadorvolpato.com/leads , INDICADOR:  
+[20-11-18] [13:15:22] ID :448 , USUARIO:Agendamento , INTERESSE:1 , CLIENTE: Bruno   , TELEFONE: (51)99596-7474, EMAIL: lesalonruadapraia@outlook.com , ORIGEM: monitoramento , INDICADOR: outros 
+[20-11-18] [13:15:23] ID :636 , USUARIO:Marcelo Torres , INTERESSE:5 , CLIENTE: SALATIEL  , TELEFONE: (51)97843-489, EMAIL:  , ORIGEM: monitoramento , INDICADOR: whatsApp 
+[20-11-18] [13:22:44] ID :647 , USUARIO:Leandro Prestes , INTERESSE:5 , CLIENTE: JUNIOR  , TELEFONE: (51)85331-868, EMAIL:  , ORIGEM: monitoramento , INDICADOR: whatsApp 
+[20-11-18] [13:25:25] ID :448 , USUARIO:Agendamento , INTERESSE:1 , CLIENTE: Adriano   , TELEFONE: (41)98480-0055, EMAIL:  , ORIGEM: monitoramento , INDICADOR: facebook 
+[20-11-18] [13:34:34] ID :668 , USUARIO:Juliana Moura , INTERESSE:5 , CLIENTE: everton  , TELEFONE: (51)99216-2228, EMAIL: everton_simao@msn.com , ORIGEM: http://rastreadorvolpato.com/leads , INDICADOR:  
+[20-11-18] [13:52:01] ID :12 , USUARIO:DANIEL LIMA , INTERESSE:5 , CLIENTE: xedgar90x  , TELEFONE: (51), EMAIL: xedgar90x@live.com , ORIGEM: http://volpatorastreamento.com.br , INDICADOR:  
+[20-11-18] [13:53:28] ID : , USUARIO: , INTERESSE:5 , CLIENTE: MARCIO  , TELEFONE: (41)97186-953, EMAIL:  , ORIGEM: monitoramento , INDICADOR: whatsApp 
+[20-11-18] [13:55:39] ID :12 , USUARIO:DANIEL LIMA , INTERESSE:5 , CLIENTE: CARINA FLORES DA SILVA  , TELEFONE: (51)98540-9111, EMAIL: CARINAFLORES.S@GMAIL.COM , ORIGEM: http://volpatorastreamento.com.br , INDICADOR:  
+[20-11-18] [14:01:49] ID :448 , USUARIO:Agendamento , INTERESSE:1 , CLIENTE: Rogério Pavorki  , TELEFONE: (51)98437-7627, EMAIL: rogerio@cacau-rs.com.br , ORIGEM: monitoramento , INDICADOR: outros 
+[20-11-18] [14:08:21] ID :350 , USUARIO:THIAGO FERREIRA , INTERESSE:5 , CLIENTE: Luís Antônio Petry Fonseca  , TELEFONE: (51)98545-2358, EMAIL: luispetry09@gmail.com , ORIGEM: http://volpatorastreamento.com.br , INDICADOR:  
+[20-11-18] [14:15:52] ID :421 , USUARIO:LUIS FERNANDO , INTERESSE:5 , CLIENTE: CARINA  , TELEFONE: (51)85409-164, EMAIL:  , ORIGEM: monitoramento , INDICADOR: whatsApp 
+[20-11-18] [14:16:33] ID :423 , USUARIO:Gabriel Santos , INTERESSE:5 , CLIENTE: Jonas zanuso  , TELEFONE: (54)99605-9897, EMAIL:  , ORIGEM: http://volpatorastreamento.com.br , INDICADOR:  
+[20-11-18] [14:17:14] ID :636 , USUARIO:Marcelo Torres , INTERESSE:5 , CLIENTE: OSVALDO  , TELEFONE: (51)99444-8360, EMAIL:  , ORIGEM: monitoramento , INDICADOR: whatsApp 
+[20-11-18] [14:18:46] ID :707 , USUARIO:Vendedor Auxiliar , INTERESSE:5 , CLIENTE: teste  , TELEFONE: (85)99999-9999, EMAIL: marketing@grupovolpato.com , ORIGEM: http://rastreadorvolpato.com/leads , INDICADOR:  
+[20-11-18] [14:19:55] ID :647 , USUARIO:Leandro Prestes , INTERESSE:5 , CLIENTE: Lucemar dos SantosComassetto  , TELEFONE: (51)98500-4980, EMAIL: Lucemarcomassetto@hotmail.com , ORIGEM: http://volpatorastreamento.com.br , INDICADOR:  
+[20-11-18] [14:29:35] ID :707 , USUARIO:Vendedor Auxiliar , INTERESSE:5 , CLIENTE: Pedro  , TELEFONE: (61)99828-2235, EMAIL: pedrinhop_ped@hotmail.com , ORIGEM: http://rastreadorvolpato.com/leads , INDICADOR:  
+[20-11-18] [14:30:31] ID :448 , USUARIO:Agendamento , INTERESSE:2 , CLIENTE: Cinei Machado Vargas  , TELEFONE: (51)33112-716, EMAIL:  , ORIGEM: monitoramento , INDICADOR: internet 
+[20-11-18] [14:38:48] ID :707 , USUARIO:Vendedor Auxiliar , INTERESSE:5 , CLIENTE: ROSANA  , TELEFONE: (11)99862-4348, EMAIL:  , ORIGEM: monitoramento , INDICADOR: whatsApp 
+[20-11-18] [15:09:24] ID :12 , USUARIO:DANIEL LIMA , INTERESSE:5 , CLIENTE: valquiria perez  , TELEFONE: (51)99308-7747, EMAIL: valquiria_perez@yahoo.com , ORIGEM: http://volpatorastreamento.com.br , INDICADOR:  
+[20-11-18] [15:12:15] ID :350 , USUARIO:THIAGO FERREIRA , INTERESSE:5 , CLIENTE: Elton rocha  , TELEFONE: (51)98440-8349, EMAIL: Elton.v.rocha85@hotmailcom , ORIGEM: http://volpatorastreamento.com.br , INDICADOR:  
+[20-11-18] [15:19:20] ID :421 , USUARIO:LUIS FERNANDO , INTERESSE:5 , CLIENTE: volpatorastreamento.com.br  , TELEFONE: (51), EMAIL: volpatorastreamento.com.br@domstates.su , ORIGEM: http://volpatorastreamento.com.br , INDICADOR:  
+[20-11-18] [15:29:54] ID :423 , USUARIO:Gabriel Santos , INTERESSE:5 , CLIENTE: Luis Anronio  , TELEFONE: (51)99999-9999, EMAIL: christian.markus25@gmail.com , ORIGEM: http://rastreadorvolpato.com/leads , INDICADOR:  
+[20-11-18] [15:31:11] ID : , USUARIO: , INTERESSE:5 , CLIENTE: ANDRE  , TELEFONE: (43)99914-4947, EMAIL:  , ORIGEM: monitoramento , INDICADOR: whatsApp 
+[20-11-18] [15:41:08] ID : , USUARIO: , INTERESSE:5 , CLIENTE: FLAVIO  , TELEFONE: (43)98445-9348, EMAIL:  , ORIGEM: monitoramento , INDICADOR: whatsApp 
+[20-11-18] [15:42:34] ID :12 , USUARIO:DANIEL LIMA , INTERESSE:5 , CLIENTE: CLODIS  , TELEFONE: (51)98169-5244, EMAIL:  , ORIGEM: monitoramento , INDICADOR: whatsApp 
+[20-11-18] [15:56:16] ID :350 , USUARIO:THIAGO FERREIRA , INTERESSE:5 , CLIENTE: leslieerdman  , TELEFONE: (51), EMAIL: leslieerdman@comcast.net , ORIGEM: http://volpatorastreamento.com.br , INDICADOR:  
+[20-11-18] [16:01:58] ID :421 , USUARIO:LUIS FERNANDO , INTERESSE:5 , CLIENTE: GILSON  , TELEFONE: (51)99837-6388, EMAIL:  , ORIGEM: monitoramento , INDICADOR: whatsApp 
+[20-11-18] [16:15:30] ID :423 , USUARIO:Gabriel Santos , INTERESSE:5 , CLIENTE: Luana  , TELEFONE: (51)98531-1049, EMAIL: postodegasuniversitario@gmail.com , ORIGEM: http://volpatorastreamento.com.br , INDICADOR:  
+[20-11-18] [16:19:17] ID :636 , USUARIO:Marcelo Torres , INTERESSE:5 , CLIENTE: Fernando  , TELEFONE: (51)99663-3319, EMAIL: nandoteixeira.fotojornalismo@gmail.com , ORIGEM: http://volpatorastreamento.com.br , INDICADOR:  
+[20-11-18] [16:27:14] ID :647 , USUARIO:Leandro Prestes , INTERESSE:5 , CLIENTE: Paula  , TELEFONE: (51)98238-6456, EMAIL: rukatc@outlook , ORIGEM: http://volpatorastreamento.com.br , INDICADOR:  
+[20-11-18] [16:40:41] ID :668 , USUARIO:Juliana Moura , INTERESSE:5 , CLIENTE: PAULA  , TELEFONE: (51)98238-6456, EMAIL:  , ORIGEM: monitoramento , INDICADOR: whatsApp 
+[20-11-18] [16:43:42] ID :703 , USUARIO:Taisson Barbosa , INTERESSE:5 , CLIENTE: William Schumacher  , TELEFONE: (51)98061-2260, EMAIL: wschumacheroficial@gmail.COM , ORIGEM: http://volpatorastreamento.com.br , INDICADOR:  
+[20-11-18] [16:44:38] ID :12 , USUARIO:DANIEL LIMA , INTERESSE:5 , CLIENTE: Tassio  , TELEFONE: (51)98511-9442, EMAIL: tassio-tbm@hotmail.com , ORIGEM: http://rastreadorvolpato.com/leads , INDICADOR:  
+[20-11-18] [16:47:18] ID :350 , USUARIO:THIAGO FERREIRA , INTERESSE:5 , CLIENTE: Paula   , TELEFONE: (51)98238-6456, EMAIL:  , ORIGEM: monitoramento , INDICADOR: whatsApp 
+[20-11-18] [16:59:56] ID :707 , USUARIO:Vendedor Auxiliar , INTERESSE:5 , CLIENTE: RODRIGO T  , TELEFONE: (85)86630-697, EMAIL:  , ORIGEM: monitoramento , INDICADOR: whatsApp 
+[20-11-18] [17:44:13] ID :421 , USUARIO:LUIS FERNANDO , INTERESSE:5 , CLIENTE: CARLOS   , TELEFONE: (51)83207-826, EMAIL:  , ORIGEM: monitoramento , INDICADOR: whatsApp 
+[20-11-18] [17:48:22] ID :448 , USUARIO:Agendamento , INTERESSE:3 , CLIENTE: Ingrid   , TELEFONE: (51)34232-488, EMAIL:  , ORIGEM: monitoramento , INDICADOR: outros 
+[20-11-18] [17:48:45] ID :707 , USUARIO:Vendedor Auxiliar , INTERESSE:5 , CLIENTE: Wélida  , TELEFONE: (31)98840-2013, EMAIL: chaveourob@outlook.com , ORIGEM: http://rastreadorvolpato.com , INDICADOR:  
+[20-11-18] [18:03:03] ID :12 , USUARIO:DANIEL LIMA , INTERESSE:5 , CLIENTE: pdola41  , TELEFONE: (51), EMAIL: pdola41@yahoo.com , ORIGEM: http://volpatorastreamento.com.br , INDICADOR:  
+[20-11-18] [18:06:20] ID :350 , USUARIO:THIAGO FERREIRA , INTERESSE:5 , CLIENTE: Alex  , TELEFONE: (51)99443-0606, EMAIL: alex.alvesbitencourt@gmail.com , ORIGEM: http://rastreadorvolpato.com/leads , INDICADOR:  
+[20-11-18] [18:08:26] ID :421 , USUARIO:LUIS FERNANDO , INTERESSE:5 , CLIENTE: CMORRISON  , TELEFONE: (51), EMAIL: CMORRISON@PIZZAPLUSINC.COM , ORIGEM: http://volpatorastreamento.com.br , INDICADOR:  
+[20-11-18] [18:14:28] ID :423 , USUARIO:Gabriel Santos , INTERESSE:5 , CLIENTE: giba  , TELEFONE: (54)99993-3727, EMAIL: pzanelattoboff@gmail.com , ORIGEM: http://volpatorastreamento.com.br , INDICADOR:  
+[20-11-18] [18:19:37] ID :636 , USUARIO:Marcelo Torres , INTERESSE:5 , CLIENTE: Rosa Ramos  , TELEFONE: (51)99418-4774, EMAIL: rosatheb@hotmail.com , ORIGEM: http://volpatorastreamento.com.br , INDICADOR:  
+[20-11-18] [18:21:33] ID :647 , USUARIO:Leandro Prestes , INTERESSE:5 , CLIENTE: Luana  , TELEFONE: (51)99567-0998, EMAIL: tmtecinfo@gmail.com , ORIGEM: http://rastreadorvolpato.com/leads , INDICADOR:  
+[20-11-18] [18:28:30] ID :668 , USUARIO:Juliana Moura , INTERESSE:5 , CLIENTE: Jade  , TELEFONE: (51)99916-3903, EMAIL: jadecunha93@gmail.com , ORIGEM: http://volpatorastreamento.com.br , INDICADOR:  
+[20-11-18] [18:34:01] ID :703 , USUARIO:Taisson Barbosa , INTERESSE:5 , CLIENTE: gina  , TELEFONE: (51), EMAIL: gina@advancedmodifications.com , ORIGEM: http://volpatorastreamento.com.br , INDICADOR:  
+[20-11-18] [18:41:27] ID :448 , USUARIO:Agendamento , INTERESSE:1 , CLIENTE: anelise  , TELEFONE: (51)99278-2193, EMAIL:  , ORIGEM: monitoramento , INDICADOR: outros 
+[20-11-18] [19:04:56] ID :12 , USUARIO:DANIEL LIMA , INTERESSE:5 , CLIENTE: DÉCIO MACEDO  , TELEFONE: (51)99297-8131, EMAIL: decioparaiba82@gmail.com , ORIGEM: http://volpatorastreamento.com.br , INDICADOR:  
+[20-11-18] [19:22:25] ID :707 , USUARIO:Vendedor Auxiliar , INTERESSE:5 , CLIENTE: KENIA  , TELEFONE: (85)99206-634, EMAIL: keniabr.santos@gmail.com , ORIGEM: http://rastreadorvolpato.com/leads , INDICADOR:  
+[20-11-18] [19:22:39] ID :707 , USUARIO:Vendedor Auxiliar , INTERESSE:5 , CLIENTE: KENIA  , TELEFONE: (85)99206-6350, EMAIL: keniabr.santos@gmail.com , ORIGEM: http://rastreadorvolpato.com/leads , INDICADOR:  
+[20-11-18] [19:40:11] ID :12 , USUARIO:DANIEL LIMA , INTERESSE:5 , CLIENTE: Adão Kusma  , TELEFONE: (51)99968-0069, EMAIL: adao.kusma@gmail.com , ORIGEM: http://rastreadorvolpato.com/leads , INDICADOR:  
+[20-11-18] [19:41:31] ID :707 , USUARIO:Vendedor Auxiliar , INTERESSE:5 , CLIENTE: Francisco francildo de oliveira  , TELEFONE: (85)98911-1668, EMAIL: francildooliveira51@gmail.com , ORIGEM: http://rastreadorvolpato.com/leads , INDICADOR:  
+[20-11-18] [19:46:52] ID :448 , USUARIO:Agendamento , INTERESSE:2 , CLIENTE: Luis cesar rosa poncio  , TELEFONE: (51)99917-4013, EMAIL: poncioc1412@gmail.com , ORIGEM: www.grupovolpato.com/residencial/obrigado.php , INDICADOR:  
+[20-11-18] [19:49:56] ID :350 , USUARIO:THIAGO FERREIRA , INTERESSE:5 , CLIENTE: kvanstrate20  , TELEFONE: (51), EMAIL: kvanstrate20@gmail.com , ORIGEM: http://volpatorastreamento.com.br , INDICADOR:  
+[20-11-18] [19:53:03] ID :707 , USUARIO:Vendedor Auxiliar , INTERESSE:5 , CLIENTE: Luiz Gustavo De Souza Alves  , TELEFONE: (17)99145-5688, EMAIL: guh1031@hotmail.com , ORIGEM: http://rastreadorvolpato.com/leads , INDICADOR:  
+[20-11-18] [19:58:36] ID :421 , USUARIO:LUIS FERNANDO , INTERESSE:5 , CLIENTE: Felipe  , TELEFONE: (51)99186-5468, EMAIL: flipebenites@yahoo.com.br , ORIGEM: http://volpatorastreamento.com.br , INDICADOR:  
+[20-11-18] [19:58:44] ID :448 , USUARIO:Agendamento , INTERESSE:2 , CLIENTE: Itaci Vicente Urlique Oliveira  , TELEFONE: (51)99968-3364, EMAIL:  , ORIGEM: monitoramento , INDICADOR: outros 
+[20-11-18] [20:22:38] ID :448 , USUARIO:Agendamento , INTERESSE:2 , CLIENTE: Carmen Figueiredo  , TELEFONE: (51)98538-8783, EMAIL: carmenrvfigueredo@gmail.com , ORIGEM: www.grupovolpato.com/residencial/obrigado.php , INDICADOR:  
+[20-11-18] [20:26:04] ID :423 , USUARIO:Gabriel Santos , INTERESSE:5 , CLIENTE: nesny1  , TELEFONE: (51), EMAIL: nesny1@sbcglobal.net , ORIGEM: http://volpatorastreamento.com.br , INDICADOR:  
+[20-11-18] [21:18:45] ID : , USUARIO: , INTERESSE:5 , CLIENTE: Mauro  , TELEFONE: (41)99869-4778, EMAIL: oliveiramauro@outlook.com.br , ORIGEM: http://rastreadorvolpato.com/leads , INDICADOR:  
+[20-11-18] [21:28:47] ID : , USUARIO: , INTERESSE:5 , CLIENTE: Alan Junior ribeiro da Silva  , TELEFONE: (41)99755-0747, EMAIL: alanbrado.2406@gmail.com , ORIGEM: http://volpatorastreamento.com.br , INDICADOR:  
+[20-11-18] [21:39:47] ID :12 , USUARIO:DANIEL LIMA , INTERESSE:5 , CLIENTE: rtonsro  , TELEFONE: (51), EMAIL: rtonsro@aol.com , ORIGEM: http://volpatorastreamento.com.br , INDICADOR:  
+[20-11-18] [23:00:23] ID :12 , USUARIO:DANIEL LIMA , INTERESSE:5 , CLIENTE: guillefcon  , TELEFONE: (51), EMAIL: guillefcon@gmail.com , ORIGEM: http://volpatorastreamento.com.br , INDICADOR:  
+[20-11-18] [23:02:42] ID :350 , USUARIO:THIAGO FERREIRA , INTERESSE:5 , CLIENTE: Fabiano Pescador  , TELEFONE: (51)98555-0008, EMAIL: pescadorfabiano@yahoo.com.br , ORIGEM: http://volpatorastreamento.com.br , INDICADOR:  
+[20-11-18] [23:02:51] ID :421 , USUARIO:LUIS FERNANDO , INTERESSE:5 , CLIENTE: lucysky  , TELEFONE: (51), EMAIL: lucysky@charter.net , ORIGEM: http://volpatorastreamento.com.br , INDICADOR:  
+[20-11-18] [23:04:20] ID :707 , USUARIO:Vendedor Auxiliar , INTERESSE:5 , CLIENTE: Jonathan Wilkler Wilson Camara  , TELEFONE: (19)97415-7324, EMAIL: jonathan.wilkler@gmail.com , ORIGEM: http://rastreadorvolpato.com/leads , INDICADOR:  
+[20-11-18] [23:36:18] ID :423 , USUARIO:Gabriel Santos , INTERESSE:5 , CLIENTE: Marcelo  , TELEFONE: (51), EMAIL: marcelo@escutebem.com.br , ORIGEM: http://rastreadorvolpato.com/leads , INDICADOR:  
+[20-11-18] [23:56:27] ID :448 , USUARIO:Agendamento , INTERESSE:1 , CLIENTE: Kaique Amorim  , TELEFONE: (divulgaformulario@gmail.com)divulgaformulario@gmail.com, EMAIL: divulgaformulario@gmail.com , ORIGEM: www.volpato.rs/obrigado.php , INDICADOR:  

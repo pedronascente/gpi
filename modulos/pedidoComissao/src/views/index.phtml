@@ -1,0 +1,57 @@
+<?php
+// namespace  modulos/pedidoComissao/src/views/index.phtml
+$DadosGet       = filter_input_array(INPUT_GET);
+$Dados          = filter_input_array(INPUT_POST);
+$acao           = isset($DadosGet['acao']) ? $DadosGet['acao'] : null;
+$id_setor       = isset($DadosGet['id_setor']) ? $DadosGet['id_setor'] : null;
+$id_usuario     = isset($DadosGet['id_u']) ? $DadosGet['id_u'] : null;
+$id_pc          = isset($DadosGet['id_pc'])? $DadosGet['id_pc'] : null;
+$id_supervisor  = $_SESSION['user_info']['id_usuario'];
+$status         = isset($DadosGet['status']) ? $DadosGet['status'] : null;
+$pag            = isset($DadosGet['pag']) ? $DadosGet['pag'] : null;
+$tipo           = isset($DadosGet["tipo"]) ? $DadosGet["tipo"] : null;
+$page           = isset($DadosGet['page']) ? $DadosGet['page'] : null;
+$pcf_ano        = empty($pcf_ano) ? filter_input(INPUT_GET, 'pcf_ano', FILTER_DEFAULT) : $pcf_ano;
+$pagina         = str_replace('pg=', '', $_SERVER['QUERY_STRING']);
+$result         = filter_input(INPUT_GET, 'result', FILTER_DEFAULT);
+$busca 	        = filter_input(INPUT_GET, "busca");
+$listComissoes  = null;
+$objPaginacao   = null;
+$total          = null;
+
+//INSTANCIAR OBJETOS:
+$pedidoComissao = new PedidoComissao;
+$objetopcf = new PedidoComissaoFuncionario;
+
+//GERENCIADOR DE PAGINAS : 
+switch ($DadosGet['pg']){
+    case 5 :
+        require_once __DIR__ . '/../controllers/controller_view_frm_pedidoComissao.php';
+        require_once __DIR__ . './formularios/frm_pedidoComissao.php';//LISTA DE PLANILHA DE COMISSÕES
+        require_once __DIR__ . './listas/lst_pedidoComissao.php' ;//LISTA DE PLANILHA DE COMISSÕES 
+    break;
+    case 6 :
+        include_once  __DIR__ . '/../controllers/controller_view_frm_cadastraPedidoComissao.php';
+        //FORMULARIO:
+        if (isset($acao) && $acao == "AddPedidoComissao"):
+            include_once __DIR__ . "./formularios/frm_cadastraPedidoComissao.php";
+        endif;
+        include_once __DIR__ . "./listas/lst_dadosFuncionario.php"; //DADOS DO FUNCIONARIO
+        include_once __DIR__. "./listas/tables/tables_relatorios.php";//LISTA AS COMISSOES 
+        echo'<div class="modal fade" id="modalPedidoComissao" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"></div>';
+        echo'<div class="modal fade" id="modalAjuda" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"></div>';
+        echo'<div class="modal fade" id="modalInconsistenciasPlanilha" data-width="1000px" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" width="100%"></div>';
+    break;
+    case 7 :
+        require_once  __DIR__ .'./listas/lst_comissoesArquivadas.php' ;
+    break;
+    
+    case 8 :
+        require_once  __DIR__ .'./listas/lst_conferenciaPedidoComissao.php' ;
+    break;
+    case 9 :
+        require_once  __DIR__  . '/../controllers/controller_view_lst_comissoes.php' ;
+        require_once  __DIR__  . './formularios/frm_lst_comissoes.php' ;
+        require_once  __DIR__  . './listas/lst_comissoes.php' ;
+    break;
+}

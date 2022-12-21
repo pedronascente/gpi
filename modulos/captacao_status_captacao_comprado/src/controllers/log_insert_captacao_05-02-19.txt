@@ -1,0 +1,5 @@
+[05-02-19] [11:19:31] ID :421,VENDEDOR:LUIS FERNANDO,INTERESSE:5,CLIENTE:Loivo amalio Machado,TELEFONE:(51)99177-5426,EMAIL:loivo.machado@hotmail.com,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[05-02-19] [11:24:30] ID :423,VENDEDOR:Gabriel Santos,INTERESSE:5,CLIENTE:Nelson Moura,TELEFONE:(51)99307-9976,EMAIL:nelsonnmoura@hotmail.com,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[05-02-19] [14:30:59] ID :423,VENDEDOR:Gabriel Santos,INTERESSE:5,CLIENTE:Enilson Menezes,TELEFONE:(51)99177-7795,EMAIL:enilsondemenezes@outlook.com,ORIGEM:monitoramento,INDICADOR:indicacao 
+[05-02-19] [14:39:38] ID :448,VENDEDOR:Agendamento,INTERESSE:2,CLIENTE:Mailson Silva,TELEFONE:(54)33930-06,EMAIL:mailson.silva@senfsilva.com.br,ORIGEM:monitoramento,INDICADOR:outros 
+[05-02-19] [14:56:44] ID :590,VENDEDOR:TIAGO FREITAS RODRIGUES,INTERESSE:5,CLIENTE:ISMAEL ,TELEFONE:(51)99778-4324,EMAIL:,ORIGEM:monitoramento,INDICADOR:whatsApp 

@@ -1,0 +1,189 @@
+<?php
+	include_once (__DIR__ . "\src\controllers\SacController.php");
+
+	$url = 'http://10.1.1.58:9093';
+	$URL_ATUAL= "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+	$rota_principal = $url."/api_gpi/public/api";
+	$id = $_SESSION['user_info']['id_usuario'];
+	$coluna = isset( $_GET['coluna']) ?  $_GET['coluna'] : null ;
+	$busca = isset( $_GET['busca']) ?  urlencode($_GET['busca']) : null ;
+	
+	$rota_com_filtro = $rota_principal ."/clientes/filtros/?coluna={$coluna}&busca={$busca}";
+	$rota_principal = isset($_GET['coluna']) ? $rota_com_filtro : '';
+	
+	$rota = isset($_GET['api']) ? $_GET['api'] : $rota_principal;
+
+	if(isset($_GET['api']) && isset($coluna))
+	{
+		$rota = $rota ."&coluna={$coluna}&busca={$busca}";
+	}
+	
+	$permitir_acesso = false;
+
+	 foreach($_SESSION['user_info']['permissoes'] as $permissao)
+	 {
+		 if($permissao['tipo_permissao'] =='sac_admin'){
+			 $permitir_acesso  = true;break;
+			 echo $permissao['tipo_permissao'] .'<br>';
+		 }
+	 }
+
+	if(!empty($rota)){
+		$clientes = new SacController();
+		$clientes->set_rota($rota); 
+		$clientes = json_decode($clientes->getCurl());
+	}
+		
+	if($permitir_acesso)
+	{
+		echo '
+			<div class="row" style="margin-bottom: 20px; margin-top: 20px;">
+				<div class="col-md-12">
+					<!--<a href="index.php?pg=69" class="btn btn-primary">Listar Gestor(es)</a> -->
+					<a href="index.php?pg=61" class="btn btn-success"> Cadastrar Novo Cliente</a>  
+				</div>
+			</div>
+			<hr>
+		';
+	}
+
+	?>
+	
+	<div class="row">
+		<div class="col-md-12">
+			<div class="panel panel-primary">
+				<div class="panel-heading ">Pesquisar por :</div>
+				<div class="panel-body"> 
+					<form action="<?php echo $URL_ATUAL;?>" method="get"> 
+						<input type="hidden" name="pg" value="60" class="form-control"  required />
+						<div class="row">
+							<div class="col-xs-12 col-sm-2  col-md-2" >
+								<div class="form-group">
+									<select name="coluna" class="form-control" required="">
+										<option value="" >Selecione</option>
+										<option value="placa" <?php if($coluna == 'placa'){ echo 'selected';} ?> > Placa</option>
+										<option value="cliente"  <?php if($coluna == 'cliente'){ echo 'selected';} ?>> Cliente</option>
+										<option value="gestor"  <?php if($coluna == 'gestor'){ echo 'selected';} ?>> Gestor</option> 
+								</select>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-7  col-md-7">
+								<div class="form-group">
+									<input type="text" name="busca" value="<?=$busca?>" class="form-control"  required />
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-2 col-md-2">
+								<input type="submit" class="btn btn-success"  value="Buscar">
+								<a href="http://10.1.1.58:9093/gpi/index.php?pg=60" class="btn  btn-danger">Reset</a>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<?php
+	$total =  isset($clientes) ?$clientes->total : null ; 
+	if($total > 0){
+?>
+<div class="row">
+    <div class="col-md-12">
+        <table class="table table-bordered table-hover table-striped dataTableBootstrapSemOrdem">
+            <thead>
+                <tr>
+                    <th width="10%">Placa</th>
+                    <th>Cliente</th>
+                    <th>Gestor</th>
+                    <th width="5%">Ramal</th>
+                    <?php if($permitir_acesso){?>
+					<th colspan="2"></th>
+					<?php }?>
+                </tr>
+            </thead>
+            <tbody>
+			    <?php
+                    if($clientes){
+						foreach($clientes->data as $v)
+                        {
+                            echo'<tr>';
+                            echo'<td>'.$v->placa.'</td>';
+                            echo'<td>'.$v->nome.'</td>';
+                            echo'<td>'.$v->gestor.'</td>';
+                            echo'<td>'.$v->ramal.'</td>';
+                            
+							if($permitir_acesso)
+							{
+								echo'<td  width="2%" align="center">';
+								echo'<a href="index.php?pg=62&id='.$v->id.'" class="btn btn-sm btn-info">';
+								echo'<span class="glyphicon glyphicon-pencil"></span>';
+								echo'</a>';
+								echo'</td>';
+								echo'<td  width="2%" align="center">';
+								echo'<a data-id="'.$v->id.'"  href="javascript:void(0)" class="btn btn-sm btn-danger btn_excluir_cliente">';
+								echo'<span class="glyphicon glyphicon-remove"></span>';
+								echo'</a>';
+								echo'</td>';
+							}
+                            echo'</tr>';
+                        }
+                    }
+                ?>
+            </tbody>
+            <?php if(isset($clientes->total) && $clientes->total > 0){ ?>
+            <tfoot>
+                <tr>
+                    <td colspan="6" style="text-align: center;">
+                        Registros encontrados: <?=$clientes->total;?>            
+                    </td>
+                </tr>  
+                <tr>
+                    <td colspan="6" style="text-align: center;">
+                        <nav>
+                            <ul class="pagination">
+                                <?php 
+                                    foreach($clientes->links as $link)
+                                    { 
+                                       if($link->active){
+                                            $class = 'class="active"';
+                                       }else{
+											$class = '';
+                                       } 
+                                       if($link->url !== null && isset($coluna)){
+                                            echo '<li '.$class.' ><a href="/gpi/index.php?pg=60&api='.$link->url.'&coluna='.$coluna.'&busca='.$busca.'">'.$link->label.'</a></li>'; 
+                                       }else if($link->url !== null && !isset($_GET['coluna'])){
+											echo '<li '.$class.' ><a href="/gpi/index.php?pg=60&api='.$link->url.'">'.$link->label.'</a></li>'; 
+									   }
+                                    }   
+                                ?>
+                            </ul>
+                        <nav>
+                    </td>
+                </tr>  
+            </tfoot>
+            <?php } ?>
+        </table>
+    </div>
+</div>
+<?php 
+}else{
+	if(!empty($rota)){
+		echo '<div class="alert alert-danger" role="alert"> Nenhum Registro encontrado!</div>';	
+	}
+}
+?>
+
+<script type="text/javaScript">
+	$(function(){
+
+		$('.btn_excluir_cliente').click('', function(){
+					
+			var id = $(this).attr('data-id');
+			if(confirm('Deseja excluir este arquivo?')){
+				$(this).attr('href', function(){
+				   return  'index.php?pg=68&id='+id;
+ 				});
+			}
+		});
+	});
+</script>

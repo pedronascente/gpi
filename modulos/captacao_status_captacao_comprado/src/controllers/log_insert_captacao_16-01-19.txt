@@ -1,0 +1,189 @@
+[16-01-19] [00:19:46] ID :703,VENDEDOR:Taisson Barbosa,INTERESSE:5,CLIENTE:Sergio,TELEFONE:(51)32796-110,EMAIL:seato@Bol.com.br,ORIGEM:http://rastreadorvolpato.com/leads,INDICADOR: 
+[16-01-19] [00:33:15] ID :448,VENDEDOR:Agendamento,INTERESSE:1,CLIENTE:Milena Nogueira,TELEFONE:(67)998516988,EMAIL:no-replay-@euto,ORIGEM:www.grupovolpato.com/form-home,INDICADOR: 
+[16-01-19] [00:46:20] ID :708,VENDEDOR:Luiz Ely Barbosa,INTERESSE:5,CLIENTE:Michael Nikovski dos Santos Portela,TELEFONE:(51)99299-9045,EMAIL:michaelnikovski@hotmail.com,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[16-01-19] [00:53:05] ID :12,VENDEDOR:DANIEL LIMA,INTERESSE:5,CLIENTE:kingogamez85,TELEFONE:(51),EMAIL:kingogamez85@aol.com,ORIGEM:http://rastreadorvolpato.com/,INDICADOR: 
+[16-01-19] [00:53:06] ID :350,VENDEDOR:THIAGO FERREIRA,INTERESSE:5,CLIENTE:kingogamez85,TELEFONE:(51),EMAIL:kingogamez85@aol.com,ORIGEM:http://rastreadorvolpato.com/,INDICADOR: 
+[16-01-19] [00:53:07] ID :423,VENDEDOR:Gabriel Santos,INTERESSE:5,CLIENTE:kingogamez85,TELEFONE:(51),EMAIL:kingogamez85@aol.com,ORIGEM:http://rastreadorvolpato.com/,INDICADOR: 
+[16-01-19] [01:42:54] ID :590,VENDEDOR:TIAGO FREITAS RODRIGUES,INTERESSE:5,CLIENTE:PPOULAT,TELEFONE:(51),EMAIL:PPOULAT@ORANGE.FR,ORIGEM:http://rastreadorvolpato.com/,INDICADOR: 
+[16-01-19] [01:42:55] ID :636,VENDEDOR:Marcelo Torres,INTERESSE:5,CLIENTE:PPOULAT,TELEFONE:(51),EMAIL:PPOULAT@ORANGE.FR,ORIGEM:http://rastreadorvolpato.com/,INDICADOR: 
+[16-01-19] [01:42:56] ID :647,VENDEDOR:Leandro Prestes,INTERESSE:5,CLIENTE:PPOULAT,TELEFONE:(51),EMAIL:PPOULAT@ORANGE.FR,ORIGEM:http://rastreadorvolpato.com/,INDICADOR: 
+[16-01-19] [01:48:32] ID :668,VENDEDOR:Juliana Moura,INTERESSE:5,CLIENTE:Tatiane silva,TELEFONE:(51)98409-6183,EMAIL:tatiane_negaede@hotmail.com,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[16-01-19] [02:02:39] ID :703,VENDEDOR:Taisson Barbosa,INTERESSE:5,CLIENTE:Ariele reis,TELEFONE:(51)98588-3054,EMAIL:,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[16-01-19] [02:20:31] ID :448,VENDEDOR:Agendamento,INTERESSE:1,CLIENTE:Agência HD3,TELEFONE:(11)3415-5215,EMAIL:agencia@hd3publicidade.com.br,ORIGEM:www.volpato.rs/obrigado.php,INDICADOR: 
+[16-01-19] [03:21:30] ID :448,VENDEDOR:Agendamento,INTERESSE:1,CLIENTE:Antônio Monteiro,TELEFONE:(17)17997313233,EMAIL:promocao983@msn.com,ORIGEM:www.volpato.rs/obrigado.php,INDICADOR: 
+[16-01-19] [04:07:09] ID :436,VENDEDOR:Fabiano Borges,INTERESSE:6,CLIENTE:Samuel Langrin,TELEFONE:(naorespondaaquii@gmail.com)naorespondaaquii@gmail.com,EMAIL:naorespondaaquii@gmail.com,ORIGEM:www.portariavirtualvolpato.com.br/modal,INDICADOR: 
+[16-01-19] [04:10:55] ID :708,VENDEDOR:Luiz Ely Barbosa,INTERESSE:5,CLIENTE:kizzonkizzon,TELEFONE:(51),EMAIL:kizzonkizzon@gmail.com,ORIGEM:http://rastreadorveicular.net/,INDICADOR: 
+[16-01-19] [04:10:56] ID :12,VENDEDOR:DANIEL LIMA,INTERESSE:5,CLIENTE:kizzonkizzon,TELEFONE:(51),EMAIL:kizzonkizzon@gmail.com,ORIGEM:http://rastreadorveicular.net/,INDICADOR: 
+[16-01-19] [04:10:57] ID :350,VENDEDOR:THIAGO FERREIRA,INTERESSE:5,CLIENTE:kizzonkizzon,TELEFONE:(51),EMAIL:kizzonkizzon@gmail.com,ORIGEM:http://rastreadorveicular.net/,INDICADOR: 
+[16-01-19] [06:27:48] ID :423,VENDEDOR:Gabriel Santos,INTERESSE:5,CLIENTE:Willian LIMA,TELEFONE:(51)99933-0944,EMAIL:Willian.l.araujo@outlook.com,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[16-01-19] [06:49:12] ID :448,VENDEDOR:Agendamento,INTERESSE:1,CLIENTE:Joao Vitor Dias,TELEFONE:(31)971272996,EMAIL:mktw@bol.com.br,ORIGEM:www.volpato.rs/obrigado.php,INDICADOR: 
+[16-01-19] [08:03:16] ID :448,VENDEDOR:Agendamento,INTERESSE:1,CLIENTE:Tomas Araujo,TELEFONE:(17)17997313233,EMAIL:vendas669@live.com,ORIGEM:www.volpato.rs/obrigado.php,INDICADOR: 
+[16-01-19] [08:03:57] ID :448,VENDEDOR:Agendamento,INTERESSE:2,CLIENTE:LISSANDRA FREITAS,TELEFONE:(51)99653-085,EMAIL:lessan_sol@yahoo.com.br,ORIGEM:monitoramento,INDICADOR:internet 
+[16-01-19] [08:14:39] ID :12,VENDEDOR:DANIEL LIMA,INTERESSE:5,CLIENTE:JEFERSON MACHADO,TELEFONE:(51)85884-709,EMAIL:,ORIGEM:monitoramento,INDICADOR:whatsApp 
+[16-01-19] [08:15:46] ID :448,VENDEDOR:Agendamento,INTERESSE:2,CLIENTE:LISSANDRA FREITAS,TELEFONE:(51)99653-0857,EMAIL:lessan_sol@yahoo.com.br,ORIGEM:www.volpato.rs/obrigado.php,INDICADOR: 
+[16-01-19] [08:21:13] ID :350,VENDEDOR:THIAGO FERREIRA,INTERESSE:5,CLIENTE:Rosangela Marschall de Almeida,TELEFONE:(51)32252-493,EMAIL:bicho_com@hotmail.com.br,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[16-01-19] [08:26:00] ID :423,VENDEDOR:Gabriel Santos,INTERESSE:5,CLIENTE:Lucas Vargas Pacheco de moraes,TELEFONE:(51)99215-3315,EMAIL:lucaszmoraes@outlook.com,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[16-01-19] [08:55:58] ID :590,VENDEDOR:TIAGO FREITAS RODRIGUES,INTERESSE:5,CLIENTE:adrienne.s,TELEFONE:(51),EMAIL:adrienne.s@live.ca,ORIGEM:http://rastreadorvolpato.com/,INDICADOR: 
+[16-01-19] [08:56:00] ID :636,VENDEDOR:Marcelo Torres,INTERESSE:5,CLIENTE:adrienne.s,TELEFONE:(51),EMAIL:adrienne.s@live.ca,ORIGEM:http://rastreadorvolpato.com/,INDICADOR: 
+[16-01-19] [08:56:03] ID :647,VENDEDOR:Leandro Prestes,INTERESSE:5,CLIENTE:adrienne.s,TELEFONE:(51),EMAIL:adrienne.s@live.ca,ORIGEM:http://rastreadorvolpato.com/,INDICADOR: 
+[16-01-19] [08:59:47] ID :668,VENDEDOR:Juliana Moura,INTERESSE:5,CLIENTE:DIEGO DOS SANTOS RIBAS,TELEFONE:(51)99125-6737,EMAIL:diegosribas1986@gmail.com,ORIGEM:http://rastreadorvolpato.com/leads,INDICADOR: 
+[16-01-19] [09:08:46] ID :703,VENDEDOR:Taisson Barbosa,INTERESSE:5,CLIENTE:Alseu Silveira Filho,TELEFONE:(51)98600-0002,EMAIL:filho_alseu@hotmail.com,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[16-01-19] [09:08:56] ID :448,VENDEDOR:Agendamento,INTERESSE:2,CLIENTE:Darlise Picinini,TELEFONE:(51)99528-5277,EMAIL:darlise.picinini@gmail.com,ORIGEM:www.grupovolpato.com/residencial/obrigado.php,INDICADOR: 
+[16-01-19] [09:11:07] ID :708,VENDEDOR:Luiz Ely Barbosa,INTERESSE:5,CLIENTE:stefani,TELEFONE:(51)99332-3153,EMAIL:stefanibaumlacerda274@gmail.com,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[16-01-19] [09:12:34] ID :12,VENDEDOR:DANIEL LIMA,INTERESSE:5,CLIENTE:slcorbin1,TELEFONE:(51),EMAIL:slcorbin1@outlook.com,ORIGEM:http://rastreadorvolpato.com/,INDICADOR: 
+[16-01-19] [09:12:36] ID :350,VENDEDOR:THIAGO FERREIRA,INTERESSE:5,CLIENTE:slcorbin1,TELEFONE:(51),EMAIL:slcorbin1@outlook.com,ORIGEM:http://rastreadorvolpato.com/,INDICADOR: 
+[16-01-19] [09:12:37] ID :423,VENDEDOR:Gabriel Santos,INTERESSE:5,CLIENTE:slcorbin1,TELEFONE:(51),EMAIL:slcorbin1@outlook.com,ORIGEM:http://rastreadorvolpato.com/,INDICADOR: 
+[16-01-19] [09:23:47] ID :590,VENDEDOR:TIAGO FREITAS RODRIGUES,INTERESSE:5,CLIENTE:Loreni,TELEFONE:(51)98580-4168,EMAIL:Lorenirosa65@gmail.com,ORIGEM:http://rastreadorvolpato.com/leads,INDICADOR: 
+[16-01-19] [09:36:48] ID :636,VENDEDOR:Marcelo Torres,INTERESSE:5,CLIENTE:RAFAEL OLIVEIRA DA SILVA,TELEFONE:(51)92890-712,EMAIL:,ORIGEM:monitoramento,INDICADOR:whatsApp 
+[16-01-19] [09:41:42] ID :647,VENDEDOR:Leandro Prestes,INTERESSE:5,CLIENTE:Vergilio,TELEFONE:(51)99671-2741,EMAIL:pesquisa.3bsup@gmail.com,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[16-01-19] [10:13:15] ID :668,VENDEDOR:Juliana Moura,INTERESSE:5,CLIENTE:Jo Costa,TELEFONE:(53)98435-4175,EMAIL:,ORIGEM:monitoramento,INDICADOR:facebook 
+[16-01-19] [10:23:17] ID :703,VENDEDOR:Taisson Barbosa,INTERESSE:5,CLIENTE:Sergio Ramos Pinheiro,TELEFONE:(51)99292-5969,EMAIL:,ORIGEM:monitoramento,INDICADOR:facebook 
+[16-01-19] [10:29:01] ID :448,VENDEDOR:Agendamento,INTERESSE:2,CLIENTE:Lina Ferraro ,TELEFONE:(51)33320-783,EMAIL:,ORIGEM:monitoramento,INDICADOR:outros 
+[16-01-19] [10:32:54] ID :708,VENDEDOR:Luiz Ely Barbosa,INTERESSE:5,CLIENTE:Aníbal Rossi,TELEFONE:(51)99624-6155,EMAIL:Anibal.Unifarma@Hotmail.com,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[16-01-19] [10:36:17] ID :448,VENDEDOR:Agendamento,INTERESSE:1,CLIENTE:JOSÉ ,TELEFONE:(51)99962-2650,EMAIL:,ORIGEM:monitoramento,INDICADOR:outros 
+[16-01-19] [10:42:56] ID :448,VENDEDOR:Agendamento,INTERESSE:2,CLIENTE:MILENE ,TELEFONE:(51)99317-2328,EMAIL:milene.carboni@still.com.br,ORIGEM:monitoramento,INDICADOR:internet 
+[16-01-19] [10:43:42] ID :12,VENDEDOR:DANIEL LIMA,INTERESSE:5,CLIENTE:Paulo Andre Pellizer Ribeiro,TELEFONE:(44)99452-930,EMAIL:pellizer_@hotmail.com,ORIGEM:monitoramento,INDICADOR:facebook 
+[16-01-19] [10:47:02] ID :350,VENDEDOR:THIAGO FERREIRA,INTERESSE:5,CLIENTE:mdparis72,TELEFONE:(51),EMAIL:mdparis72@gmail.com,ORIGEM:http://rastreadorvolpato.com/,INDICADOR: 
+[16-01-19] [10:47:04] ID :423,VENDEDOR:Gabriel Santos,INTERESSE:5,CLIENTE:mdparis72,TELEFONE:(51),EMAIL:mdparis72@gmail.com,ORIGEM:http://rastreadorvolpato.com/,INDICADOR: 
+[16-01-19] [10:47:06] ID :590,VENDEDOR:TIAGO FREITAS RODRIGUES,INTERESSE:5,CLIENTE:mdparis72,TELEFONE:(51),EMAIL:mdparis72@gmail.com,ORIGEM:http://rastreadorvolpato.com/,INDICADOR: 
+[16-01-19] [10:48:24] ID :636,VENDEDOR:Marcelo Torres,INTERESSE:5,CLIENTE:caio Sparapan,TELEFONE:(44)99948-2599,EMAIL:cairoxi@hotmail.com,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[16-01-19] [10:55:33] ID :647,VENDEDOR:Leandro Prestes,INTERESSE:5,CLIENTE:Roberto Ramos,TELEFONE:(51)92620-658,EMAIL:cristianooliveira051275@gmail.com,ORIGEM:monitoramento,INDICADOR:facebook 
+[16-01-19] [10:59:18] ID :668,VENDEDOR:Juliana Moura,INTERESSE:5,CLIENTE:Maricler Vanes Campos Campos,TELEFONE:(41)96813-355,EMAIL:marivanescampos@gmail.com,ORIGEM:monitoramento,INDICADOR:facebook 
+[16-01-19] [11:01:07] ID :703,VENDEDOR:Taisson Barbosa,INTERESSE:5,CLIENTE:Bene Domingues,TELEFONE:(41)99809-8412,EMAIL:antoniobenedomingues@gmail.com,ORIGEM:monitoramento,INDICADOR:facebook 
+[16-01-19] [11:05:26] ID :708,VENDEDOR:Luiz Ely Barbosa,INTERESSE:5,CLIENTE:Rogerio Malesza,TELEFONE:(54)91854-922,EMAIL:rogerm@hotmail.com.br,ORIGEM:monitoramento,INDICADOR:facebook 
+[16-01-19] [11:24:15] ID :12,VENDEDOR:DANIEL LIMA,INTERESSE:5,CLIENTE:Michael Faiolla,TELEFONE:(44)99952-2155,EMAIL:michaelfaiolla@hotmail.com,ORIGEM:monitoramento,INDICADOR:facebook 
+[16-01-19] [11:29:46] ID :350,VENDEDOR:THIAGO FERREIRA,INTERESSE:5,CLIENTE:Cristiano Barber,TELEFONE:(51)95834-675,EMAIL:cristianooliveira051275@gmail.com,ORIGEM:monitoramento,INDICADOR:facebook 
+[16-01-19] [11:32:27] ID :423,VENDEDOR:Gabriel Santos,INTERESSE:5,CLIENTE:Diego Antônio Norberto,TELEFONE:(44)99731-499,EMAIL:diegonorbertoeeloisa@gmail.com,ORIGEM:monitoramento,INDICADOR:facebook 
+[16-01-19] [11:34:11] ID :590,VENDEDOR:TIAGO FREITAS RODRIGUES,INTERESSE:5,CLIENTE:João Carlos Severo,TELEFONE:(51)84586-004,EMAIL:jocaseversan2@gmail.com,ORIGEM:monitoramento,INDICADOR:facebook 
+[16-01-19] [11:34:50] ID :636,VENDEDOR:Marcelo Torres,INTERESSE:5,CLIENTE:Sefredo Soares de Lima,TELEFONE:(51)99866-5725,EMAIL:sefredosoaresdelima58@gmail.com,ORIGEM:monitoramento,INDICADOR:facebook 
+[16-01-19] [11:36:07] ID :647,VENDEDOR:Leandro Prestes,INTERESSE:5,CLIENTE:Joao Gomes Campos Campos,TELEFONE:(41)99681-3355,EMAIL:joaogomescamposcampos@gmail.com,ORIGEM:monitoramento,INDICADOR:facebook 
+[16-01-19] [11:46:27] ID :668,VENDEDOR:Juliana Moura,INTERESSE:5,CLIENTE:TI,TELEFONE:(51)99999-9999,EMAIL:TI@BOL.COM,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[16-01-19] [11:47:05] ID :703,VENDEDOR:Taisson Barbosa,INTERESSE:5,CLIENTE:TI2,TELEFONE:(51)98669-9999,EMAIL:TI@BOL.COM,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[16-01-19] [11:48:04] ID :12,VENDEDOR:DANIEL LIMA,INTERESSE:5,CLIENTE:TI,TELEFONE:(51)98669-9999,EMAIL:TI@BOL.COM,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[16-01-19] [11:49:05] ID :350,VENDEDOR:THIAGO FERREIRA,INTERESSE:5,CLIENTE:TI,TELEFONE:(51)97777-7777,EMAIL:TI@BOL.COM,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[16-01-19] [11:51:07] ID :423,VENDEDOR:Gabriel Santos,INTERESSE:5,CLIENTE:WILLIAN ,TELEFONE:(41)84969-707,EMAIL:,ORIGEM:monitoramento,INDICADOR:facebook 
+[16-01-19] [11:57:22] ID :590,VENDEDOR:TIAGO FREITAS RODRIGUES,INTERESSE:5,CLIENTE:pedro jardim,TELEFONE:(51)97777-7777,EMAIL:343232432@teste.com,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[16-01-19] [12:00:35] ID :636,VENDEDOR:Marcelo Torres,INTERESSE:5,CLIENTE:Augusto andrade,TELEFONE:(51)98118-9618,EMAIL:kuhnguto@hotmail.com,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[16-01-19] [12:01:11] ID :448,VENDEDOR:Agendamento,INTERESSE:1,CLIENTE:Alzemiro Jacintho da Silva Outros,TELEFONE:(51)99174-2599,EMAIL:mirodosol@yahoo.com.br,ORIGEM:www.volpato.rs/obrigado.php,INDICADOR: 
+[16-01-19] [12:07:01] ID :707,VENDEDOR:Vendedor Auxiliar,INTERESSE:5,CLIENTE:TI,TELEFONE:(34) 2343-2422,EMAIL:43543543543@bol.com,ORIGEM:TI,INDICADOR:TI 
+[16-01-19] [12:07:02] ID :707,VENDEDOR:Vendedor Auxiliar,INTERESSE:5,CLIENTE:TI,TELEFONE:(34) 2343-2422,EMAIL:43543543543@bol.com,ORIGEM:TI,INDICADOR:TI 
+[16-01-19] [12:07:03] ID :707,VENDEDOR:Vendedor Auxiliar,INTERESSE:5,CLIENTE:TI,TELEFONE:(34) 2343-2422,EMAIL:43543543543@bol.com,ORIGEM:TI,INDICADOR:TI 
+[16-01-19] [12:07:04] ID :707,VENDEDOR:Vendedor Auxiliar,INTERESSE:5,CLIENTE:TI,TELEFONE:(34) 2343-2422,EMAIL:43543543543@bol.com,ORIGEM:TI,INDICADOR:TI 
+[16-01-19] [12:07:04] ID :707,VENDEDOR:Vendedor Auxiliar,INTERESSE:5,CLIENTE:TI,TELEFONE:(34) 2343-2422,EMAIL:43543543543@bol.com,ORIGEM:TI,INDICADOR:TI 
+[16-01-19] [12:07:05] ID :707,VENDEDOR:Vendedor Auxiliar,INTERESSE:5,CLIENTE:TI,TELEFONE:(34) 2343-2422,EMAIL:43543543543@bol.com,ORIGEM:TI,INDICADOR:TI 
+[16-01-19] [12:07:06] ID :707,VENDEDOR:Vendedor Auxiliar,INTERESSE:5,CLIENTE:TI,TELEFONE:(34) 2343-2422,EMAIL:43543543543@bol.com,ORIGEM:TI,INDICADOR:TI 
+[16-01-19] [12:07:06] ID :707,VENDEDOR:Vendedor Auxiliar,INTERESSE:5,CLIENTE:TI,TELEFONE:(34) 2343-2422,EMAIL:43543543543@bol.com,ORIGEM:TI,INDICADOR:TI 
+[16-01-19] [12:16:04] ID :12,VENDEDOR:DANIEL LIMA,INTERESSE:5,CLIENTE:Adair,TELEFONE:(51)98470-4943,EMAIL:,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[16-01-19] [12:21:21] ID :350,VENDEDOR:THIAGO FERREIRA,INTERESSE:5,CLIENTE:Lucas,TELEFONE:(51)98173-8558,EMAIL:Lucas_antonio456@yahoo.com,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[16-01-19] [12:26:42] ID :423,VENDEDOR:Gabriel Santos,INTERESSE:5,CLIENTE:Jonathan,TELEFONE:(51)99237-9218,EMAIL:hespanhol257@gmail.com,ORIGEM:http://rastreadorvolpato.com/leads,INDICADOR: 
+[16-01-19] [12:41:20] ID :590,VENDEDOR:TIAGO FREITAS RODRIGUES,INTERESSE:5,CLIENTE:Darci,TELEFONE:(51)98411-0674,EMAIL:sdarci@hotmail.com,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[16-01-19] [12:57:37] ID :636,VENDEDOR:Marcelo Torres,INTERESSE:5,CLIENTE:Yuri Daniel,TELEFONE:(51)99522-3436,EMAIL:yuridanielarrudadacosta@gmail.com,ORIGEM:http://rastreadorvolpato.com/leads,INDICADOR: 
+[16-01-19] [13:07:39] ID :647,VENDEDOR:Leandro Prestes,INTERESSE:5,CLIENTE:Bruno Cabral,TELEFONE:(51)99290-4336,EMAIL:valoliveira1503@gmail.com,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[16-01-19] [13:10:13] ID :668,VENDEDOR:Juliana Moura,INTERESSE:5,CLIENTE:Rofane,TELEFONE:(51)98544-8987,EMAIL:rofaneribeiro1995@gmail.com,ORIGEM:http://rastreadorvolpato.com/leads,INDICADOR: 
+[16-01-19] [13:11:38] ID :703,VENDEDOR:Taisson Barbosa,INTERESSE:5,CLIENTE:Luciano Sales de lima,TELEFONE:(51)99344-8979,EMAIL:lucianodelimag@hotmail.com,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[16-01-19] [13:17:55] ID :448,VENDEDOR:Agendamento,INTERESSE:1,CLIENTE:Tania - Ginasio albion,TELEFONE:(51)99201-2442,EMAIL:,ORIGEM:monitoramento,INDICADOR:internet 
+[16-01-19] [13:20:14] ID :708,VENDEDOR:Luiz Ely Barbosa,INTERESSE:5,CLIENTE:Rodrigo Macario ,TELEFONE:(41)99886-4140,EMAIL:,ORIGEM:monitoramento,INDICADOR:facebook 
+[16-01-19] [13:28:42] ID :448,VENDEDOR:Agendamento,INTERESSE:1,CLIENTE:José Claudio,TELEFONE:(11)960217863,EMAIL:claudio@linuxtec.com.br,ORIGEM:www.grupovolpato.com/form-home,INDICADOR: 
+[16-01-19] [13:31:27] ID :12,VENDEDOR:DANIEL LIMA,INTERESSE:5,CLIENTE:alexandre tarouco,TELEFONE:(51)98181-2871,EMAIL:alexandretarouco69@gmail.com,ORIGEM:http://rastreadorvolpato.com/leads,INDICADOR: 
+[16-01-19] [13:32:32] ID :350,VENDEDOR:THIAGO FERREIRA,INTERESSE:5,CLIENTE:Pedro jardim,TELEFONE:(51)98537-4205,EMAIL:Nascente3d@hotmail.com,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[16-01-19] [13:34:17] ID :423,VENDEDOR:Gabriel Santos,INTERESSE:5,CLIENTE:ERNANI ,TELEFONE:(44)99227-915,EMAIL:,ORIGEM:monitoramento,INDICADOR:facebook 
+[16-01-19] [13:34:52] ID :590,VENDEDOR:TIAGO FREITAS RODRIGUES,INTERESSE:5,CLIENTE:LUCIANO,TELEFONE:(51)93448-979,EMAIL:,ORIGEM:monitoramento,INDICADOR:whatsApp 
+[16-01-19] [13:34:54] ID :636,VENDEDOR:Marcelo Torres,INTERESSE:5,CLIENTE:Viviane assis,TELEFONE:(51)98477-0247,EMAIL:vivianenascimento80@hotmail.com,ORIGEM:http://rastreadorvolpato.com/leads,INDICADOR: 
+[16-01-19] [13:35:07] ID :647,VENDEDOR:Leandro Prestes,INTERESSE:5,CLIENTE:Islan Ranos,TELEFONE:(41)98452-0411,EMAIL:islanrs87@gmail.com,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[16-01-19] [13:41:28] ID :668,VENDEDOR:Juliana Moura,INTERESSE:5,CLIENTE:Eduard,TELEFONE:(51)98550-6597,EMAIL:duduskttt@gmail.com,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[16-01-19] [13:42:11] ID :703,VENDEDOR:Taisson Barbosa,INTERESSE:5,CLIENTE:LUCIANE KENNE LIMA,TELEFONE:(51)99149-8709,EMAIL:lukenne6@gmail.com,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[16-01-19] [13:55:29] ID :708,VENDEDOR:Luiz Ely Barbosa,INTERESSE:5,CLIENTE:Carlison Chaves,TELEFONE:(51)98101-7989,EMAIL:carlisonchaves@gmail.com,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[16-01-19] [14:17:46] ID :436,VENDEDOR:Fabiano Borges,INTERESSE:6,CLIENTE:MARCOS PADILHA,TELEFONE:(41)99545-9197,EMAIL:condominiobeneditocruz@hotmail.com,ORIGEM:http://portariavolpato.com.br/portaria-virtual,INDICADOR: 
+[16-01-19] [14:22:46] ID :12,VENDEDOR:DANIEL LIMA,INTERESSE:5,CLIENTE:qweqwe213123,TELEFONE:(51)99999-9999,EMAIL:wqewqewq@bol.com,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[16-01-19] [14:23:27] ID :350,VENDEDOR:THIAGO FERREIRA,INTERESSE:5,CLIENTE:Sandro,TELEFONE:(51)98564-3645,EMAIL:sandroribeirobrat@terra.com.br,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[16-01-19] [14:29:23] ID :423,VENDEDOR:Gabriel Santos,INTERESSE:5,CLIENTE:andressa,TELEFONE:(51)99676-5334,EMAIL:Andressacarvalho1022@gmail.com,ORIGEM:http://rastreadorvolpato.com/leads,INDICADOR: 
+[16-01-19] [14:30:55] ID :590,VENDEDOR:TIAGO FREITAS RODRIGUES,INTERESSE:5,CLIENTE:debbie,TELEFONE:(51),EMAIL:debbie@tusasc.com,ORIGEM:http://rastreadorveicular.net/,INDICADOR: 
+[16-01-19] [14:30:56] ID :636,VENDEDOR:Marcelo Torres,INTERESSE:5,CLIENTE:debbie,TELEFONE:(51),EMAIL:debbie@tusasc.com,ORIGEM:http://rastreadorveicular.net/,INDICADOR: 
+[16-01-19] [14:30:58] ID :647,VENDEDOR:Leandro Prestes,INTERESSE:5,CLIENTE:debbie,TELEFONE:(51),EMAIL:debbie@tusasc.com,ORIGEM:http://rastreadorveicular.net/,INDICADOR: 
+[16-01-19] [14:32:33] ID :668,VENDEDOR:Juliana Moura,INTERESSE:5,CLIENTE:Leandro Motti,TELEFONE:(51)99628-3857,EMAIL:,ORIGEM:monitoramento,INDICADOR:facebook 
+[16-01-19] [14:33:57] ID :703,VENDEDOR:Taisson Barbosa,INTERESSE:5,CLIENTE:mariane,TELEFONE:(41)99898-2766,EMAIL:marianebueno188@gmail.com,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[16-01-19] [14:36:03] ID :448,VENDEDOR:Agendamento,INTERESSE:2,CLIENTE:Getulio,TELEFONE:(51)99503-9371,EMAIL:getulio.af@gmail.com,ORIGEM:www.volpato.rs/obrigado.php,INDICADOR: 
+[16-01-19] [14:51:12] ID :708,VENDEDOR:Luiz Ely Barbosa,INTERESSE:5,CLIENTE:kellyannmertens,TELEFONE:(51),EMAIL:kellyannmertens@comcast.net,ORIGEM:http://rastreadorvolpato.com/,INDICADOR: 
+[16-01-19] [14:51:14] ID :12,VENDEDOR:DANIEL LIMA,INTERESSE:5,CLIENTE:kellyannmertens,TELEFONE:(51),EMAIL:kellyannmertens@comcast.net,ORIGEM:http://rastreadorvolpato.com/,INDICADOR: 
+[16-01-19] [14:54:38] ID :448,VENDEDOR:Agendamento,INTERESSE:1,CLIENTE:LAURA ALVES DE MOURA,TELEFONE:(51)98692-7292,EMAIL:laura.alvesdemoura@live.com,ORIGEM:monitoramento,INDICADOR:internet 
+[16-01-19] [15:07:17] ID :448,VENDEDOR:Agendamento,INTERESSE:3,CLIENTE:VITOR,TELEFONE:(51)99274-645,EMAIL:crisreisdorfer1982@gmail.com,ORIGEM:monitoramento,INDICADOR:outros 
+[16-01-19] [15:17:55] ID :350,VENDEDOR:THIAGO FERREIRA,INTERESSE:5,CLIENTE:WALLACE ,TELEFONE:(51)94783-113,EMAIL:,ORIGEM:monitoramento,INDICADOR:whatsApp 
+[16-01-19] [15:18:05] ID :448,VENDEDOR:Agendamento,INTERESSE:2,CLIENTE:João,TELEFONE:(51)99281-8109,EMAIL:jmezzomo@hotmail.com,ORIGEM:monitoramento,INDICADOR:internet 
+[16-01-19] [15:27:40] ID :423,VENDEDOR:Gabriel Santos,INTERESSE:5,CLIENTE:Mateus,TELEFONE:(43)99916-6507,EMAIL:mateus@edypneus.com.br,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[16-01-19] [15:27:56] ID :590,VENDEDOR:TIAGO FREITAS RODRIGUES,INTERESSE:5,CLIENTE:Paulo Cesar Oliveira,TELEFONE:(41)98504-6660,EMAIL:pcvpo6660@gmail.com,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[16-01-19] [15:37:10] ID :636,VENDEDOR:Marcelo Torres,INTERESSE:5,CLIENTE:TI,TELEFONE:(51)99999-9999,EMAIL:TI@BOL.COM,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[16-01-19] [15:40:30] ID :647,VENDEDOR:Leandro Prestes,INTERESSE:5,CLIENTE:Marcia M Silveira Silveira,TELEFONE:(51)98526-1105,EMAIL:mpereira201327@gmail.com,ORIGEM:http://rastreadorvolpato.com/leads,INDICADOR: 
+[16-01-19] [15:55:03] ID :668,VENDEDOR:Juliana Moura,INTERESSE:5,CLIENTE:OCLESIO OLAVO DA ROSA,TELEFONE:(51)99983-2339,EMAIL:oclesio@ig.com.br,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[16-01-19] [16:06:43] ID :703,VENDEDOR:Taisson Barbosa,INTERESSE:5,CLIENTE:Bárbara Rosa,TELEFONE:(51)99642-8064,EMAIL:barbararrosaa@gmail.com,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[16-01-19] [16:08:22] ID :708,VENDEDOR:Luiz Ely Barbosa,INTERESSE:5,CLIENTE:vincent.roes,TELEFONE:(51),EMAIL:vincent.roes@gmail.com,ORIGEM:http://rastreadorvolpato.com/,INDICADOR: 
+[16-01-19] [16:08:23] ID :12,VENDEDOR:DANIEL LIMA,INTERESSE:5,CLIENTE:vincent.roes,TELEFONE:(51),EMAIL:vincent.roes@gmail.com,ORIGEM:http://rastreadorvolpato.com/,INDICADOR: 
+[16-01-19] [16:08:24] ID :350,VENDEDOR:THIAGO FERREIRA,INTERESSE:5,CLIENTE:vincent.roes,TELEFONE:(51),EMAIL:vincent.roes@gmail.com,ORIGEM:http://rastreadorvolpato.com/,INDICADOR: 
+[16-01-19] [16:22:47] ID :448,VENDEDOR:Agendamento,INTERESSE:2,CLIENTE:Daniela ,TELEFONE:(51)99241-7310,EMAIL:danielafatima29@gmail.com,ORIGEM:www.volpato.rs/obrigado.php,INDICADOR: 
+[16-01-19] [16:34:35] ID :423,VENDEDOR:Gabriel Santos,INTERESSE:5,CLIENTE:Marcontonio,TELEFONE:(51)99674-7584,EMAIL:cecconcolorado@hotmail.com,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[16-01-19] [16:39:35] ID :590,VENDEDOR:TIAGO FREITAS RODRIGUES,INTERESSE:5,CLIENTE:Jose Dobner ,TELEFONE:(51)98418-5133,EMAIL:,ORIGEM:monitoramento,INDICADOR:facebook 
+[16-01-19] [16:42:52] ID :636,VENDEDOR:Marcelo Torres,INTERESSE:5,CLIENTE:luciano,TELEFONE:(51)98452-9303,EMAIL:luciano441968@ig.com.br,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[16-01-19] [16:43:26] ID :647,VENDEDOR:Leandro Prestes,INTERESSE:5,CLIENTE:mmelton,TELEFONE:(51),EMAIL:mmelton@protechsc.com,ORIGEM:http://rastreadorvolpato.com/,INDICADOR: 
+[16-01-19] [16:43:28] ID :668,VENDEDOR:Juliana Moura,INTERESSE:5,CLIENTE:mmelton,TELEFONE:(51),EMAIL:mmelton@protechsc.com,ORIGEM:http://rastreadorvolpato.com/,INDICADOR: 
+[16-01-19] [16:43:30] ID :703,VENDEDOR:Taisson Barbosa,INTERESSE:5,CLIENTE:mmelton,TELEFONE:(51),EMAIL:mmelton@protechsc.com,ORIGEM:http://rastreadorvolpato.com/,INDICADOR: 
+[16-01-19] [17:00:12] ID :448,VENDEDOR:Agendamento,INTERESSE:2,CLIENTE:Getulio,TELEFONE:(51)99503-9371,EMAIL:getulio.af@gmail.com,ORIGEM:monitoramento,INDICADOR:facebook 
+[16-01-19] [17:04:48] ID :448,VENDEDOR:Agendamento,INTERESSE:2,CLIENTE:Getulio,TELEFONE:(51)99503-9371,EMAIL:getulio.af@gmail.com,ORIGEM:monitoramento,INDICADOR:internet 
+[16-01-19] [17:11:39] ID :642,VENDEDOR:Raylan Rodrigues,INTERESSE:6,CLIENTE:ELAINE,TELEFONE:(51)99800-4606,EMAIL:,ORIGEM:monitoramento,INDICADOR:outros 
+[16-01-19] [17:13:35] ID :708,VENDEDOR:Luiz Ely Barbosa,INTERESSE:5,CLIENTE:LUCIANO DOS REIS,TELEFONE:(51)98416-3476,EMAIL:luinho_reis@yahoo.com.br,ORIGEM:http://rastreadorvolpato.com/leads,INDICADOR: 
+[16-01-19] [17:24:38] ID :12,VENDEDOR:DANIEL LIMA,INTERESSE:5,CLIENTE:ANSnyder2,TELEFONE:(51),EMAIL:ANSnyder2@att.net,ORIGEM:http://rastreadorveicular.net/,INDICADOR: 
+[16-01-19] [17:24:39] ID :350,VENDEDOR:THIAGO FERREIRA,INTERESSE:5,CLIENTE:ANSnyder2,TELEFONE:(51),EMAIL:ANSnyder2@att.net,ORIGEM:http://rastreadorveicular.net/,INDICADOR: 
+[16-01-19] [17:24:40] ID :423,VENDEDOR:Gabriel Santos,INTERESSE:5,CLIENTE:ANSnyder2,TELEFONE:(51),EMAIL:ANSnyder2@att.net,ORIGEM:http://rastreadorveicular.net/,INDICADOR: 
+[16-01-19] [17:26:24] ID :590,VENDEDOR:TIAGO FREITAS RODRIGUES,INTERESSE:5,CLIENTE:Pablo Ramiro dutra,TELEFONE:(51)98655-0700,EMAIL:pablao_dutra@hotmail.com,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[16-01-19] [17:31:34] ID :636,VENDEDOR:Marcelo Torres,INTERESSE:5,CLIENTE:RAFAEL,TELEFONE:(51)95020-444,EMAIL:,ORIGEM:monitoramento,INDICADOR:whatsApp 
+[16-01-19] [17:43:20] ID :647,VENDEDOR:Leandro Prestes,INTERESSE:5,CLIENTE:firefly70,TELEFONE:(51),EMAIL:firefly70@verizon.net,ORIGEM:http://rastreadorvolpato.com/,INDICADOR: 
+[16-01-19] [17:43:22] ID :668,VENDEDOR:Juliana Moura,INTERESSE:5,CLIENTE:firefly70,TELEFONE:(51),EMAIL:firefly70@verizon.net,ORIGEM:http://rastreadorvolpato.com/,INDICADOR: 
+[16-01-19] [17:43:23] ID :703,VENDEDOR:Taisson Barbosa,INTERESSE:5,CLIENTE:firefly70,TELEFONE:(51),EMAIL:firefly70@verizon.net,ORIGEM:http://rastreadorvolpato.com/,INDICADOR: 
+[16-01-19] [18:02:39] ID :448,VENDEDOR:Agendamento,INTERESSE:2,CLIENTE:Maria margarete da silva,TELEFONE:(51)99735-9450,EMAIL:,ORIGEM:monitoramento,INDICADOR:placas 
+[16-01-19] [18:04:43] ID :708,VENDEDOR:Luiz Ely Barbosa,INTERESSE:5,CLIENTE:marcelo almeida pimentel,TELEFONE:(51)99195-8097,EMAIL:Marceloalmeidapimentel@gmail.com,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[16-01-19] [18:06:43] ID :12,VENDEDOR:DANIEL LIMA,INTERESSE:5,CLIENTE:Clayton,TELEFONE:(51)98424-4096,EMAIL:clayton@superplanador.com.br,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[16-01-19] [18:14:23] ID :350,VENDEDOR:THIAGO FERREIRA,INTERESSE:5,CLIENTE:Regis,TELEFONE:(51)98123-0835,EMAIL:regisnmf@hotmail.com,ORIGEM:http://rastreadorvolpato.com/leads,INDICADOR: 
+[16-01-19] [18:20:51] ID :423,VENDEDOR:Gabriel Santos,INTERESSE:5,CLIENTE:Erik Marlon,TELEFONE:(51)99641-1130,EMAIL:erik1903marlon@gmail.com,ORIGEM:http://rastreadorvolpato.com/leads,INDICADOR: 
+[16-01-19] [18:48:21] ID :590,VENDEDOR:TIAGO FREITAS RODRIGUES,INTERESSE:5,CLIENTE:Rodrigo Lourenço,TELEFONE:(54)99967-9550,EMAIL:lorenvosk@yahoo.com.br,ORIGEM:http://rastreadorvolpato.com/leads,INDICADOR: 
+[16-01-19] [19:02:38] ID :12,VENDEDOR:DANIEL LIMA,INTERESSE:5,CLIENTE:Diego,TELEFONE:(41)99932-2786,EMAIL:diego.pozzobon@hotmail.com,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[16-01-19] [19:27:03] ID :350,VENDEDOR:THIAGO FERREIRA,INTERESSE:5,CLIENTE:Manuela,TELEFONE:(51)99547-2409,EMAIL:manu.silv@hotmail.com,ORIGEM:http://rastreadorvolpato.com/leads,INDICADOR: 
+[16-01-19] [19:33:31] ID :423,VENDEDOR:Gabriel Santos,INTERESSE:5,CLIENTE:EDUARDO CHATELAIN ZETTERMANN,TELEFONE:(51)99325-1045,EMAIL:capeduardozettermann@gmail.com,ORIGEM:http://rastreadorvolpato.com/leads,INDICADOR: 
+[16-01-19] [20:10:57] ID :590,VENDEDOR:TIAGO FREITAS RODRIGUES,INTERESSE:5,CLIENTE:Klaus,TELEFONE:(51)99967-7456,EMAIL:klausd.brackmann@hotmail.com,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[16-01-19] [20:16:22] ID :636,VENDEDOR:Marcelo Torres,INTERESSE:5,CLIENTE:Deise,TELEFONE:(51)99320-0589,EMAIL:profdeisetaborda@gmail.com,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[16-01-19] [20:20:48] ID :647,VENDEDOR:Leandro Prestes,INTERESSE:5,CLIENTE:Camila,TELEFONE:(51)99119-9987,EMAIL:camilawaier@gmail.com,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[16-01-19] [20:34:50] ID :668,VENDEDOR:Juliana Moura,INTERESSE:5,CLIENTE:mpaine,TELEFONE:(51),EMAIL:mpaine@burkeauto.com,ORIGEM:http://rastreadorveicular.net/,INDICADOR: 
+[16-01-19] [20:34:51] ID :703,VENDEDOR:Taisson Barbosa,INTERESSE:5,CLIENTE:mpaine,TELEFONE:(51),EMAIL:mpaine@burkeauto.com,ORIGEM:http://rastreadorveicular.net/,INDICADOR: 
+[16-01-19] [20:34:52] ID :708,VENDEDOR:Luiz Ely Barbosa,INTERESSE:5,CLIENTE:mpaine,TELEFONE:(51),EMAIL:mpaine@burkeauto.com,ORIGEM:http://rastreadorveicular.net/,INDICADOR: 
+[16-01-19] [20:35:48] ID :12,VENDEDOR:DANIEL LIMA,INTERESSE:5,CLIENTE:joe,TELEFONE:(51),EMAIL:joe@psyclaw.com,ORIGEM:http://rastreadorveicular.net/,INDICADOR: 
+[16-01-19] [20:35:49] ID :350,VENDEDOR:THIAGO FERREIRA,INTERESSE:5,CLIENTE:joe,TELEFONE:(51),EMAIL:joe@psyclaw.com,ORIGEM:http://rastreadorveicular.net/,INDICADOR: 
+[16-01-19] [20:35:50] ID :423,VENDEDOR:Gabriel Santos,INTERESSE:5,CLIENTE:joe,TELEFONE:(51),EMAIL:joe@psyclaw.com,ORIGEM:http://rastreadorveicular.net/,INDICADOR: 
+[16-01-19] [20:38:20] ID :590,VENDEDOR:TIAGO FREITAS RODRIGUES,INTERESSE:5,CLIENTE:Silvano de oliveira garcia,TELEFONE:(51)99775-9439,EMAIL:silvanogarcia2015@gmail.com,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[16-01-19] [20:48:23] ID :636,VENDEDOR:Marcelo Torres,INTERESSE:5,CLIENTE:mmadal,TELEFONE:(51),EMAIL:mmadal@chasephipps.com,ORIGEM:http://rastreadorveicular.net/,INDICADOR: 
+[16-01-19] [20:48:25] ID :647,VENDEDOR:Leandro Prestes,INTERESSE:5,CLIENTE:mmadal,TELEFONE:(51),EMAIL:mmadal@chasephipps.com,ORIGEM:http://rastreadorveicular.net/,INDICADOR: 
+[16-01-19] [20:48:26] ID :668,VENDEDOR:Juliana Moura,INTERESSE:5,CLIENTE:mmadal,TELEFONE:(51),EMAIL:mmadal@chasephipps.com,ORIGEM:http://rastreadorveicular.net/,INDICADOR: 
+[16-01-19] [20:56:16] ID :12,VENDEDOR:DANIEL LIMA,INTERESSE:5,CLIENTE:andrew,TELEFONE:(51),EMAIL:andrew@universalmetals.com,ORIGEM:http://rastreadorvolpato.com/,INDICADOR: 
+[16-01-19] [20:56:17] ID :350,VENDEDOR:THIAGO FERREIRA,INTERESSE:5,CLIENTE:andrew,TELEFONE:(51),EMAIL:andrew@universalmetals.com,ORIGEM:http://rastreadorvolpato.com/,INDICADOR: 
+[16-01-19] [20:56:18] ID :423,VENDEDOR:Gabriel Santos,INTERESSE:5,CLIENTE:andrew,TELEFONE:(51),EMAIL:andrew@universalmetals.com,ORIGEM:http://rastreadorvolpato.com/,INDICADOR: 
+[16-01-19] [21:01:18] ID :590,VENDEDOR:TIAGO FREITAS RODRIGUES,INTERESSE:5,CLIENTE:jguillaume,TELEFONE:(51),EMAIL:jguillaume@pccs.k12.in.us,ORIGEM:http://rastreadorvolpato.com/,INDICADOR: 
+[16-01-19] [21:01:19] ID :636,VENDEDOR:Marcelo Torres,INTERESSE:5,CLIENTE:jguillaume,TELEFONE:(51),EMAIL:jguillaume@pccs.k12.in.us,ORIGEM:http://rastreadorvolpato.com/,INDICADOR: 
+[16-01-19] [21:01:20] ID :647,VENDEDOR:Leandro Prestes,INTERESSE:5,CLIENTE:jguillaume,TELEFONE:(51),EMAIL:jguillaume@pccs.k12.in.us,ORIGEM:http://rastreadorvolpato.com/,INDICADOR: 
+[16-01-19] [21:17:23] ID :668,VENDEDOR:Juliana Moura,INTERESSE:5,CLIENTE:bmc,TELEFONE:(51),EMAIL:bmc@comproser.com,ORIGEM:http://rastreadorvolpato.com/,INDICADOR: 
+[16-01-19] [21:17:25] ID :703,VENDEDOR:Taisson Barbosa,INTERESSE:5,CLIENTE:bmc,TELEFONE:(51),EMAIL:bmc@comproser.com,ORIGEM:http://rastreadorvolpato.com/,INDICADOR: 
+[16-01-19] [21:17:26] ID :708,VENDEDOR:Luiz Ely Barbosa,INTERESSE:5,CLIENTE:bmc,TELEFONE:(51),EMAIL:bmc@comproser.com,ORIGEM:http://rastreadorvolpato.com/,INDICADOR: 
+[16-01-19] [21:48:54] ID :448,VENDEDOR:Agendamento,INTERESSE:1,CLIENTE:Em expansão no Brasil,TELEFONE:(87)988619195,EMAIL:contato@amakhaparisequipe.com.br,ORIGEM:www.volpato.rs/obrigado.php,INDICADOR: 
+[16-01-19] [21:56:21] ID :12,VENDEDOR:DANIEL LIMA,INTERESSE:5,CLIENTE:Rogério Andrades de Andrade,TELEFONE:(51)99761-2956,EMAIL:andradesde@hotmail.com,ORIGEM:http://rastreadorvolpato.com/leads,INDICADOR: 
+[16-01-19] [22:05:53] ID :350,VENDEDOR:THIAGO FERREIRA,INTERESSE:5,CLIENTE:jennifer.lachman,TELEFONE:(51),EMAIL:jennifer.lachman@gmail.com,ORIGEM:http://rastreadorvolpato.com/,INDICADOR: 
+[16-01-19] [22:05:54] ID :423,VENDEDOR:Gabriel Santos,INTERESSE:5,CLIENTE:jennifer.lachman,TELEFONE:(51),EMAIL:jennifer.lachman@gmail.com,ORIGEM:http://rastreadorvolpato.com/,INDICADOR: 
+[16-01-19] [22:05:55] ID :590,VENDEDOR:TIAGO FREITAS RODRIGUES,INTERESSE:5,CLIENTE:jennifer.lachman,TELEFONE:(51),EMAIL:jennifer.lachman@gmail.com,ORIGEM:http://rastreadorvolpato.com/,INDICADOR: 
+[16-01-19] [22:20:55] ID :636,VENDEDOR:Marcelo Torres,INTERESSE:5,CLIENTE:hardsolinc,TELEFONE:(51),EMAIL:hardsolinc@cableone.net,ORIGEM:http://rastreadorvolpato.com/,INDICADOR: 
+[16-01-19] [22:20:57] ID :647,VENDEDOR:Leandro Prestes,INTERESSE:5,CLIENTE:hardsolinc,TELEFONE:(51),EMAIL:hardsolinc@cableone.net,ORIGEM:http://rastreadorvolpato.com/,INDICADOR: 
+[16-01-19] [22:20:58] ID :668,VENDEDOR:Juliana Moura,INTERESSE:5,CLIENTE:hardsolinc,TELEFONE:(51),EMAIL:hardsolinc@cableone.net,ORIGEM:http://rastreadorvolpato.com/,INDICADOR: 
+[16-01-19] [22:29:14] ID :703,VENDEDOR:Taisson Barbosa,INTERESSE:5,CLIENTE:Luciana,TELEFONE:(51)98551-9425,EMAIL:lucianaiilucas@gmail.com,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[16-01-19] [22:55:15] ID :708,VENDEDOR:Luiz Ely Barbosa,INTERESSE:5,CLIENTE:jguillaume,TELEFONE:(51),EMAIL:jguillaume@pccs.k12.in.us,ORIGEM:http://rastreadorvolpato.com/,INDICADOR: 
+[16-01-19] [22:55:17] ID :12,VENDEDOR:DANIEL LIMA,INTERESSE:5,CLIENTE:jguillaume,TELEFONE:(51),EMAIL:jguillaume@pccs.k12.in.us,ORIGEM:http://rastreadorvolpato.com/,INDICADOR: 
+[16-01-19] [22:55:18] ID :350,VENDEDOR:THIAGO FERREIRA,INTERESSE:5,CLIENTE:jguillaume,TELEFONE:(51),EMAIL:jguillaume@pccs.k12.in.us,ORIGEM:http://rastreadorvolpato.com/,INDICADOR: 
+[16-01-19] [22:56:42] ID :423,VENDEDOR:Gabriel Santos,INTERESSE:5,CLIENTE:nicholas.mainini,TELEFONE:(51),EMAIL:nicholas.mainini@bhninc.org,ORIGEM:http://rastreadorvolpato.com/,INDICADOR: 
+[16-01-19] [22:56:43] ID :590,VENDEDOR:TIAGO FREITAS RODRIGUES,INTERESSE:5,CLIENTE:nicholas.mainini,TELEFONE:(51),EMAIL:nicholas.mainini@bhninc.org,ORIGEM:http://rastreadorvolpato.com/,INDICADOR: 
+[16-01-19] [22:56:44] ID :636,VENDEDOR:Marcelo Torres,INTERESSE:5,CLIENTE:nicholas.mainini,TELEFONE:(51),EMAIL:nicholas.mainini@bhninc.org,ORIGEM:http://rastreadorvolpato.com/,INDICADOR: 
+[16-01-19] [23:03:04] ID :647,VENDEDOR:Leandro Prestes,INTERESSE:5,CLIENTE:jbfparts,TELEFONE:(51),EMAIL:jbfparts@burkeauto.com,ORIGEM:http://rastreadorvolpato.com/,INDICADOR: 
+[16-01-19] [23:03:06] ID :668,VENDEDOR:Juliana Moura,INTERESSE:5,CLIENTE:jbfparts,TELEFONE:(51),EMAIL:jbfparts@burkeauto.com,ORIGEM:http://rastreadorvolpato.com/,INDICADOR: 
+[16-01-19] [23:03:06] ID :703,VENDEDOR:Taisson Barbosa,INTERESSE:5,CLIENTE:jbfparts,TELEFONE:(51),EMAIL:jbfparts@burkeauto.com,ORIGEM:http://rastreadorvolpato.com/,INDICADOR: 
+[16-01-19] [23:04:53] ID :708,VENDEDOR:Luiz Ely Barbosa,INTERESSE:5,CLIENTE:DIRCEU ONOFRE DE SOUZA FILHO,TELEFONE:(51)98615-7275,EMAIL:dirceuonofredesouza@gmail.com,ORIGEM:http://rastreadorvolpato.com/leads,INDICADOR: 

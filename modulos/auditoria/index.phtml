@@ -1,0 +1,23 @@
+<?php
+$dadosFiltro = filter_input_array(INPUT_GET);
+$agenda = new AgendaContato;
+$busca = filter_input(INPUT_GET, "busca");
+?>
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Modulo de Log</title>
+    </head>
+    <body>
+        <?php
+        switch ($pg) {
+            case 52 :
+            	include_once __DIR__ . '/src/controllers/controller_view_auditoria.php';
+                include_once __DIR__ . '/src/views/formularios/frm_auditoriaAlertas.php';
+                include_once __DIR__ . '/src/views/listas/lst_auditoriaAlertas.php';
+            break;
+        }
+        ?>
+    </body>
+</html>

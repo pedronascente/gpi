@@ -1,0 +1,2 @@
+[17-08-18] [09:51:01] ID :603  , Usuario :FERNANDA PIRES , Interesse :5 , Cliente: qweqwewewqe  , Telefone: (23)42343-2432, Email: 123123123@bol.com , Origem: monitoramento 
+[17-08-18] [09:54:21] ID :448  , Usuario :Agendamento , Interesse :1 , Cliente: lioa  , Telefone: (42)54543-5435, Email: 34534534@bol.com , Origem: monitoramento 

@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+main {
+    float: left;
+    width: 100%;
+    height: auto;
+}
+
+main>p {
+    padding: 10px;
+    font-size: 12px;
+    text-align: center;
+    margin: 0 0 20px;
+ 
+}
+
+main>p  strong {
+    font-size: 14px;
+    color: #F00;
+}
+
+main>form fieldset {
+    margin: 0 0 20px 0;
+    padding: 10px
+}
+
+main>form fieldset legend {
+    padding: 6px;
+}
+
+main>form>fieldset>legend>p {
+    display: block;
+}
+
+main>form>fieldset>input[type="email"], main>form>fieldset>legend>input[type="submit"]
+{
+    float: left
+}
+
+main>form>fieldset>input[type="email"] {
+    width: 100%;
+    margin: 0 0 10px 0
+}

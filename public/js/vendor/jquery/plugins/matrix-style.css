@@ -1,0 +1,11 @@
+
+.help-block, .help-inline {
+	color: #f00;
+}
+
+.control-group.error .control-label, .control-group.error .help-block, .control-group.error .help-inline {
+    color: #b94a48;
+}
+.control-group {
+    margin-bottom: 10px;
+}

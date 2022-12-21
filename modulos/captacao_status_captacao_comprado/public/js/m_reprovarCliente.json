@@ -1,0 +1,8 @@
+[
+   { "m_tag": "CNPJ Invalido","m_valor":"CNPJ Invalido" },
+   { "m_tag": "Dados com restricoes", "m_valor":"Dados com restricoes" },
+   { "m_tag": "CPF Invalido","m_valor": "CPF Invalido" },
+   { "m_tag": "Nome Incompleto","m_valor":"Nome Incompleto"},
+   { "m_tag": "Nome Incorreto","m_valor":"Nome Incorreto" }
+   
+]

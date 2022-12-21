@@ -1,0 +1,20 @@
+[20-01-19] [00:44:34] ID :12,VENDEDOR:DANIEL LIMA,INTERESSE:5,CLIENTE:Jácson,TELEFONE:(51)98040-0777,EMAIL:jacsonbaarcello@gmail.com,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[20-01-19] [01:11:52] ID :350,VENDEDOR:THIAGO FERREIRA,INTERESSE:5,CLIENTE:Douglas,TELEFONE:(51)99780-4443,EMAIL:,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[20-01-19] [04:52:22] ID :423,VENDEDOR:Gabriel Santos,INTERESSE:5,CLIENTE:ekfgsju,TELEFONE:(51),EMAIL:,ORIGEM:http://rastreadorvolpato.com/leads,INDICADOR: 
+[20-01-19] [08:27:15] ID :448,VENDEDOR:Agendamento,INTERESSE:1,CLIENTE:Canal da Midia ,TELEFONE:(67)998516988,EMAIL:no-replayanuncio799@uol.com.br,ORIGEM:www.volpato.rs/obrigado.php,INDICADOR: 
+[20-01-19] [10:00:03] ID :590,VENDEDOR:TIAGO FREITAS RODRIGUES,INTERESSE:5,CLIENTE:Marlene  Aguiar,TELEFONE:(51)99163-9734,EMAIL:marlenecassao@hotmail.com,ORIGEM:http://rastreadorvolpato.com/carro,INDICADOR: 
+[20-01-19] [10:06:50] ID :436,VENDEDOR:Fabiano Borges,INTERESSE:6,CLIENTE:Yuri Donadelli,TELEFONE:(naorespondaaquii@gmail.com)naorespondaaquii@gmail.com,EMAIL:naorespondaaquii@gmail.com,ORIGEM:www.portariavirtualvolpato.com.br/modal,INDICADOR: 
+[20-01-19] [11:14:56] ID :636,VENDEDOR:Marcelo Torres,INTERESSE:5,CLIENTE:TIAGO APARECIDO DA SILVA,TELEFONE:(51)99544-6144,EMAIL:tiagosilva51@live.com,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[20-01-19] [12:38:41] ID :668,VENDEDOR:Juliana Moura,INTERESSE:5,CLIENTE:Gustavo,TELEFONE:(41)99957-7076,EMAIL:gustavojaruga@gmail.com,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[20-01-19] [12:51:44] ID :703,VENDEDOR:Taisson Barbosa,INTERESSE:5,CLIENTE:Edson,TELEFONE:(41)99949-1415,EMAIL:edsonmariano.pr@bol.com.br,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[20-01-19] [12:54:00] ID :708,VENDEDOR:Luiz Ely Barbosa,INTERESSE:5,CLIENTE:DANIEL SOUZA DOS SANTOS,TELEFONE:(51)99399-4760,EMAIL:danielguub@gmail.com,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[20-01-19] [12:59:33] ID :12,VENDEDOR:DANIEL LIMA,INTERESSE:5,CLIENTE:carlos marques,TELEFONE:(51)99577-8622,EMAIL:medinaj@bol.com.br,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[20-01-19] [13:17:40] ID :350,VENDEDOR:THIAGO FERREIRA,INTERESSE:5,CLIENTE:Paulo Gabriel de Almeida Brandeburski,TELEFONE:(51)99335-8996,EMAIL:pgabrandeburski@gmail.com,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[20-01-19] [16:05:26] ID :448,VENDEDOR:Agendamento,INTERESSE:2,CLIENTE:Juliana Silveira,TELEFONE:(51)98463-2661,EMAIL:julianapssilveira@gmail.com,ORIGEM:www.grupovolpato.com/residencial/obrigado.php,INDICADOR: 
+[20-01-19] [17:56:07] ID :423,VENDEDOR:Gabriel Santos,INTERESSE:5,CLIENTE:José Luís,TELEFONE:(51)99922-3361,EMAIL:ze-ilha@hotmail.com,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[20-01-19] [19:20:44] ID :590,VENDEDOR:TIAGO FREITAS RODRIGUES,INTERESSE:5,CLIENTE:Henrique,TELEFONE:(54)99921-5904,EMAIL:Henriquecaetano@yahoo.com.br,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[20-01-19] [19:35:25] ID :636,VENDEDOR:Marcelo Torres,INTERESSE:5,CLIENTE:tbonepat,TELEFONE:(51),EMAIL:tbonepat@hotmail.com,ORIGEM:http://rastreadorvolpato.com/leads,INDICADOR: 
+[20-01-19] [19:55:44] ID :448,VENDEDOR:Agendamento,INTERESSE:2,CLIENTE:Paulo Poppe,TELEFONE:(51)99989-3150,EMAIL:paulorobertopoppe@gmail.com,ORIGEM:www.grupovolpato.com/residencial/obrigado.php,INDICADOR: 
+[20-01-19] [21:05:04] ID :668,VENDEDOR:Juliana Moura,INTERESSE:5,CLIENTE:everton,TELEFONE:(51)98404-0588,EMAIL:CENTRALCAR9@GMAIL.COM,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 
+[20-01-19] [23:00:52] ID :703,VENDEDOR:Taisson Barbosa,INTERESSE:5,CLIENTE:martintampa,TELEFONE:(51),EMAIL:martintampa@outlook.com,ORIGEM:http://rastreadorvolpato.com/leads,INDICADOR: 
+[20-01-19] [23:44:21] ID :708,VENDEDOR:Luiz Ely Barbosa,INTERESSE:5,CLIENTE:Márcio Rodrigo Ficagna,TELEFONE:(49)98421-4697,EMAIL:mrficagna@yahoo.com.br,ORIGEM:http://volpatorastreamento.com.br,INDICADOR:volpatorastreamento 

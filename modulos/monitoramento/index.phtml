@@ -1,0 +1,84 @@
+<?php
+$dadosFiltro 	= filter_input_array(INPUT_GET);
+$result 		= filter_input(INPUT_GET, "result");
+$busca 			= filter_input(INPUT_GET, "busca");
+$acao 			= filter_input(INPUT_GET, "acao");
+$id 			= filter_input(INPUT_GET, "id");
+$monitoramento 	= new Monitoramento;
+?>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style type="text/css">
+            .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{background: #3175AF; color: #fff}
+        </style>
+    </head>
+    <body>
+    	<div class="panel panel-primary">
+            <div class="panel-heading "></div>
+            <div class="panel-body">
+            	<?php 
+            	
+            	switch ($pg){
+            		case "48":
+            			include_once 'src/controllers/controller_view_guinchos.php';?>
+            		
+            		<ul class="nav nav-tabs">
+	                    <li><a data-toggle="tab" href="#cadastro" id="tabMapa">Cadastro</a></li>
+	                    <li><a data-toggle="tab" href="#lista">Lista</a></li>
+	                </ul>
+            		
+	                <div class="tab-content">
+            			<div id="lista" class="tab-pane fade">
+            				<?php include_once 'src/views/listas/lst_guinchos.php';?>
+            			</div>
+            			
+            			<div id="cadastro" class="tab-pane fade">
+            				<?php include_once 'src/views/formularios/frm_guinchos.php';?>
+            			</div>
+            		</div>
+            		
+            		<?php break; 
+            		
+					case "49":
+							include_once 'src/controllers/controller_view_assistencia.php'; ?>
+							
+							<ul class="nav nav-tabs">
+	                    		<li><a data-toggle="tab" href="#cadastro" id="tabMapa">Cadastro</a></li>
+	                    		<li><a data-toggle="tab" href="#lista">Lista</a></li>
+	                		</ul>
+	                		
+	                		<div class="tab-content">
+		            			<div id="lista" class="tab-pane fade">
+		            				<?php include_once "src/views/listas/lst_assistencia.php";?>
+		            			</div>
+		            			
+		            			<div id="cadastro" class="tab-pane fade">
+		            				<?php include_once "src/views/formularios/frm_assistencia.php";?>
+		            			</div>
+		            		</div>
+							
+						<?php
+						break;  
+						
+						case "51": 
+							include_once "src/controllers/controller_view_sinistros.php"; ?>
+							<ul class="nav nav-tabs">
+	                    		<li><a data-toggle="tab" href="#cadastro">Cadastro</a></li>
+	                    		<li><a data-toggle="tab" href="#lista">Lista</a></li>
+	                		</ul>
+	                		<div class="tab-content">
+		            			<div id="lista" class="tab-pane fade">
+		            			<?php include_once "src/views/listas/lst_sinistro.php";?>
+		            			</div>
+		            			
+		            			<div id="cadastro" class="tab-pane fade">
+		            				<?php include_once "src/views/formularios/frm_sinistro.php";?>
+		            			</div>
+		            		</div>
+						<?php break; ?>
+            	<?php }?>
+            </div>
+        </div>
+   	</body>
+</html>

@@ -1,0 +1,156 @@
+<?php
+
+$dadosFiltro = filter_input_array(INPUT_GET);
+$result = filter_input(INPUT_GET, "result");
+$busca = filter_input(INPUT_GET, "busca");
+$acaoTela = filter_input(INPUT_GET, "acao_tela") == null ? "listar" : filter_input(INPUT_GET, "acao_tela");
+$modulo = new Modulo;
+$chip = new Chip;
+$produtos = new Produtos;
+$setor = new Setor;
+?>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style type="text/css">
+        .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+            background: #3175AF;
+            color: #fff
+        }
+    </style>
+</head>
+<body>
+<?php if ($result == 1) { ?>
+    <div class="alert alert-success">Registro salvo com sucesso!</div>
+<?php } ?>
+<div class="panel panel-primary">
+    <div class="panel-heading "></div>
+    <div class="panel-body">
+        <?php
+        switch ($pg) {
+        case 46 :
+        include_once __DIR__ . '/src/controllers/controller_view_chips.php';
+        ?>
+
+        <ul class="nav nav-tabs">
+            <?php if ($acaoTela == "listar") { ?>
+                <li><a data-toggle="tab" href="#listar">Lista</a></li>
+            <?php } ?>
+
+            <?php if (!$permissaoProgramacao && $acaoTela == "modulo") { ?>
+                <li><a data-toggle="tab" href="#cadastroModulos">Módulos</a></li>
+            <?php } ?>
+
+            <?php if (!$permissaoProgramacao && $acaoTela == "chip") { ?>
+                <li><a data-toggle="tab" href="#cadastrarChips">Chips</a></li>
+            <?php } ?>
+
+            <?php if ($permissaoProgramacao || $acaoTela == "programacao") { ?>
+                <li><a data-toggle="tab" href="#programacao">Programação</a></li>
+            <?php } ?>
+
+            <?php if ($programacao->get("chip_status", true) == 3 && $acaoTela == "chip") { ?>
+                <li><a data-toggle="tab" href="#log">Log</a></li>
+            <?php } ?>
+        </ul>
+        <div class="tab-content">
+            <?php if ($acaoTela == "listar") { ?>
+                <div id="listar" class="tab-pane fade">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading"></div>
+                        <div class="panel-body">
+                            <?
+                            include_once __DIR__ . '/src/views/listas/lst_chips.php';
+                            ?>
+                        </div>
+                    </div>
+                </div>
+            <?php } ?>
+            <?php if (!$permissaoProgramacao && $acaoTela == "modulo") { ?>
+                <div id="cadastroModulos" class="tab-pane fade">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading"></div>
+                        <div class="panel-body">
+                            <?
+                            include_once __DIR__ . '/src/views/formularios/frm_modulos.php';
+                            ?>
+                        </div>
+                    </div>
+                </div>
+            <?php } ?>
+            <?php if (!$permissaoProgramacao && $acaoTela == "chip") { ?>
+                <div id="cadastrarChips" class="tab-pane fade">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading"></div>
+                        <div class="panel-body">
+                            <?
+                            include_once __DIR__ . '/src/views/formularios/frm_chips.php';
+                            ?>
+                        </div>
+                    </div>
+                </div>
+            <?php } ?>
+            <?php if ($permissaoProgramacao || $acaoTela == "programacao") { ?>
+                <div id="programacao" class="tab-pane fade">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading"></div>
+                        <div class="panel-body">
+                            <?
+                            include_once __DIR__ . '/src/views/formularios/frm_programacao.php';
+                            ?>
+                        </div>
+                    </div>
+                </div>
+            <?php } ?>
+            <?php if ($programacao->get("chip_status", true) == 3 && $acaoTela == "chip") { ?>
+                <div id="log" class="tab-pane fade">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading"></div>
+                        <div class="panel-body">
+                            <?php include_once 'modulos/log/src/views/listas/lst_log.php'; ?>
+                        </div>
+                    </div>
+                </div>
+            <?php } ?>
+        </div>
+    </div>
+</div>
+<?
+break;
+        case 47:
+    include_once __DIR__ . '/src/controllers/controller_view_produtos.php';
+    ?>
+    <ul class="nav nav-tabs">
+        <li><a data-toggle="tab" href="#produtos">Produtos</a></li>
+        <li><a data-toggle="tab" href="#requisicao">Requisições</a></li>
+    </ul>
+    <div class="tab-content">
+        <div id="produtos" class="tab-pane fade">
+            <div class="panel panel-primary">
+                <div class="panel-heading"></div>
+                <div class="panel-body">
+                    <?php
+                    include_once __DIR__ . '/src/views/formularios/frm_produtos.php';
+                    include_once __DIR__ . '/src/views/listas/lst_produtos.php';
+                    ?>
+                </div>
+            </div>
+        </div>
+        <div id="requisicao" class="tab-pane fade">
+            <div class="panel panel-primary">
+                <div class="panel-heading"></div>
+                <div class="panel-body">
+                    <?php
+                    include_once __DIR__ . '/src/views/formularios/frm_requisicao.php';
+                    include_once __DIR__ . '/src/views/listas/lst_requisicao.php';
+                    ?>
+                </div>
+            </div>
+        </div>
+    </div>
+    <?php
+    break;
+}
+?>
+</body>
+</html>

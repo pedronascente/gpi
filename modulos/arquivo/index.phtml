@@ -1,0 +1,32 @@
+<?php include_once 'src/controllers/controller_cadastroArquivo.php'; ?>
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Modulo de Arquivo</title>
+    </head>
+    <body>
+        <ul class="nav nav-tabs">
+            <li><a data-toggle="tab" href="#lista">Lista</a></li>
+            <li><a data-toggle="tab" href="#cadastro">Cadastro</a></li>
+        </ul>
+        <div class="tab-content">
+            <div id="lista" class="tab-pane fade">
+                <div class="panel panel-primary">
+                    <div class="panel-heading "></div>
+                    <div class="panel-body"> 
+                        <?php include_once 'src/views/listas/lst_arquivo.php'; ?>
+                    </div>
+                </div>
+            </div>
+            <div id="cadastro" class="tab-pane fade">
+                <div class="panel panel-primary">
+                    <div class="panel-heading "></div>
+                    <div class="panel-body"> 
+                        <?php include_once 'src/views/formularios/frm_cadastroArquivo.php'; ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

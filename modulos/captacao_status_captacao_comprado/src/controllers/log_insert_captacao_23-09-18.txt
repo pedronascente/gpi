@@ -1,0 +1,8 @@
+[23-09-18] [02:12:18] ID :12 , USUARIO:DANIEL LIMA , INTERESSE:5 , CLIENTE: Rogério  , TELEFONE: (51)99867-3763, EMAIL: rogeriovaz@yahoo.com.br , ORIGEM: http://www.volpatorastreamento.com.br , INDICADOR:  
+[23-09-18] [09:26:49] ID :12 , USUARIO:DANIEL LIMA , INTERESSE:5 , CLIENTE: Mário anderson nogueira de araujo  , TELEFONE: (51)99291-8888, EMAIL: banjoaraujo@hotmail.com , ORIGEM: www.grupovolpato.com/modal , INDICADOR:  
+[23-09-18] [11:08:18] ID :12 , USUARIO:DANIEL LIMA , INTERESSE:5 , CLIENTE: Márcio  , TELEFONE: (51)99807-8721, EMAIL: marciolena@gmail.com , ORIGEM: http://www.volpatorastreamento.com.br , INDICADOR:  
+[23-09-18] [13:41:40] ID :12 , USUARIO:DANIEL LIMA , INTERESSE:5 , CLIENTE: HENRIQUE NASCIMENTO  , TELEFONE: (51)99906-6938, EMAIL:  , ORIGEM: monitoramento , INDICADOR: placas 
+[23-09-18] [14:40:07] ID :12 , USUARIO:DANIEL LIMA , INTERESSE:5 , CLIENTE: Adilson Branco  , TELEFONE: (51)98182-7681, EMAIL: brancohh@gmail.com , ORIGEM: http://www.volpatorastreamento.com.br/ , INDICADOR:  
+[23-09-18] [14:57:46] ID :12 , USUARIO:DANIEL LIMA , INTERESSE:5 , CLIENTE: Ana Paula Agrinfo Ribeiro  , TELEFONE: (51)99208-6510, EMAIL: agrinforibeiro@gmail.com , ORIGEM: http://www.volpatorastreamento.com.br , INDICADOR:  
+[23-09-18] [19:37:01] ID :12 , USUARIO:DANIEL LIMA , INTERESSE:5 , CLIENTE: Jair prestes de oliveira  , TELEFONE: (51)98558-5762, EMAIL: jair.prestes@hotmail.com , ORIGEM: http://www.volpatorastreamento.com.br/ , INDICADOR:  
+[23-09-18] [20:45:37] ID :12 , USUARIO:DANIEL LIMA , INTERESSE:5 , CLIENTE: Rodrigo  , TELEFONE: (51)98330-6889, EMAIL: rodrigotm77@gmail.com , ORIGEM: http://www.volpatorastreamento.com.br , INDICADOR:  

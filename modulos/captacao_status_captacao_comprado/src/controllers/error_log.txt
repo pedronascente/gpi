@@ -1,0 +1,60 @@
+[23-Jul-2015 18:23:43 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in C:\wamp\www\gpi_semiFinal\application\models\ConnASC\ReadASC.class.php on line 72
+[23-Jul-2015 18:23:43 UTC] PHP Stack trace:
+[23-Jul-2015 18:23:43 UTC] PHP   1. {main}() C:\wamp\www\gpi_semiFinal\modulos\captacao\src\controllers\captacao.php:0
+[23-Jul-2015 18:23:43 UTC] PHP   2. include_once() C:\wamp\www\gpi_semiFinal\modulos\captacao\src\controllers\captacao.php:615
+[23-Jul-2015 18:23:43 UTC] PHP   3. IntegracaoAsc->getClienteAsc() C:\wamp\www\gpi_semiFinal\modulos\captacao\src\controllers\integracao_asc.php:51
+[23-Jul-2015 18:23:43 UTC] PHP   4. ReadASC->FullRead() C:\wamp\www\gpi_semiFinal\modulos\captacao\src\models\classes\IntegracaoAsc.class.php:50
+[23-Jul-2015 18:23:43 UTC] PHP   5. ReadASC->Execute() C:\wamp\www\gpi_semiFinal\application\models\ConnASC\ReadASC.class.php:55
+[23-Jul-2015 18:23:43 UTC] PHP   6. ReadASC->Connect() C:\wamp\www\gpi_semiFinal\application\models\ConnASC\ReadASC.class.php:94
+[23-Jul-2015 18:42:23 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in C:\wamp\www\gpi_semiFinal\application\models\ConnASC\ReadASC.class.php on line 73
+[23-Jul-2015 18:42:23 UTC] PHP Stack trace:
+[23-Jul-2015 18:42:23 UTC] PHP   1. {main}() C:\wamp\www\gpi_semiFinal\modulos\captacao\src\controllers\captacao.php:0
+[23-Jul-2015 18:42:23 UTC] PHP   2. include_once() C:\wamp\www\gpi_semiFinal\modulos\captacao\src\controllers\captacao.php:615
+[23-Jul-2015 18:42:23 UTC] PHP   3. IntegracaoAsc->getClienteAsc() C:\wamp\www\gpi_semiFinal\modulos\captacao\src\controllers\integracao_asc.php:53
+[23-Jul-2015 18:42:23 UTC] PHP   4. ReadASC->FullRead() C:\wamp\www\gpi_semiFinal\modulos\captacao\src\models\classes\IntegracaoAsc.class.php:50
+[23-Jul-2015 18:42:23 UTC] PHP   5. ReadASC->Execute() C:\wamp\www\gpi_semiFinal\application\models\ConnASC\ReadASC.class.php:56
+[23-Jul-2015 18:42:23 UTC] PHP   6. ReadASC->Connect() C:\wamp\www\gpi_semiFinal\application\models\ConnASC\ReadASC.class.php:95
+[23-Jul-2015 18:44:57 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in C:\wamp\www\gpi_semiFinal\application\models\ConnASC\ReadASC.class.php on line 73
+[23-Jul-2015 18:44:57 UTC] PHP Stack trace:
+[23-Jul-2015 18:44:57 UTC] PHP   1. {main}() C:\wamp\www\gpi_semiFinal\modulos\captacao\src\controllers\captacao.php:0
+[23-Jul-2015 18:44:57 UTC] PHP   2. include_once() C:\wamp\www\gpi_semiFinal\modulos\captacao\src\controllers\captacao.php:615
+[23-Jul-2015 18:44:57 UTC] PHP   3. IntegracaoAsc->getClienteAsc() C:\wamp\www\gpi_semiFinal\modulos\captacao\src\controllers\integracao_asc.php:53
+[23-Jul-2015 18:44:57 UTC] PHP   4. ReadASC->FullRead() C:\wamp\www\gpi_semiFinal\modulos\captacao\src\models\classes\IntegracaoAsc.class.php:50
+[23-Jul-2015 18:44:57 UTC] PHP   5. ReadASC->Execute() C:\wamp\www\gpi_semiFinal\application\models\ConnASC\ReadASC.class.php:56
+[23-Jul-2015 18:44:57 UTC] PHP   6. ReadASC->Connect() C:\wamp\www\gpi_semiFinal\application\models\ConnASC\ReadASC.class.php:95
+[23-Jul-2015 18:45:21 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in C:\wamp\www\gpi_semiFinal\application\models\ConnASC\ReadASC.class.php on line 73
+[23-Jul-2015 18:45:21 UTC] PHP Stack trace:
+[23-Jul-2015 18:45:21 UTC] PHP   1. {main}() C:\wamp\www\gpi_semiFinal\modulos\captacao\src\controllers\captacao.php:0
+[23-Jul-2015 18:45:21 UTC] PHP   2. include_once() C:\wamp\www\gpi_semiFinal\modulos\captacao\src\controllers\captacao.php:615
+[23-Jul-2015 18:45:21 UTC] PHP   3. IntegracaoAsc->getClienteAsc() C:\wamp\www\gpi_semiFinal\modulos\captacao\src\controllers\integracao_asc.php:53
+[23-Jul-2015 18:45:21 UTC] PHP   4. ReadASC->FullRead() C:\wamp\www\gpi_semiFinal\modulos\captacao\src\models\classes\IntegracaoAsc.class.php:50
+[23-Jul-2015 18:45:21 UTC] PHP   5. ReadASC->Execute() C:\wamp\www\gpi_semiFinal\application\models\ConnASC\ReadASC.class.php:56
+[23-Jul-2015 18:45:21 UTC] PHP   6. ReadASC->Connect() C:\wamp\www\gpi_semiFinal\application\models\ConnASC\ReadASC.class.php:95
+[23-Jul-2015 18:52:21 UTC] PHP Fatal error:  Call to undefined method IntegracaoAsc::Read() in C:\wamp\www\gpi_semiFinal\modulos\captacao\src\controllers\integracao_asc.php on line 25
+[23-Jul-2015 18:52:21 UTC] PHP Stack trace:
+[23-Jul-2015 18:52:21 UTC] PHP   1. {main}() C:\wamp\www\gpi_semiFinal\modulos\captacao\src\controllers\captacao.php:0
+[23-Jul-2015 18:52:21 UTC] PHP   2. include_once() C:\wamp\www\gpi_semiFinal\modulos\captacao\src\controllers\captacao.php:615
+[23-Jul-2015 18:52:42 UTC] PHP Fatal error:  Call to undefined method IntegracaoAsc::Read() in C:\wamp\www\gpi_semiFinal\modulos\captacao\src\models\classes\IntegracaoAsc.class.php on line 50
+[23-Jul-2015 18:52:42 UTC] PHP Stack trace:
+[23-Jul-2015 18:52:42 UTC] PHP   1. {main}() C:\wamp\www\gpi_semiFinal\modulos\captacao\src\controllers\captacao.php:0
+[23-Jul-2015 18:52:43 UTC] PHP   2. include_once() C:\wamp\www\gpi_semiFinal\modulos\captacao\src\controllers\captacao.php:615
+[23-Jul-2015 18:52:43 UTC] PHP   3. IntegracaoAsc->getClienteAsc() C:\wamp\www\gpi_semiFinal\modulos\captacao\src\controllers\integracao_asc.php:53
+[23-Jul-2015 19:20:19 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in C:\wamp\www\gpi_semiFinal\application\models\ConnASC\ReadASC.class.php on line 73
+[23-Jul-2015 19:20:19 UTC] PHP Stack trace:
+[23-Jul-2015 19:20:19 UTC] PHP   1. {main}() C:\wamp\www\gpi_semiFinal\modulos\captacao\src\controllers\captacao.php:0
+[23-Jul-2015 19:20:19 UTC] PHP   2. include_once() C:\wamp\www\gpi_semiFinal\modulos\captacao\src\controllers\captacao.php:615
+[23-Jul-2015 19:20:19 UTC] PHP   3. IntegracaoAsc->getClienteAsc() C:\wamp\www\gpi_semiFinal\modulos\captacao\src\controllers\integracao_asc.php:53
+[23-Jul-2015 19:20:19 UTC] PHP   4. ReadASC->FullRead() C:\wamp\www\gpi_semiFinal\modulos\captacao\src\models\classes\IntegracaoAsc.class.php:50
+[23-Jul-2015 19:20:19 UTC] PHP   5. ReadASC->Execute() C:\wamp\www\gpi_semiFinal\application\models\ConnASC\ReadASC.class.php:56
+[23-Jul-2015 19:20:19 UTC] PHP   6. ReadASC->Connect() C:\wamp\www\gpi_semiFinal\application\models\ConnASC\ReadASC.class.php:95
+[24-Jul-2015 12:53:21 UTC] PHP Fatal error:  Call to undefined method Funcoes::cortarString() in C:\wamp\www\gpi_semiFinal\modulos\captacao\src\controllers\integracao_asc.php on line 319
+[24-Jul-2015 12:53:21 UTC] PHP Stack trace:
+[24-Jul-2015 12:53:21 UTC] PHP   1. {main}() C:\wamp\www\gpi_semiFinal\modulos\captacao\src\controllers\captacao.php:0
+[24-Jul-2015 12:53:21 UTC] PHP   2. include_once() C:\wamp\www\gpi_semiFinal\modulos\captacao\src\controllers\captacao.php:622
+[24-Jul-2015 12:53:21 UTC] PHP   3. novoCadastro() C:\wamp\www\gpi_semiFinal\modulos\captacao\src\controllers\integracao_asc.php:80
+[17-Aug-2015 16:11:38 UTC] PHP Fatal error:  Class 'PHPMailer' not found in C:\wamp\www\gpi_semiFinal\modulos\captacao\src\controllers\captacao.php on line 387
+[17-Aug-2015 16:11:38 UTC] PHP Stack trace:
+[17-Aug-2015 16:11:38 UTC] PHP   1. {main}() C:\wamp\www\gpi_semiFinal\modulos\captacao\src\controllers\captacao.php:0
+[17-Aug-2015 16:12:21 UTC] PHP Fatal error:  Class 'PHPMailer' not found in C:\wamp\www\gpi_semiFinal\modulos\captacao\src\controllers\captacao.php on line 387
+[17-Aug-2015 16:12:21 UTC] PHP Stack trace:
+[17-Aug-2015 16:12:21 UTC] PHP   1. {main}() C:\wamp\www\gpi_semiFinal\modulos\captacao\src\controllers\captacao.php:0

@@ -1,0 +1,141 @@
+<?php
+include_once (__DIR__ . "\bootstrap.php");
+?>
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Modulo de SAC</title>
+    </head>
+    <body>
+        <?php
+        switch ($pg) {
+            case 10:
+                include_once (__DIR__ . "\src\controllers\controller_lst_sacGerenciadorCliente.php");
+                ?>
+                <ul class="nav nav-tabs">
+                    <?php if (!$display) { ?>
+                        <li><a data-toggle="tab" href="#listarClientes">Lista Cliente</a></li>
+                    <?php } ?>
+                        <li><a data-toggle="tab" href="#cliente"> Cliente</a></li>
+                    <?php if ($display) { ?>
+                        <li><a data-toggle="tab" href="#veiculos">Veiculos</a></li>
+                        <li><a data-toggle="tab" href="#os">Ordem de Serviço</a></li>
+                        <?php if(empty($p)){?>
+                        <li><a data-toggle="tab" href="#log">Log</a></li>
+                        <?php }?>
+                    <?php } ?>
+                </ul>
+                <div class="tab-content">
+                    <?php if (!$display) { ?>
+                        <div id="listarClientes" class="tab-pane fade">
+                            <div class="panel panel-primary">
+                            	<div class="panel-heading"></div>
+                                <div class="panel-body">
+                                    <?php include_once(__DIR__ . "/src/views/formularios/frm_sacSistemaDeBusca.php"); ?>
+                                </div>
+                            </div>
+                        </div>
+                    <?php }  ?>
+                        <div id="cliente" class="tab-pane fade">
+                            <div class="panel panel-primary">
+                            	<div class="panel-heading"></div>
+                                <div class="panel-body">
+                                    <?php
+                                    include_once __DIR__ . "/src/views/formularios/frm_sacDadosCliente.php";
+                                    if($acao == "cadastrarCliente" || $acao =="ListarCliente"){
+	                                    include_once __DIR__ . "/src/views/listas/lst_sacSenhasClientes.php";
+	                                    include_once __DIR__ . "/src/views/listas/lst_sacDadosContato.php";
+                                    }
+                                    ?> 
+                                    <a href="index.php?pg=10#listarClientes" class="btn btn-default">Voltar</a>
+                                </div>       
+                            </div>
+                        </div>
+                    <?php if ($display) { ?>
+                        <div id="veiculos" class="tab-pane fade">
+                            <div class="panel panel-primary">  
+                            	<div class="panel-heading"></div>
+                                <div class="panel-body">  		
+                                    <?php
+                                    include_once __DIR__ . '/src/views/formularios/frm_sacVeiculos.php';
+                                    include_once __DIR__ . "/src/views/listas/lst_sacDadosVeiculo.php";
+                                    ?>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="os" class="tab-pane fade">
+                            <div class="panel panel-primary">  
+                            	<div class="panel-heading"></div>
+                                <div class="panel-body">  		
+                                    <?php
+                                    include_once(__DIR__ . "/src/views/formularios/frm_sacDadosOs.php");
+                                    ?>
+                                </div>
+                            </div>
+                        </div>
+                        <?php if(empty($p)){?>
+                        <div id="log" class="tab-pane fade">
+                            <div class="panel panel-primary">
+                            	<div class="panel-heading"></div>
+                                <div class="panel-body">
+                                    <?php include_once 'modulos/log/src/views/listas/lst_log.php'; ?>
+                                </div>
+                            </div>
+                        </div>
+                        <?php }?>
+                    <?php } ?>
+                </div>
+                <?php
+                break;
+            case 38:
+                include_once (__DIR__ . "\src\controllers\controller_credenciados.php");
+                ?>
+                <ul class="nav nav-tabs">
+                    <li><a data-toggle="tab" href="#listaCredenciados">Credenciados</a></li>
+                    <li><a data-toggle="tab" href="#cadastrarCredenciado">Cadastro</a></li>
+                    <?php if($acao == "listarCredenciado" && empty($p)){?>
+                    <li><a data-toggle="tab" href="#log">Log</a></li>
+                    <?php }?>
+                </ul>
+                <div class="tab-content">
+                    <div id="listaCredenciados" class="tab-pane fade">
+                        <div class="panel panel-primary">  
+                        	<div class="panel-heading"></div>
+                            <div class="panel-body">  
+                                <?php include_once __DIR__ . '/src/views/formularios/frm_buscaCredenciados.php'; ?>
+                                <?php include_once __DIR__ . '/src/views/listas/lst_credenciados.php'; ?>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="cadastrarCredenciado" class="tab-pane fade">
+                        <div class="panel panel-primary">  
+                        	<div class="panel-heading"></div>
+                            <div class="panel-body">  
+                                <?php include_once __DIR__ . '/src/views/formularios/frm_credenciados.php'; ?>
+                                <?php include_once __DIR__ . "/src/views/listas/lst_sacDadosContato.php"; ?>
+                            </div>
+                        </div>
+                    </div>
+                    <?php if(empty($p) || $acao == "listarCredenciado"){?>
+                    <div id="log" class="tab-pane fade">
+                        <div class="panel panel-primary">
+                        	<div class="panel-heading"></div>
+                            <div class="panel-body">
+                                <?php include_once 'modulos/log/src/views/listas/lst_log.php'; ?>
+                            </div>
+                        </div>
+                    </div>
+                    <?php }?>
+                </div>
+                <?php
+                break;
+            case 40:
+                include_once (__DIR__ . "\src\controllers\controller_os.php");
+                include_once __DIR__ . '/src/views/formularios/frm_buscaOs.php';
+                include_once(__DIR__ . "/src/views/listas/lst_OsAberto.php");
+                break;
+        }
+        ?>
+    </body>
+</html>

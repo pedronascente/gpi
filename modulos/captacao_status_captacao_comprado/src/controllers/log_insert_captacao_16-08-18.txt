@@ -1,0 +1,5 @@
+[16-08-18] [17:07:03] ID :603  , Usuario :FERNANDA PIRES , Interesse :5 , Cliente: qwewqqwqwe1232  , Telefone: (12)31221-3123, Email: 32112312312@bol.com , Origem: monitoramento 
+[16-08-18] [17:08:31] ID :448  , Usuario :Agendamento , Interesse :1 , Cliente: 234324  , Telefone: (23)23423-4234, Email: 123123123@bol.com , Origem: monitoramento 
+[16-08-18] [17:31:54] ID :603  , Usuario :FERNANDA PIRES , Interesse :5 , Cliente: 234324  , Telefone: (23)23232-3232, Email: 123123123@bol.com , Origem: monitoramento 
+[16-08-18] [17:32:46] ID :603  , Usuario :FERNANDA PIRES , Interesse :5 , Cliente: 31243432  , Telefone: (34)53453-4534, Email: 123123123@bol.com , Origem: monitoramento 
+[16-08-18] [17:44:45] ID :603  , Usuario :FERNANDA PIRES , Interesse :5 , Cliente: 234324  , Telefone: (32)42343-2432, Email: 123123123@bol.com , Origem: monitoramento 
