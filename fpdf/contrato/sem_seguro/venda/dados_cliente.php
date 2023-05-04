@@ -25,108 +25,131 @@ $html = '
             <p> <b> 1.2. CONTRATANTE </b></p>
 
             <table border="1" cellspacing="0" cellpadding="0" width="100%">';
-                if($seguro !=true){
-                    $html.='
+if ($seguro != true) {
+    $html .= '
                     <tr>
-                        <td style="padding:2px" colspan="4"><strong>NOME/ RAZÃO SOCIAL:</strong><br />'.$list_cliente['nome_cliente'].'</td>
-                        <td style="padding:2px"><strong>DATA NASCIMENTO:</strong><br />'.$list_cliente['data_nascimento'].'</td>
+                        <td style="padding:2px" colspan="4"><strong>NOME/ RAZÃO SOCIAL:</strong><br />' . $list_cliente['nome_cliente'] . '</td>
+                        <td style="padding:2px"><strong>DATA NASCIMENTO:</strong><br />' . $list_cliente['data_nascimento'] . '</td>
                     </tr>';
-                }else{
-                    $html.='
+} else {
+    $html .= '
                     <tr>
-                        <td style="padding:2px" colspan="3"><strong>NOME/ RAZÃO SOCIAL:</strong><br />'.$list_cliente['nome_cliente'].'</td>
-                        <td style="padding:2px"><strong>CPF/CNPJ:</strong><br />'.$list_cliente['cnpjcpf_cliente'].'</td>
-                        <td style="padding:2px"><strong>ESTADO CIVIL:</strong><br />'.strtoupper($list_cliente['estado_civil']) .'</td>
+                        <td style="padding:2px" colspan="3"><strong>NOME/ RAZÃO SOCIAL:</strong><br />' . $list_cliente['nome_cliente'] . '</td>
+                        <td style="padding:2px"><strong>CPF/CNPJ:</strong><br />' . $list_cliente['cnpjcpf_cliente'] . '</td>
+                        <td style="padding:2px"><strong>ESTADO CIVIL:</strong><br />' . strtoupper($list_cliente['estado_civil']) . '</td>
                     </tr>';
-                }           
-                $html.='
+}
+$html .= '
                 <tr>
-                    <td style="padding:2px"  colspan="2" ><strong>INSC. MUNICIPAL:</strong><br />'.$list_cliente['inscr_municipal'].'</td>
-                    <td style="padding:2px"><strong>INSC. ESTADUAL/RG:</strong> <br />'.$list_cliente['rg_cliente'].'</td>
-                    <td style="padding:2px"  colspan="2" ><strong>CPF/CNPJ:</strong><br />'.$list_cliente['cnpjcpf_cliente'].'</td>
+                    <td style="padding:2px"  colspan="2" ><strong>INSC. MUNICIPAL:</strong><br />' . $list_cliente['inscr_municipal'] . '</td>
+                    <td style="padding:2px"><strong>INSC. ESTADUAL/RG:</strong> <br />' . $list_cliente['rg_cliente'] . '</td>
+                    <td style="padding:2px"  colspan="2" ><strong>CPF/CNPJ:</strong><br />' . $list_cliente['cnpjcpf_cliente'] . '</td>
                 </tr>';
-                if(!empty($CONTATO1['nome_contato']) || !empty($CONTATO2['nome_contato'])){
-                    if(!empty($CONTATO1['nome_contato'])){
-                        $html.='
+if (!empty($CONTATO1['nome_contato']) || !empty($CONTATO2['nome_contato'])) {
+    if (!empty($CONTATO1['nome_contato'])) {
+        $html .= '
                         <tr>
-                            <td style="padding:2px" colspan="2"><strong>1°CONTATO:</strong><br />'.$CONTATO1['nome_contato'].'</td>  
-                            <td style="padding:2px"><strong>TELEFONE 1:</strong><br />'.$CONTATO1['telefone1_contato'].'</td>
-                            <td style="padding:2px"><strong>TELEFONE 2:</strong><br />'.$CONTATO1['telefone2_contato'].'</td>
-                            <td style="padding:2px"><strong>TELEFONE 3:</strong><br />'.$CONTATO1['telefone3_contato'].'</td> 
+                            <td style="padding:2px" colspan="2"><strong>1°CONTATO:</strong><br />' . $CONTATO1['nome_contato'] . '</td>  
+                            <td style="padding:2px"><strong>TELEFONE 1:</strong><br />' . $CONTATO1['telefone1_contato'] . '</td>
+                            <td style="padding:2px"><strong>TELEFONE 2:</strong><br />' . $CONTATO1['telefone2_contato'] . '</td>
+                            <td style="padding:2px"><strong>TELEFONE 3:</strong><br />' . $CONTATO1['telefone3_contato'] . '</td> 
                         </tr>';
-                         if(!empty($CONTATO1['email_contato'])){
-                            $html.='
+        if (!empty($CONTATO1['email_contato'])) {
+            $html .= '
                              <tr>
-                                <td style="padding:2px" colspan="5"><strong>E-MAIL /1°CONTATO:</strong><br />'.$CONTATO1['email_contato'].'</td>  
+                                <td style="padding:2px" colspan="5"><strong>E-MAIL /1°CONTATO:</strong><br />' . $CONTATO1['email_contato'] . '</td>  
                             </tr>';
-                         }
-                    }
-                    if(!empty($CONTATO2['nome_contato'])){
-                        $html.='
+        }
+    }
+    if (!empty($CONTATO2['nome_contato'])) {
+        $html .= '
                         <tr>
-                            <td style="padding:2px" colspan="2"><strong>2°CONTATO:</strong><br />'.$CONTATO2['nome_contato'].'</td>  
-                            <td style="padding:2px"><strong>TELEFONE 1:</strong><br />'.$CONTATO2['telefone1_contato'].'</td>
-                            <td style="padding:2px"><strong>TELEFONE 2:</strong><br />'.$CONTATO2['telefone2_contato'].'</td>
-                            <td style="padding:2px"><strong>TELEFONE 3:</strong><br />'.$CONTATO2['telefone3_contato'].'</td> 
+                            <td style="padding:2px" colspan="2"><strong>2°CONTATO:</strong><br />' . $CONTATO2['nome_contato'] . '</td>  
+                            <td style="padding:2px"><strong>TELEFONE 1:</strong><br />' . $CONTATO2['telefone1_contato'] . '</td>
+                            <td style="padding:2px"><strong>TELEFONE 2:</strong><br />' . $CONTATO2['telefone2_contato'] . '</td>
+                            <td style="padding:2px"><strong>TELEFONE 3:</strong><br />' . $CONTATO2['telefone3_contato'] . '</td> 
                         </tr> ';
-                        if(!empty($CONTATO2['email_contato'])){
-                            $html.='<tr>
-                            <td style="padding:2px" colspan="5"><strong>E-MAIL /2°CONTATO:</strong><br />'.$CONTATO2['email_contato'].'</td>  
+        if (!empty($CONTATO2['email_contato'])) {
+            $html .= '<tr>
+                            <td style="padding:2px" colspan="5"><strong>E-MAIL /2°CONTATO:</strong><br />' . $CONTATO2['email_contato'] . '</td>  
                         </tr>';
-                        }
-                    }
-                }else{
-                    $html.='
+        }
+    }
+} else {
+    $html .= '
                         <tr>
-                            <td style="padding:2px" colspan="3"><strong>CONTATO:</strong><br />'.$list_cliente['contato_cliente'].'</td>  
-                            <td style="padding:2px" colspan="2"><strong>E-MAIL:</strong><br />'.$list_cliente['email_cliente'].'</td>                 
+                            <td style="padding:2px" colspan="3"><strong>CONTATO:</strong><br />' . $list_cliente['contato_cliente'] . '</td>  
+                            <td style="padding:2px" colspan="2"><strong>E-MAIL:</strong><br />' . $list_cliente['email_cliente'] . '</td>                 
                         </tr>
                         <tr>
-                            <td style="padding:2px" colspan="3"><strong>TELEFONE 1:</strong><br />'.$list_cliente['telefone_cliente'].'</td>
-                            <td style="padding:2px" colspan="2"><strong>TELEFONE 2:</strong><br />'.$list_cliente['celular_cliente'].'</td>
+                            <td style="padding:2px" colspan="3"><strong>TELEFONE 1:</strong><br />' . $list_cliente['telefone_cliente'] . '</td>
+                            <td style="padding:2px" colspan="2"><strong>TELEFONE 2:</strong><br />' . $list_cliente['celular_cliente'] . '</td>
                         </tr>
                     ';
-                }
-                $html.='                
+}
+/*
+
+if (!empty($list_cliente['socio_1'])) {
+    $html .= '
+                        <tr>
+                            <td style="padding:2px" colspan="3"><strong>1°SÓCIO:</strong><br />' . $list_cliente['socio_1'] . '</td>  
+                            <td style="padding:2px" colspan="2"><strong>CPF:</strong><br />' . $list_cliente['cpf_socio1'] . '</td>                 
+                        </tr>
+                        
+                    ';
+}
+if (!empty($list_cliente['socio_2'])) {
+    $html .= '
+                        <tr>
+                            <td style="padding:2px" colspan="3"><strong>2°SÓCIO:</strong><br />' . $list_cliente['socio_2'] . '</td>  
+                            <td style="padding:2px" colspan="2"><strong>CPF:</strong><br />' . $list_cliente['cpf_socio2'] . '</td>                 
+                        </tr>
+                        
+                    ';
+}
+
+*/
+
+$html .= '                
                 <tr>
-                    <td style="padding:2px"  colspan="3"><strong>ENDEREÇO RESIDENCIAL: </strong><br>'.$list_cliente['logradouro_cliente'].' N&deg; '.$list_cliente['numero_cliente'].'&nbsp;&nbsp;'.$list_cliente['complemento_cliente'].'</td>
-                    <td style="padding:2px"  colspan="2"><strong>BAIRRO:</strong><br />'.$list_cliente['bairro_cliente'].'</td>                             
+                    <td style="padding:2px"  colspan="3"><strong>ENDEREÇO RESIDENCIAL: </strong><br>' . $list_cliente['logradouro_cliente'] . ' N&deg; ' . $list_cliente['numero_cliente'] . '&nbsp;&nbsp;' . $list_cliente['complemento_cliente'] . '</td>
+                    <td style="padding:2px"  colspan="2"><strong>BAIRRO:</strong><br />' . $list_cliente['bairro_cliente'] . '</td>                             
                 </tr>
                 <tr>
-                    <td style="padding:2px"  colspan="3"><strong>CIDADE:</strong><br />'.$list_cliente['cidade_cliente'].'</td>
-                    <td style="padding:2px"><strong>UF:</strong><br/>'.$list_cliente['uf_cliente'].'</td>
-                    <td style="padding:2px"><strong>CEP:</strong><br>'.$list_cliente['cep_cliente'].'</td>
+                    <td style="padding:2px"  colspan="3"><strong>CIDADE:</strong><br />' . $list_cliente['cidade_cliente'] . '</td>
+                    <td style="padding:2px"><strong>UF:</strong><br/>' . $list_cliente['uf_cliente'] . '</td>
+                    <td style="padding:2px"><strong>CEP:</strong><br>' . $list_cliente['cep_cliente'] . '</td>
                 </tr>';
-                if(!empty($ENDERECO_COBRANCA['logradouro_cobranca'])){
-                    $html.='
+if (!empty($ENDERECO_COBRANCA['logradouro_cobranca'])) {
+    $html .= '
                     <tr>
-                        <td style="padding:2px" colspan="3" ><strong>ENDEREÇO DE COBRANÇA:</strong><br />'.$ENDERECO_COBRANCA['logradouro_cobranca'].' N&deg; '.$ENDERECO_COBRANCA['numero_cobranca'].'&nbsp;&nbsp;'.$ENDERECO_COBRANCA['complemento_cobranca'].'</td>
-                        <td style="padding:2px" colspan="2"><strong>BAIRRO:<br /> </strong>'.$ENDERECO_COBRANCA['bairro_cobranca'].'</td>
+                        <td style="padding:2px" colspan="3" ><strong>ENDEREÇO DE COBRANÇA:</strong><br />' . $ENDERECO_COBRANCA['logradouro_cobranca'] . ' N&deg; ' . $ENDERECO_COBRANCA['numero_cobranca'] . '&nbsp;&nbsp;' . $ENDERECO_COBRANCA['complemento_cobranca'] . '</td>
+                        <td style="padding:2px" colspan="2"><strong>BAIRRO:<br /> </strong>' . $ENDERECO_COBRANCA['bairro_cobranca'] . '</td>
                     </tr>
                     <tr>
-                        <td style="padding:2px"  colspan="3"><strong>CIDADE:</strong><br />'.$ENDERECO_COBRANCA['cidade_cobranca'].'</td>
-                        <td style="padding:2px"><strong>UF:</strong><br />'.strtoupper($ENDERECO_COBRANCA['uf_cobranca']).'</td>
-                        <td style="padding:2px"><strong>CEP: </strong><br>'.$ENDERECO_COBRANCA['cep_cobranca'].'</td>
+                        <td style="padding:2px"  colspan="3"><strong>CIDADE:</strong><br />' . $ENDERECO_COBRANCA['cidade_cobranca'] . '</td>
+                        <td style="padding:2px"><strong>UF:</strong><br />' . strtoupper($ENDERECO_COBRANCA['uf_cobranca']) . '</td>
+                        <td style="padding:2px"><strong>CEP: </strong><br>' . $ENDERECO_COBRANCA['cep_cobranca'] . '</td>
                     </tr>';
-                }
-                if(!empty($ENDERECO_ENTREGA['logradouro_cobranca'])){
-                    $html.='
+}
+if (!empty($ENDERECO_ENTREGA['logradouro_cobranca'])) {
+    $html .= '
                     <tr>
-                        <td style="padding:2px" colspan="3" ><strong>ENDEREÇO DE ENTREGA:</strong><br />'.$ENDERECO_ENTREGA['logradouro_cobranca'].' N&deg; '.$ENDERECO_ENTREGA['numero_cobranca'].'&nbsp;&nbsp;'.$ENDERECO_ENTREGA['complemento_cobranca'].'</td>
-                        <td style="padding:2px" colspan="2"><strong>BAIRRO:<br /> </strong>'.$ENDERECO_ENTREGA['bairro_cobranca'].'</td>
+                        <td style="padding:2px" colspan="3" ><strong>ENDEREÇO DE ENTREGA:</strong><br />' . $ENDERECO_ENTREGA['logradouro_cobranca'] . ' N&deg; ' . $ENDERECO_ENTREGA['numero_cobranca'] . '&nbsp;&nbsp;' . $ENDERECO_ENTREGA['complemento_cobranca'] . '</td>
+                        <td style="padding:2px" colspan="2"><strong>BAIRRO:<br /> </strong>' . $ENDERECO_ENTREGA['bairro_cobranca'] . '</td>
                     </tr>
                     <tr>
-                        <td style="padding:2px"  colspan="3"><strong>CIDADE:</strong><br />'.$ENDERECO_ENTREGA['cidade_cobranca'].'</td>
-                        <td style="padding:2px"><strong>UF:</strong><br />'.strtoupper($ENDERECO_ENTREGA['uf_cobranca']).'</td>
-                        <td style="padding:2px"><strong>CEP: </strong><br>'.$ENDERECO_ENTREGA['cep_cobranca'].'</td>
+                        <td style="padding:2px"  colspan="3"><strong>CIDADE:</strong><br />' . $ENDERECO_ENTREGA['cidade_cobranca'] . '</td>
+                        <td style="padding:2px"><strong>UF:</strong><br />' . strtoupper($ENDERECO_ENTREGA['uf_cobranca']) . '</td>
+                        <td style="padding:2px"><strong>CEP: </strong><br>' . $ENDERECO_ENTREGA['cep_cobranca'] . '</td>
                     </tr>
                     <tr>
-                        <td style="padding:2px"  colspan="3"><strong>A/C:</strong><br />'.$ENDERECO_ENTREGA['contato_cobranca'].'</td>
-                        <td style="padding:2px"><strong>TELEFONE:</strong><br />'.strtoupper($ENDERECO_ENTREGA['telefone_cobranca']).'</td>
-                        <td style="padding:2px"><strong>CELULAR: </strong><br>'.$ENDERECO_ENTREGA['celular_cobranca'].'</td>
+                        <td style="padding:2px"  colspan="3"><strong>A/C:</strong><br />' . $ENDERECO_ENTREGA['contato_cobranca'] . '</td>
+                        <td style="padding:2px"><strong>TELEFONE:</strong><br />' . strtoupper($ENDERECO_ENTREGA['telefone_cobranca']) . '</td>
+                        <td style="padding:2px"><strong>CELULAR: </strong><br>' . $ENDERECO_ENTREGA['celular_cobranca'] . '</td>
                     </tr>';
-                }
-                $html.='<tr>
-                  <td style="padding:2px" colspan="5"><strong>OBSERVAÇÕES:</strong><br />'.nl2br($list_cliente['obs_clientes']).'</td>
+}
+$html .= '<tr>
+                  <td style="padding:2px" colspan="5"><strong>OBSERVAÇÕES:</strong><br />' . nl2br($list_cliente['obs_clientes']) . '</td>
                 </tr>
             </table><br>';

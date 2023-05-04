@@ -2179,3 +2179,298 @@ Stack trace:
 [20-Dec-2022 13:51:31 America/Sao_Paulo] PHP   6. Read->FullRead() C:\wamp64\www\gpi\modulos\captacao\src\models\classes\Captacao.class.php:109
 [20-Dec-2022 13:51:31 America/Sao_Paulo] PHP   7. Read->Execute() C:\wamp64\www\gpi\application\models\Conn\Read.class.php:59
 [20-Dec-2022 13:51:31 America/Sao_Paulo] PHP   8. PDOStatement->fetchAll() C:\wamp64\www\gpi\application\models\Conn\Read.class.php:103
+[28-Dec-2022 16:45:47 America/Sao_Paulo] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes) in C:\wamp64\www\gpi\application\models\Conn\Read.class.php on line 103
+[28-Dec-2022 16:45:47 America/Sao_Paulo] PHP Stack trace:
+[28-Dec-2022 16:45:47 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\gpi\index.php:0
+[28-Dec-2022 16:45:47 America/Sao_Paulo] PHP   2. Url->__construct() C:\wamp64\www\gpi\index.php:81
+[28-Dec-2022 16:45:47 America/Sao_Paulo] PHP   3. Url->listaPaginas() C:\wamp64\www\gpi\application\models\classes\Url.class.php:8
+[28-Dec-2022 16:45:47 America/Sao_Paulo] PHP   4. include_once() C:\wamp64\www\gpi\application\models\classes\Url.class.php:193
+[28-Dec-2022 16:45:47 America/Sao_Paulo] PHP   5. Captacao->selectCaptacaoUser() C:\wamp64\www\gpi\modulos\captacao\src\views\captacao\listas\lst_captacao.php:10
+[28-Dec-2022 16:45:47 America/Sao_Paulo] PHP   6. Read->FullRead() C:\wamp64\www\gpi\modulos\captacao\src\models\classes\Captacao.class.php:109
+[28-Dec-2022 16:45:47 America/Sao_Paulo] PHP   7. Read->Execute() C:\wamp64\www\gpi\application\models\Conn\Read.class.php:59
+[28-Dec-2022 16:45:47 America/Sao_Paulo] PHP   8. PDOStatement->fetchAll() C:\wamp64\www\gpi\application\models\Conn\Read.class.php:103
+[03-Jan-2023 17:35:38 America/Sao_Paulo] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes) in C:\wamp64\www\gpi\application\models\Conn\Read.class.php on line 103
+[03-Jan-2023 17:35:38 America/Sao_Paulo] PHP Stack trace:
+[03-Jan-2023 17:35:38 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\gpi\index.php:0
+[03-Jan-2023 17:35:38 America/Sao_Paulo] PHP   2. Url->__construct() C:\wamp64\www\gpi\index.php:81
+[03-Jan-2023 17:35:38 America/Sao_Paulo] PHP   3. Url->listaPaginas() C:\wamp64\www\gpi\application\models\classes\Url.class.php:8
+[03-Jan-2023 17:35:38 America/Sao_Paulo] PHP   4. include_once() C:\wamp64\www\gpi\application\models\classes\Url.class.php:193
+[03-Jan-2023 17:35:38 America/Sao_Paulo] PHP   5. Captacao->selectCaptacaoUser() C:\wamp64\www\gpi\modulos\captacao\src\views\captacao\listas\lst_captacao.php:10
+[03-Jan-2023 17:35:38 America/Sao_Paulo] PHP   6. Read->FullRead() C:\wamp64\www\gpi\modulos\captacao\src\models\classes\Captacao.class.php:109
+[03-Jan-2023 17:35:38 America/Sao_Paulo] PHP   7. Read->Execute() C:\wamp64\www\gpi\application\models\Conn\Read.class.php:59
+[03-Jan-2023 17:35:38 America/Sao_Paulo] PHP   8. PDOStatement->fetchAll() C:\wamp64\www\gpi\application\models\Conn\Read.class.php:103
+[05-Jan-2023 10:00:20 America/Sao_Paulo] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes) in C:\wamp64\www\gpi\application\models\Conn\Read.class.php on line 103
+[05-Jan-2023 10:00:20 America/Sao_Paulo] PHP Stack trace:
+[05-Jan-2023 10:00:20 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\gpi\index.php:0
+[05-Jan-2023 10:00:20 America/Sao_Paulo] PHP   2. Url->__construct() C:\wamp64\www\gpi\index.php:81
+[05-Jan-2023 10:00:20 America/Sao_Paulo] PHP   3. Url->listaPaginas() C:\wamp64\www\gpi\application\models\classes\Url.class.php:8
+[05-Jan-2023 10:00:20 America/Sao_Paulo] PHP   4. include_once() C:\wamp64\www\gpi\application\models\classes\Url.class.php:193
+[05-Jan-2023 10:00:20 America/Sao_Paulo] PHP   5. Captacao->selectCaptacaoUser() C:\wamp64\www\gpi\modulos\captacao\src\views\captacao\listas\lst_captacao.php:10
+[05-Jan-2023 10:00:20 America/Sao_Paulo] PHP   6. Read->FullRead() C:\wamp64\www\gpi\modulos\captacao\src\models\classes\Captacao.class.php:109
+[05-Jan-2023 10:00:20 America/Sao_Paulo] PHP   7. Read->Execute() C:\wamp64\www\gpi\application\models\Conn\Read.class.php:59
+[05-Jan-2023 10:00:20 America/Sao_Paulo] PHP   8. PDOStatement->fetchAll() C:\wamp64\www\gpi\application\models\Conn\Read.class.php:103
+[10-Jan-2023 10:47:55 America/Sao_Paulo] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes) in C:\wamp64\www\gpi\application\models\Conn\Read.class.php on line 103
+[10-Jan-2023 10:47:55 America/Sao_Paulo] PHP Stack trace:
+[10-Jan-2023 10:47:55 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\gpi\index.php:0
+[10-Jan-2023 10:47:55 America/Sao_Paulo] PHP   2. Url->__construct() C:\wamp64\www\gpi\index.php:81
+[10-Jan-2023 10:47:55 America/Sao_Paulo] PHP   3. Url->listaPaginas() C:\wamp64\www\gpi\application\models\classes\Url.class.php:8
+[10-Jan-2023 10:47:55 America/Sao_Paulo] PHP   4. include_once() C:\wamp64\www\gpi\application\models\classes\Url.class.php:193
+[10-Jan-2023 10:47:55 America/Sao_Paulo] PHP   5. Captacao->selectCaptacaoUser() C:\wamp64\www\gpi\modulos\captacao\src\views\captacao\listas\lst_captacao.php:10
+[10-Jan-2023 10:47:55 America/Sao_Paulo] PHP   6. Read->FullRead() C:\wamp64\www\gpi\modulos\captacao\src\models\classes\Captacao.class.php:109
+[10-Jan-2023 10:47:55 America/Sao_Paulo] PHP   7. Read->Execute() C:\wamp64\www\gpi\application\models\Conn\Read.class.php:59
+[10-Jan-2023 10:47:55 America/Sao_Paulo] PHP   8. PDOStatement->fetchAll() C:\wamp64\www\gpi\application\models\Conn\Read.class.php:103
+[10-Jan-2023 17:51:06 America/Sao_Paulo] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes) in C:\wamp64\www\gpi\application\models\Conn\Read.class.php on line 103
+[10-Jan-2023 17:51:06 America/Sao_Paulo] PHP Stack trace:
+[10-Jan-2023 17:51:06 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\gpi\index.php:0
+[10-Jan-2023 17:51:06 America/Sao_Paulo] PHP   2. Url->__construct() C:\wamp64\www\gpi\index.php:81
+[10-Jan-2023 17:51:06 America/Sao_Paulo] PHP   3. Url->listaPaginas() C:\wamp64\www\gpi\application\models\classes\Url.class.php:8
+[10-Jan-2023 17:51:06 America/Sao_Paulo] PHP   4. include_once() C:\wamp64\www\gpi\application\models\classes\Url.class.php:193
+[10-Jan-2023 17:51:06 America/Sao_Paulo] PHP   5. Captacao->selectCaptacaoUser() C:\wamp64\www\gpi\modulos\captacao\src\views\captacao\listas\lst_captacao.php:10
+[10-Jan-2023 17:51:06 America/Sao_Paulo] PHP   6. Read->FullRead() C:\wamp64\www\gpi\modulos\captacao\src\models\classes\Captacao.class.php:109
+[10-Jan-2023 17:51:06 America/Sao_Paulo] PHP   7. Read->Execute() C:\wamp64\www\gpi\application\models\Conn\Read.class.php:59
+[10-Jan-2023 17:51:06 America/Sao_Paulo] PHP   8. PDOStatement->fetchAll() C:\wamp64\www\gpi\application\models\Conn\Read.class.php:103
+[11-Jan-2023 11:11:14 America/Sao_Paulo] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes) in C:\wamp64\www\gpi\application\models\Conn\Read.class.php on line 103
+[11-Jan-2023 11:11:14 America/Sao_Paulo] PHP Stack trace:
+[11-Jan-2023 11:11:14 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\gpi\index.php:0
+[11-Jan-2023 11:11:14 America/Sao_Paulo] PHP   2. Url->__construct() C:\wamp64\www\gpi\index.php:81
+[11-Jan-2023 11:11:15 America/Sao_Paulo] PHP   3. Url->listaPaginas() C:\wamp64\www\gpi\application\models\classes\Url.class.php:8
+[11-Jan-2023 11:11:15 America/Sao_Paulo] PHP   4. include_once() C:\wamp64\www\gpi\application\models\classes\Url.class.php:193
+[11-Jan-2023 11:11:15 America/Sao_Paulo] PHP   5. Captacao->selectCaptacaoUser() C:\wamp64\www\gpi\modulos\captacao\src\views\captacao\listas\lst_captacao.php:10
+[11-Jan-2023 11:11:15 America/Sao_Paulo] PHP   6. Read->FullRead() C:\wamp64\www\gpi\modulos\captacao\src\models\classes\Captacao.class.php:109
+[11-Jan-2023 11:11:15 America/Sao_Paulo] PHP   7. Read->Execute() C:\wamp64\www\gpi\application\models\Conn\Read.class.php:59
+[11-Jan-2023 11:11:15 America/Sao_Paulo] PHP   8. PDOStatement->fetchAll() C:\wamp64\www\gpi\application\models\Conn\Read.class.php:103
+[11-Jan-2023 11:11:23 America/Sao_Paulo] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes) in C:\wamp64\www\gpi\application\models\Conn\Read.class.php on line 103
+[11-Jan-2023 11:11:23 America/Sao_Paulo] PHP Stack trace:
+[11-Jan-2023 11:11:23 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\gpi\index.php:0
+[11-Jan-2023 11:11:23 America/Sao_Paulo] PHP   2. Url->__construct() C:\wamp64\www\gpi\index.php:81
+[11-Jan-2023 11:11:23 America/Sao_Paulo] PHP   3. Url->listaPaginas() C:\wamp64\www\gpi\application\models\classes\Url.class.php:8
+[11-Jan-2023 11:11:23 America/Sao_Paulo] PHP   4. include_once() C:\wamp64\www\gpi\application\models\classes\Url.class.php:193
+[11-Jan-2023 11:11:23 America/Sao_Paulo] PHP   5. Captacao->selectCaptacaoUser() C:\wamp64\www\gpi\modulos\captacao\src\views\captacao\listas\lst_captacao.php:10
+[11-Jan-2023 11:11:23 America/Sao_Paulo] PHP   6. Read->FullRead() C:\wamp64\www\gpi\modulos\captacao\src\models\classes\Captacao.class.php:109
+[11-Jan-2023 11:11:23 America/Sao_Paulo] PHP   7. Read->Execute() C:\wamp64\www\gpi\application\models\Conn\Read.class.php:59
+[11-Jan-2023 11:11:23 America/Sao_Paulo] PHP   8. PDOStatement->fetchAll() C:\wamp64\www\gpi\application\models\Conn\Read.class.php:103
+[12-Jan-2023 10:30:33 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in C:\wamp64\www\gpi\modulos\compras\src\views\formularios\frm_requisicao.php:11
+Stack trace:
+#0 C:\wamp64\www\gpi\modulos\compras\index.phtml(144): include_once()
+#1 C:\wamp64\www\gpi\application\models\classes\Url.class.php(193): include_once('C:\\wamp64\\www\\g...')
+#2 C:\wamp64\www\gpi\application\models\classes\Url.class.php(8): Url->listaPaginas('46')
+#3 C:\wamp64\www\gpi\index.php(81): Url->__construct('46')
+#4 {main}
+  thrown in C:\wamp64\www\gpi\modulos\compras\src\views\formularios\frm_requisicao.php on line 11
+[12-Jan-2023 17:18:45 America/Sao_Paulo] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes) in C:\wamp64\www\gpi\application\models\Conn\Read.class.php on line 103
+[12-Jan-2023 17:18:45 America/Sao_Paulo] PHP Stack trace:
+[12-Jan-2023 17:18:45 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\gpi\index.php:0
+[12-Jan-2023 17:18:45 America/Sao_Paulo] PHP   2. Url->__construct() C:\wamp64\www\gpi\index.php:81
+[12-Jan-2023 17:18:45 America/Sao_Paulo] PHP   3. Url->listaPaginas() C:\wamp64\www\gpi\application\models\classes\Url.class.php:8
+[12-Jan-2023 17:18:45 America/Sao_Paulo] PHP   4. include_once() C:\wamp64\www\gpi\application\models\classes\Url.class.php:193
+[12-Jan-2023 17:18:45 America/Sao_Paulo] PHP   5. Captacao->selectCaptacaoUser() C:\wamp64\www\gpi\modulos\captacao\src\views\captacao\listas\lst_captacao.php:10
+[12-Jan-2023 17:18:45 America/Sao_Paulo] PHP   6. Read->FullRead() C:\wamp64\www\gpi\modulos\captacao\src\models\classes\Captacao.class.php:109
+[12-Jan-2023 17:18:45 America/Sao_Paulo] PHP   7. Read->Execute() C:\wamp64\www\gpi\application\models\Conn\Read.class.php:59
+[12-Jan-2023 17:18:45 America/Sao_Paulo] PHP   8. PDOStatement->fetchAll() C:\wamp64\www\gpi\application\models\Conn\Read.class.php:103
+[19-Jan-2023 09:20:25 America/Sao_Paulo] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes) in C:\wamp64\www\gpi\application\models\Conn\Read.class.php on line 103
+[19-Jan-2023 09:20:25 America/Sao_Paulo] PHP Stack trace:
+[19-Jan-2023 09:20:25 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\gpi\index.php:0
+[19-Jan-2023 09:20:25 America/Sao_Paulo] PHP   2. Url->__construct() C:\wamp64\www\gpi\index.php:81
+[19-Jan-2023 09:20:25 America/Sao_Paulo] PHP   3. Url->listaPaginas() C:\wamp64\www\gpi\application\models\classes\Url.class.php:8
+[19-Jan-2023 09:20:25 America/Sao_Paulo] PHP   4. include_once() C:\wamp64\www\gpi\application\models\classes\Url.class.php:193
+[19-Jan-2023 09:20:25 America/Sao_Paulo] PHP   5. Captacao->selectCaptacaoUser() C:\wamp64\www\gpi\modulos\captacao\src\views\captacao\listas\lst_captacao.php:10
+[19-Jan-2023 09:20:25 America/Sao_Paulo] PHP   6. Read->FullRead() C:\wamp64\www\gpi\modulos\captacao\src\models\classes\Captacao.class.php:109
+[19-Jan-2023 09:20:25 America/Sao_Paulo] PHP   7. Read->Execute() C:\wamp64\www\gpi\application\models\Conn\Read.class.php:59
+[19-Jan-2023 09:20:25 America/Sao_Paulo] PHP   8. PDOStatement->fetchAll() C:\wamp64\www\gpi\application\models\Conn\Read.class.php:103
+[19-Jan-2023 09:20:26 America/Sao_Paulo] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes) in C:\wamp64\www\gpi\application\models\Conn\Read.class.php on line 103
+[19-Jan-2023 09:20:26 America/Sao_Paulo] PHP Stack trace:
+[19-Jan-2023 09:20:26 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\gpi\index.php:0
+[19-Jan-2023 09:20:26 America/Sao_Paulo] PHP   2. Url->__construct() C:\wamp64\www\gpi\index.php:81
+[19-Jan-2023 09:20:26 America/Sao_Paulo] PHP   3. Url->listaPaginas() C:\wamp64\www\gpi\application\models\classes\Url.class.php:8
+[19-Jan-2023 09:20:26 America/Sao_Paulo] PHP   4. include_once() C:\wamp64\www\gpi\application\models\classes\Url.class.php:193
+[19-Jan-2023 09:20:26 America/Sao_Paulo] PHP   5. Captacao->selectCaptacaoUser() C:\wamp64\www\gpi\modulos\captacao\src\views\captacao\listas\lst_captacao.php:10
+[19-Jan-2023 09:20:26 America/Sao_Paulo] PHP   6. Read->FullRead() C:\wamp64\www\gpi\modulos\captacao\src\models\classes\Captacao.class.php:109
+[19-Jan-2023 09:20:26 America/Sao_Paulo] PHP   7. Read->Execute() C:\wamp64\www\gpi\application\models\Conn\Read.class.php:59
+[19-Jan-2023 09:20:26 America/Sao_Paulo] PHP   8. PDOStatement->fetchAll() C:\wamp64\www\gpi\application\models\Conn\Read.class.php:103
+[24-Jan-2023 16:27:36 America/Sao_Paulo] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes) in C:\wamp64\www\gpi\application\models\Conn\Read.class.php on line 103
+[24-Jan-2023 16:27:36 America/Sao_Paulo] PHP Stack trace:
+[24-Jan-2023 16:27:36 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\gpi\index.php:0
+[24-Jan-2023 16:27:36 America/Sao_Paulo] PHP   2. Url->__construct() C:\wamp64\www\gpi\index.php:81
+[24-Jan-2023 16:27:36 America/Sao_Paulo] PHP   3. Url->listaPaginas() C:\wamp64\www\gpi\application\models\classes\Url.class.php:8
+[24-Jan-2023 16:27:36 America/Sao_Paulo] PHP   4. include_once() C:\wamp64\www\gpi\application\models\classes\Url.class.php:193
+[24-Jan-2023 16:27:36 America/Sao_Paulo] PHP   5. Captacao->selectCaptacaoUser() C:\wamp64\www\gpi\modulos\captacao\src\views\captacao\listas\lst_captacao.php:10
+[24-Jan-2023 16:27:36 America/Sao_Paulo] PHP   6. Read->FullRead() C:\wamp64\www\gpi\modulos\captacao\src\models\classes\Captacao.class.php:109
+[24-Jan-2023 16:27:36 America/Sao_Paulo] PHP   7. Read->Execute() C:\wamp64\www\gpi\application\models\Conn\Read.class.php:59
+[24-Jan-2023 16:27:36 America/Sao_Paulo] PHP   8. PDOStatement->fetchAll() C:\wamp64\www\gpi\application\models\Conn\Read.class.php:103
+[03-Feb-2023 17:44:58 America/Sao_Paulo] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes) in C:\wamp64\www\gpi\application\models\Conn\Read.class.php on line 103
+[03-Feb-2023 17:44:58 America/Sao_Paulo] PHP Stack trace:
+[03-Feb-2023 17:44:58 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\gpi\index.php:0
+[03-Feb-2023 17:44:58 America/Sao_Paulo] PHP   2. Url->__construct() C:\wamp64\www\gpi\index.php:81
+[03-Feb-2023 17:44:58 America/Sao_Paulo] PHP   3. Url->listaPaginas() C:\wamp64\www\gpi\application\models\classes\Url.class.php:8
+[03-Feb-2023 17:44:58 America/Sao_Paulo] PHP   4. include_once() C:\wamp64\www\gpi\application\models\classes\Url.class.php:193
+[03-Feb-2023 17:44:58 America/Sao_Paulo] PHP   5. Captacao->selectCaptacaoUser() C:\wamp64\www\gpi\modulos\captacao\src\views\captacao\listas\lst_captacao.php:10
+[03-Feb-2023 17:44:58 America/Sao_Paulo] PHP   6. Read->FullRead() C:\wamp64\www\gpi\modulos\captacao\src\models\classes\Captacao.class.php:109
+[03-Feb-2023 17:44:58 America/Sao_Paulo] PHP   7. Read->Execute() C:\wamp64\www\gpi\application\models\Conn\Read.class.php:59
+[03-Feb-2023 17:44:58 America/Sao_Paulo] PHP   8. PDOStatement->fetchAll() C:\wamp64\www\gpi\application\models\Conn\Read.class.php:103
+[09-Feb-2023 15:54:53 America/Sao_Paulo] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes) in C:\wamp64\www\gpi\application\models\Conn\Read.class.php on line 103
+[09-Feb-2023 15:54:53 America/Sao_Paulo] PHP Stack trace:
+[09-Feb-2023 15:54:53 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\gpi\index.php:0
+[09-Feb-2023 15:54:53 America/Sao_Paulo] PHP   2. Url->__construct() C:\wamp64\www\gpi\index.php:81
+[09-Feb-2023 15:54:53 America/Sao_Paulo] PHP   3. Url->listaPaginas() C:\wamp64\www\gpi\application\models\classes\Url.class.php:8
+[09-Feb-2023 15:54:53 America/Sao_Paulo] PHP   4. include_once() C:\wamp64\www\gpi\application\models\classes\Url.class.php:193
+[09-Feb-2023 15:54:53 America/Sao_Paulo] PHP   5. Captacao->selectCaptacaoUser() C:\wamp64\www\gpi\modulos\captacao\src\views\captacao\listas\lst_captacao.php:10
+[09-Feb-2023 15:54:53 America/Sao_Paulo] PHP   6. Read->FullRead() C:\wamp64\www\gpi\modulos\captacao\src\models\classes\Captacao.class.php:109
+[09-Feb-2023 15:54:53 America/Sao_Paulo] PHP   7. Read->Execute() C:\wamp64\www\gpi\application\models\Conn\Read.class.php:59
+[09-Feb-2023 15:54:53 America/Sao_Paulo] PHP   8. PDOStatement->fetchAll() C:\wamp64\www\gpi\application\models\Conn\Read.class.php:103
+[14-Feb-2023 17:30:05 America/Sao_Paulo] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes) in C:\wamp64\www\gpi\application\models\Conn\Read.class.php on line 103
+[14-Feb-2023 17:30:05 America/Sao_Paulo] PHP Stack trace:
+[14-Feb-2023 17:30:05 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\gpi\index.php:0
+[14-Feb-2023 17:30:05 America/Sao_Paulo] PHP   2. Url->__construct() C:\wamp64\www\gpi\index.php:81
+[14-Feb-2023 17:30:05 America/Sao_Paulo] PHP   3. Url->listaPaginas() C:\wamp64\www\gpi\application\models\classes\Url.class.php:8
+[14-Feb-2023 17:30:05 America/Sao_Paulo] PHP   4. include_once() C:\wamp64\www\gpi\application\models\classes\Url.class.php:193
+[14-Feb-2023 17:30:05 America/Sao_Paulo] PHP   5. Captacao->selectCaptacaoUser() C:\wamp64\www\gpi\modulos\captacao\src\views\captacao\listas\lst_captacao.php:10
+[14-Feb-2023 17:30:05 America/Sao_Paulo] PHP   6. Read->FullRead() C:\wamp64\www\gpi\modulos\captacao\src\models\classes\Captacao.class.php:109
+[14-Feb-2023 17:30:05 America/Sao_Paulo] PHP   7. Read->Execute() C:\wamp64\www\gpi\application\models\Conn\Read.class.php:59
+[14-Feb-2023 17:30:05 America/Sao_Paulo] PHP   8. PDOStatement->fetchAll() C:\wamp64\www\gpi\application\models\Conn\Read.class.php:103
+[22-Feb-2023 15:53:29 America/Sao_Paulo] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes) in C:\wamp64\www\gpi\application\models\Conn\Read.class.php on line 103
+[22-Feb-2023 15:53:29 America/Sao_Paulo] PHP Stack trace:
+[22-Feb-2023 15:53:29 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\gpi\index.php:0
+[22-Feb-2023 15:53:29 America/Sao_Paulo] PHP   2. Url->__construct() C:\wamp64\www\gpi\index.php:81
+[22-Feb-2023 15:53:29 America/Sao_Paulo] PHP   3. Url->listaPaginas() C:\wamp64\www\gpi\application\models\classes\Url.class.php:8
+[22-Feb-2023 15:53:29 America/Sao_Paulo] PHP   4. include_once() C:\wamp64\www\gpi\application\models\classes\Url.class.php:193
+[22-Feb-2023 15:53:29 America/Sao_Paulo] PHP   5. Captacao->selectCaptacaoUser() C:\wamp64\www\gpi\modulos\captacao\src\views\captacao\listas\lst_captacao.php:10
+[22-Feb-2023 15:53:29 America/Sao_Paulo] PHP   6. Read->FullRead() C:\wamp64\www\gpi\modulos\captacao\src\models\classes\Captacao.class.php:109
+[22-Feb-2023 15:53:29 America/Sao_Paulo] PHP   7. Read->Execute() C:\wamp64\www\gpi\application\models\Conn\Read.class.php:59
+[22-Feb-2023 15:53:29 America/Sao_Paulo] PHP   8. PDOStatement->fetchAll() C:\wamp64\www\gpi\application\models\Conn\Read.class.php:103
+[24-Feb-2023 14:20:17 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in C:\wamp64\www\gpi\modulos\compras\src\views\formularios\frm_requisicao.php:11
+Stack trace:
+#0 C:\wamp64\www\gpi\modulos\compras\index.phtml(144): include_once()
+#1 C:\wamp64\www\gpi\application\models\classes\Url.class.php(193): include_once('C:\\wamp64\\www\\g...')
+#2 C:\wamp64\www\gpi\application\models\classes\Url.class.php(8): Url->listaPaginas('46')
+#3 C:\wamp64\www\gpi\index.php(81): Url->__construct('46')
+#4 {main}
+  thrown in C:\wamp64\www\gpi\modulos\compras\src\views\formularios\frm_requisicao.php on line 11
+[27-Feb-2023 17:07:41 America/Sao_Paulo] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes) in C:\wamp64\www\gpi\application\models\Conn\Read.class.php on line 103
+[27-Feb-2023 17:07:41 America/Sao_Paulo] PHP Stack trace:
+[27-Feb-2023 17:07:41 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\gpi\index.php:0
+[27-Feb-2023 17:07:41 America/Sao_Paulo] PHP   2. Url->__construct() C:\wamp64\www\gpi\index.php:81
+[27-Feb-2023 17:07:41 America/Sao_Paulo] PHP   3. Url->listaPaginas() C:\wamp64\www\gpi\application\models\classes\Url.class.php:8
+[27-Feb-2023 17:07:41 America/Sao_Paulo] PHP   4. include_once() C:\wamp64\www\gpi\application\models\classes\Url.class.php:196
+[27-Feb-2023 17:07:41 America/Sao_Paulo] PHP   5. Captacao->selectCaptacaoUser() C:\wamp64\www\gpi\modulos\captacao\src\views\captacao\listas\lst_captacao.php:10
+[27-Feb-2023 17:07:41 America/Sao_Paulo] PHP   6. Read->FullRead() C:\wamp64\www\gpi\modulos\captacao\src\models\classes\Captacao.class.php:109
+[27-Feb-2023 17:07:41 America/Sao_Paulo] PHP   7. Read->Execute() C:\wamp64\www\gpi\application\models\Conn\Read.class.php:59
+[27-Feb-2023 17:07:41 America/Sao_Paulo] PHP   8. PDOStatement->fetchAll() C:\wamp64\www\gpi\application\models\Conn\Read.class.php:103
+[06-Mar-2023 14:15:40 America/Sao_Paulo] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes) in C:\wamp64\www\gpi\application\models\Conn\Read.class.php on line 103
+[06-Mar-2023 14:15:40 America/Sao_Paulo] PHP Stack trace:
+[06-Mar-2023 14:15:40 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\gpi\index.php:0
+[06-Mar-2023 14:15:40 America/Sao_Paulo] PHP   2. Url->__construct() C:\wamp64\www\gpi\index.php:81
+[06-Mar-2023 14:15:40 America/Sao_Paulo] PHP   3. Url->listaPaginas() C:\wamp64\www\gpi\application\models\classes\Url.class.php:8
+[06-Mar-2023 14:15:40 America/Sao_Paulo] PHP   4. include_once() C:\wamp64\www\gpi\application\models\classes\Url.class.php:196
+[06-Mar-2023 14:15:40 America/Sao_Paulo] PHP   5. Captacao->selectCaptacaoUser() C:\wamp64\www\gpi\modulos\captacao\src\views\captacao\listas\lst_captacao.php:10
+[06-Mar-2023 14:15:40 America/Sao_Paulo] PHP   6. Read->FullRead() C:\wamp64\www\gpi\modulos\captacao\src\models\classes\Captacao.class.php:109
+[06-Mar-2023 14:15:40 America/Sao_Paulo] PHP   7. Read->Execute() C:\wamp64\www\gpi\application\models\Conn\Read.class.php:59
+[06-Mar-2023 14:15:40 America/Sao_Paulo] PHP   8. PDOStatement->fetchAll() C:\wamp64\www\gpi\application\models\Conn\Read.class.php:103
+[20-Mar-2023 09:24:57 America/Sao_Paulo] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes) in C:\wamp64\www\gpi\application\models\Conn\Read.class.php on line 103
+[20-Mar-2023 09:24:57 America/Sao_Paulo] PHP Stack trace:
+[20-Mar-2023 09:24:57 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\gpi\index.php:0
+[20-Mar-2023 09:24:57 America/Sao_Paulo] PHP   2. Url->__construct() C:\wamp64\www\gpi\index.php:81
+[20-Mar-2023 09:24:57 America/Sao_Paulo] PHP   3. Url->listaPaginas() C:\wamp64\www\gpi\application\models\classes\Url.class.php:8
+[20-Mar-2023 09:24:57 America/Sao_Paulo] PHP   4. include_once() C:\wamp64\www\gpi\application\models\classes\Url.class.php:196
+[20-Mar-2023 09:24:57 America/Sao_Paulo] PHP   5. Captacao->selectCaptacaoUser() C:\wamp64\www\gpi\modulos\captacao\src\views\captacao\listas\lst_captacao.php:10
+[20-Mar-2023 09:24:57 America/Sao_Paulo] PHP   6. Read->FullRead() C:\wamp64\www\gpi\modulos\captacao\src\models\classes\Captacao.class.php:109
+[20-Mar-2023 09:24:57 America/Sao_Paulo] PHP   7. Read->Execute() C:\wamp64\www\gpi\application\models\Conn\Read.class.php:59
+[20-Mar-2023 09:24:57 America/Sao_Paulo] PHP   8. PDOStatement->fetchAll() C:\wamp64\www\gpi\application\models\Conn\Read.class.php:103
+[21-Mar-2023 17:20:57 America/Sao_Paulo] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes) in C:\wamp64\www\gpi\application\models\Conn\Read.class.php on line 103
+[21-Mar-2023 17:20:57 America/Sao_Paulo] PHP Stack trace:
+[21-Mar-2023 17:20:57 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\gpi\index.php:0
+[21-Mar-2023 17:20:57 America/Sao_Paulo] PHP   2. Url->__construct() C:\wamp64\www\gpi\index.php:88
+[21-Mar-2023 17:20:57 America/Sao_Paulo] PHP   3. Url->listaPaginas() C:\wamp64\www\gpi\application\models\classes\Url.class.php:8
+[21-Mar-2023 17:20:57 America/Sao_Paulo] PHP   4. include_once() C:\wamp64\www\gpi\application\models\classes\Url.class.php:247
+[21-Mar-2023 17:20:57 America/Sao_Paulo] PHP   5. Captacao->selectCaptacaoUser() C:\wamp64\www\gpi\modulos\captacao\src\views\captacao\listas\lst_captacao.php:10
+[21-Mar-2023 17:20:57 America/Sao_Paulo] PHP   6. Read->FullRead() C:\wamp64\www\gpi\modulos\captacao\src\models\classes\Captacao.class.php:109
+[21-Mar-2023 17:20:57 America/Sao_Paulo] PHP   7. Read->Execute() C:\wamp64\www\gpi\application\models\Conn\Read.class.php:59
+[21-Mar-2023 17:20:57 America/Sao_Paulo] PHP   8. PDOStatement->fetchAll() C:\wamp64\www\gpi\application\models\Conn\Read.class.php:103
+[31-Mar-2023 10:02:15 America/Sao_Paulo] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes) in C:\wamp64\www\gpi\application\models\Conn\Read.class.php on line 103
+[31-Mar-2023 10:02:15 America/Sao_Paulo] PHP Stack trace:
+[31-Mar-2023 10:02:15 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\gpi\index.php:0
+[31-Mar-2023 10:02:15 America/Sao_Paulo] PHP   2. Url->__construct() C:\wamp64\www\gpi\index.php:88
+[31-Mar-2023 10:02:15 America/Sao_Paulo] PHP   3. Url->listaPaginas() C:\wamp64\www\gpi\application\models\classes\Url.class.php:11
+[31-Mar-2023 10:02:15 America/Sao_Paulo] PHP   4. include_once() C:\wamp64\www\gpi\application\models\classes\Url.class.php:253
+[31-Mar-2023 10:02:15 America/Sao_Paulo] PHP   5. Captacao->selectCaptacaoUser() C:\wamp64\www\gpi\modulos\captacao\src\views\captacao\listas\lst_captacao.php:10
+[31-Mar-2023 10:02:15 America/Sao_Paulo] PHP   6. Read->FullRead() C:\wamp64\www\gpi\modulos\captacao\src\models\classes\Captacao.class.php:109
+[31-Mar-2023 10:02:15 America/Sao_Paulo] PHP   7. Read->Execute() C:\wamp64\www\gpi\application\models\Conn\Read.class.php:59
+[31-Mar-2023 10:02:15 America/Sao_Paulo] PHP   8. PDOStatement->fetchAll() C:\wamp64\www\gpi\application\models\Conn\Read.class.php:103
+[19-Apr-2023 14:33:58 America/Sao_Paulo] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes) in C:\wamp64\www\gpi\application\models\Conn\Read.class.php on line 103
+[19-Apr-2023 14:33:58 America/Sao_Paulo] PHP Stack trace:
+[19-Apr-2023 14:33:58 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\gpi\index.php:0
+[19-Apr-2023 14:33:58 America/Sao_Paulo] PHP   2. Url->__construct() C:\wamp64\www\gpi\index.php:88
+[19-Apr-2023 14:33:58 America/Sao_Paulo] PHP   3. Url->listaPaginas() C:\wamp64\www\gpi\application\models\classes\Url.class.php:11
+[19-Apr-2023 14:33:58 America/Sao_Paulo] PHP   4. include_once() C:\wamp64\www\gpi\application\models\classes\Url.class.php:253
+[19-Apr-2023 14:33:58 America/Sao_Paulo] PHP   5. Captacao->selectCaptacaoUser() C:\wamp64\www\gpi\modulos\captacao\src\views\captacao\listas\lst_captacao.php:10
+[19-Apr-2023 14:33:58 America/Sao_Paulo] PHP   6. Read->FullRead() C:\wamp64\www\gpi\modulos\captacao\src\models\classes\Captacao.class.php:109
+[19-Apr-2023 14:33:58 America/Sao_Paulo] PHP   7. Read->Execute() C:\wamp64\www\gpi\application\models\Conn\Read.class.php:59
+[19-Apr-2023 14:33:58 America/Sao_Paulo] PHP   8. PDOStatement->fetchAll() C:\wamp64\www\gpi\application\models\Conn\Read.class.php:103
+[19-Apr-2023 14:53:47 America/Sao_Paulo] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes) in C:\wamp64\www\gpi\application\models\Conn\Read.class.php on line 103
+[19-Apr-2023 14:53:47 America/Sao_Paulo] PHP Stack trace:
+[19-Apr-2023 14:53:47 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\gpi\index.php:0
+[19-Apr-2023 14:53:47 America/Sao_Paulo] PHP   2. Url->__construct() C:\wamp64\www\gpi\index.php:88
+[19-Apr-2023 14:53:47 America/Sao_Paulo] PHP   3. Url->listaPaginas() C:\wamp64\www\gpi\application\models\classes\Url.class.php:11
+[19-Apr-2023 14:53:47 America/Sao_Paulo] PHP   4. include_once() C:\wamp64\www\gpi\application\models\classes\Url.class.php:253
+[19-Apr-2023 14:53:47 America/Sao_Paulo] PHP   5. Captacao->selectCaptacaoUser() C:\wamp64\www\gpi\modulos\captacao\src\views\captacao\listas\lst_captacao.php:10
+[19-Apr-2023 14:53:47 America/Sao_Paulo] PHP   6. Read->FullRead() C:\wamp64\www\gpi\modulos\captacao\src\models\classes\Captacao.class.php:109
+[19-Apr-2023 14:53:47 America/Sao_Paulo] PHP   7. Read->Execute() C:\wamp64\www\gpi\application\models\Conn\Read.class.php:59
+[19-Apr-2023 14:53:47 America/Sao_Paulo] PHP   8. PDOStatement->fetchAll() C:\wamp64\www\gpi\application\models\Conn\Read.class.php:103
+[20-Apr-2023 15:00:58 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in C:\wamp64\www\gpi\modulos\compras\src\views\formularios\frm_requisicao.php:11
+Stack trace:
+#0 C:\wamp64\www\gpi\modulos\compras\index.phtml(144): include_once()
+#1 C:\wamp64\www\gpi\application\models\classes\Url.class.php(253): include_once('C:\\wamp64\\www\\g...')
+#2 C:\wamp64\www\gpi\application\models\classes\Url.class.php(11): Url->listaPaginas('46')
+#3 C:\wamp64\www\gpi\index.php(88): Url->__construct('46')
+#4 {main}
+  thrown in C:\wamp64\www\gpi\modulos\compras\src\views\formularios\frm_requisicao.php on line 11
+[20-Apr-2023 15:41:26 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in C:\wamp64\www\gpi\modulos\compras\src\views\formularios\frm_requisicao.php:11
+Stack trace:
+#0 C:\wamp64\www\gpi\modulos\compras\index.phtml(144): include_once()
+#1 C:\wamp64\www\gpi\application\models\classes\Url.class.php(253): include_once('C:\\wamp64\\www\\g...')
+#2 C:\wamp64\www\gpi\application\models\classes\Url.class.php(11): Url->listaPaginas('46')
+#3 C:\wamp64\www\gpi\index.php(88): Url->__construct('46')
+#4 {main}
+  thrown in C:\wamp64\www\gpi\modulos\compras\src\views\formularios\frm_requisicao.php on line 11
+[20-Apr-2023 15:42:52 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in C:\wamp64\www\gpi\modulos\compras\src\views\formularios\frm_requisicao.php:11
+Stack trace:
+#0 C:\wamp64\www\gpi\modulos\compras\index.phtml(144): include_once()
+#1 C:\wamp64\www\gpi\application\models\classes\Url.class.php(253): include_once('C:\\wamp64\\www\\g...')
+#2 C:\wamp64\www\gpi\application\models\classes\Url.class.php(11): Url->listaPaginas('46')
+#3 C:\wamp64\www\gpi\index.php(88): Url->__construct('46')
+#4 {main}
+  thrown in C:\wamp64\www\gpi\modulos\compras\src\views\formularios\frm_requisicao.php on line 11
+[20-Apr-2023 15:44:58 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}', expecting end of file in C:\wamp64\www\gpi\application\views\layouts\nav.php on line 166
+[20-Apr-2023 15:45:00 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}', expecting end of file in C:\wamp64\www\gpi\application\views\layouts\nav.php on line 166
+[20-Apr-2023 15:45:00 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}', expecting end of file in C:\wamp64\www\gpi\application\views\layouts\nav.php on line 166
+[20-Apr-2023 15:45:00 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}', expecting end of file in C:\wamp64\www\gpi\application\views\layouts\nav.php on line 166
+[20-Apr-2023 15:45:05 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}', expecting end of file in C:\wamp64\www\gpi\application\views\layouts\nav.php on line 166
+[20-Apr-2023 15:45:08 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}', expecting end of file in C:\wamp64\www\gpi\application\views\layouts\nav.php on line 166
+[20-Apr-2023 15:45:09 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}', expecting end of file in C:\wamp64\www\gpi\application\views\layouts\nav.php on line 166
+[20-Apr-2023 15:45:09 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}', expecting end of file in C:\wamp64\www\gpi\application\views\layouts\nav.php on line 166
+[20-Apr-2023 15:45:10 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}', expecting end of file in C:\wamp64\www\gpi\application\views\layouts\nav.php on line 166
+[20-Apr-2023 15:45:11 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}', expecting end of file in C:\wamp64\www\gpi\application\views\layouts\nav.php on line 166
+[20-Apr-2023 15:45:12 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}', expecting end of file in C:\wamp64\www\gpi\application\views\layouts\nav.php on line 166
+[20-Apr-2023 15:45:12 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}', expecting end of file in C:\wamp64\www\gpi\application\views\layouts\nav.php on line 166
+[20-Apr-2023 15:45:12 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}', expecting end of file in C:\wamp64\www\gpi\application\views\layouts\nav.php on line 166
+[20-Apr-2023 15:45:12 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}', expecting end of file in C:\wamp64\www\gpi\application\views\layouts\nav.php on line 166
+[20-Apr-2023 15:45:16 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}', expecting end of file in C:\wamp64\www\gpi\application\views\layouts\nav.php on line 166
+[25-Apr-2023 16:23:47 America/Sao_Paulo] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes) in C:\wamp64\www\gpi\application\models\Conn\Read.class.php on line 103
+[25-Apr-2023 16:23:47 America/Sao_Paulo] PHP Stack trace:
+[25-Apr-2023 16:23:47 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\gpi\index.php:0
+[25-Apr-2023 16:23:47 America/Sao_Paulo] PHP   2. Url->__construct() C:\wamp64\www\gpi\index.php:88
+[25-Apr-2023 16:23:47 America/Sao_Paulo] PHP   3. Url->listaPaginas() C:\wamp64\www\gpi\application\models\classes\Url.class.php:11
+[25-Apr-2023 16:23:47 America/Sao_Paulo] PHP   4. include_once() C:\wamp64\www\gpi\application\models\classes\Url.class.php:260
+[25-Apr-2023 16:23:47 America/Sao_Paulo] PHP   5. Captacao->selectCaptacaoUser() C:\wamp64\www\gpi\modulos\captacao\src\views\captacao\listas\lst_captacao.php:10
+[25-Apr-2023 16:23:47 America/Sao_Paulo] PHP   6. Read->FullRead() C:\wamp64\www\gpi\modulos\captacao\src\models\classes\Captacao.class.php:109
+[25-Apr-2023 16:23:47 America/Sao_Paulo] PHP   7. Read->Execute() C:\wamp64\www\gpi\application\models\Conn\Read.class.php:59
+[25-Apr-2023 16:23:47 America/Sao_Paulo] PHP   8. PDOStatement->fetchAll() C:\wamp64\www\gpi\application\models\Conn\Read.class.php:103
+[25-Apr-2023 17:22:24 America/Sao_Paulo] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes) in C:\wamp64\www\gpi\application\models\Conn\Read.class.php on line 103
+[25-Apr-2023 17:22:24 America/Sao_Paulo] PHP Stack trace:
+[25-Apr-2023 17:22:24 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\gpi\index.php:0
+[25-Apr-2023 17:22:24 America/Sao_Paulo] PHP   2. Url->__construct() C:\wamp64\www\gpi\index.php:88
+[25-Apr-2023 17:22:24 America/Sao_Paulo] PHP   3. Url->listaPaginas() C:\wamp64\www\gpi\application\models\classes\Url.class.php:11
+[25-Apr-2023 17:22:24 America/Sao_Paulo] PHP   4. include_once() C:\wamp64\www\gpi\application\models\classes\Url.class.php:260
+[25-Apr-2023 17:22:24 America/Sao_Paulo] PHP   5. Captacao->selectCaptacaoUser() C:\wamp64\www\gpi\modulos\captacao\src\views\captacao\listas\lst_captacao.php:10
+[25-Apr-2023 17:22:24 America/Sao_Paulo] PHP   6. Read->FullRead() C:\wamp64\www\gpi\modulos\captacao\src\models\classes\Captacao.class.php:109
+[25-Apr-2023 17:22:24 America/Sao_Paulo] PHP   7. Read->Execute() C:\wamp64\www\gpi\application\models\Conn\Read.class.php:59
+[25-Apr-2023 17:22:24 America/Sao_Paulo] PHP   8. PDOStatement->fetchAll() C:\wamp64\www\gpi\application\models\Conn\Read.class.php:103

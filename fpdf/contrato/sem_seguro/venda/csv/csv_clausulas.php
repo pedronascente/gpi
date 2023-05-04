@@ -1,19 +1,19 @@
-<?php	switch($list_cliente['vigencia']){
-		case 1:
-			$nMeses = 12;
-			$sMeses = "doze";
-			break;
-		case 2:
-			$nMeses = 24;
-			$sMeses = "vinte e quatro";
-			break;
-		case 3:
-			$nMeses = 36;
-			$sMeses = "trinta e seis";
-			break;
-	}
+<?php switch ($list_cliente['vigencia']) {
+	case 1:
+		$nMeses = 12;
+		$sMeses = "doze";
+		break;
+	case 2:
+		$nMeses = 24;
+		$sMeses = "vinte e quatro";
+		break;
+	case 3:
+		$nMeses = 36;
+		$sMeses = "trinta e seis";
+		break;
+}
 
-					$html .='	</div><div style="page-break-after:always;">
+$html .= '	</div><div style="page-break-after:always;">
 							<p align="right">
 							<img src="../img/logo-contrato.jpg"  alt="" width="207" height="67" border="0" align="right"/>
 						</p>
@@ -88,7 +88,7 @@
 							 SIM CARD (chip), saldar o débito existente, bem como o pagamento de uma multa no valor de 30% (trinta por cento) da taxa de habilitação do sistema. Desde já fica acertado que poderão ser protestados os títulos emitidos, correndo por conta do CONTRATANTE 
 							 todas as eventuais despesas decorrente de tal protesto, que deverão ser ressarcidas pelo CONTRATANTE à CONTRATADA imediatamente e mediante cobrança bancária, bem como ficando à cargo do CONTRATANTE, por sua conta exclusiva, o eventual 
 							 levantamento do protesto no órgão competente. A CONTRATADA poderá, ainda, enviar o nome do CONTRATANTE inadimplente para a inscrição nos Serviços de Proteção ao Crédito e demais cadastros semelhantes, mediante prévia notificação; <br />
-							4.7 - Após 12 (doze) meses da assinatura deste instrumento, terá inicio a cobrança da Taxa de Monitoramento Mensal constante no item III - VALORES, no valor de R$ '.$vlr_tx_monitoramento.' adicionando a variação acumulada do  IGP-M do período;<br>
+							4.7 - Após 12 (doze) meses da assinatura deste instrumento, terá inicio a cobrança da Taxa de Monitoramento Mensal constante no item III - VALORES, no valor de R$ ' . $vlr_tx_monitoramento . ' adicionando a variação acumulada do  IGP-M do período;<br>
 						</p><br><br><br><br>
 						<p align="right">
 								<img src="../img/logo-contrato.jpg"  alt="" width="207" height="67" border="0" align="right"/>
@@ -122,7 +122,7 @@
 								 <li> d) Utilização do sistema GPS/GPRS pra fins adversos ao do contrato;</li> 
 							 </ul>
 					 	<p align="justify">
-							7.2 - Após transcorridos os primeiros '.$nMeses.' ('.$sMeses.') meses, poderá o presente instrumento ser denunciado por qualquer das partes, sem qualquer ônus à parte denunciante, mediante aviso prévio, por escrito, com antecedência mínima de 30 (trinta) dias;<br />
+							7.2 - Após transcorridos os primeiros ' . $nMeses . ' (' . $sMeses . ') meses, poderá o presente instrumento ser denunciado por qualquer das partes, sem qualquer ônus à parte denunciante, mediante aviso prévio, por escrito, com antecedência mínima de 30 (trinta) dias;<br />
 							<strong>
 								CLÁUSULA OITAVA - DISPOSIÇÕES GERAIS
 							</strong>
@@ -134,7 +134,7 @@
 					  
 					  <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" style="font-size:12px">
 						<tr>
-						<td height="50" colspan="2" align="center">Porto  Alegre, '.$dma[0].' de '.$mes.' de '.$dma[2].'</td>
+						<td height="50" colspan="2" align="center">Porto  Alegre, ' . $dma[0] . ' de ' . $mes . ' de ' . $dma[2] . '</td>
 					  </tr>
 					  <tr>
 					   <td height="45" align="center" ><img src="../img/assinatura1.jpg" alt="" width="143" height="45"  border="0"/></td>
@@ -155,37 +155,83 @@
 						</td>
 						<td width="50%" >
 						  <div align="left" style=" margin:0;margin-left:50px; border-top:1px solid">';
-							  if($list_cliente['tipo_pessoa']=='F' || $list_cliente['tipo_pessoa']=='f'):
-								$html .='
-								<strong>CONTRATANTE  : </strong>'.$list_cliente['nome_cliente'].'<br />
-							    <strong>CNPJ/CPF Nº  : </strong>'.$list_cliente['cnpjcpf_cliente'].'<br />
-							    <strong>NOME LEGÍVEL : </strong>'.$list_cliente['nome_cliente'].'<br />
-							    <strong>CPF N º      : </strong>'.$list_cliente['cnpjcpf_cliente'].'</div>';
-							  endif;
-							  
-							  if($list_cliente['tipo_pessoa']=='J' || $list_cliente['tipo_pessoa']=='j'):
-									$html .='
-									<strong>CONTRATANTE  : </strong>'.$list_cliente['nome_cliente'].'<br />
-									<strong>CNPJ/CPF Nº  : </strong>'.$list_cliente['cnpjcpf_cliente'].'<br />';
-									if(!empty($list_cliente['socio_1']) && empty($list_cliente['socio_2'])):
-									   $html .='
-											<strong>NOME LEGÍVEL : </strong>'.$list_cliente['socio_1'].'<br />
-											<strong>CPF N º      : </strong>'.$list_cliente['cpf_socio1'].'</div>
-									   ';								
-									endif;
-									if(!empty($list_cliente['socio_1']) && !empty($list_cliente['socio_2'])):
-									   $html .='
-										     <strong>NOME LEGÍVEL : </strong>'.$list_cliente['socio_1'].'<br />
-										     <strong>CPF N º      : </strong>'.$list_cliente['cpf_socio1'].'<br />
-										     <strong>NOME LEGÍVEL : </strong>'.$list_cliente['socio_2'].'<br />
-										    <strong>CPF N º      : </strong>'.$list_cliente['cpf_socio2'].'</div>
-									   ';								
-									endif;
-							  endif;
-							  
-							  $html .='
+if ($list_cliente['tipo_pessoa'] == 'F' || $list_cliente['tipo_pessoa'] == 'f') :
+	$html .= '
+								<strong>CONTRATANTE  : </strong>' . $list_cliente['nome_cliente'] . '<br />
+							    <strong>CNPJ/CPF Nº  : </strong>' . $list_cliente['cnpjcpf_cliente'] . '<br />
+							    <strong>NOME LEGÍVEL : </strong>' . $list_cliente['nome_cliente'] . '<br />
+							    <strong>CPF N º      : </strong>' . $list_cliente['cnpjcpf_cliente'] . '</div>';
+endif;
+
+if ($list_cliente['tipo_pessoa'] == 'J' || $list_cliente['tipo_pessoa'] == 'j') :
+	$html .= '
+									<strong>CONTRATANTE  : </strong>' . $list_cliente['nome_cliente'] . '<br />
+									<strong>CNPJ/CPF Nº  : </strong>' . $list_cliente['cnpjcpf_cliente'] . '<br />';
+endif;
+
+$html .= '
 						</td>
-					  </tr>
+					  </tr>';
+
+
+if (!empty($list_cliente['socio_1']) && !empty($list_cliente['socio_2'])) :
+
+	$html .= '
+    <tr>
+        <td colspan="2"><br><br></td>
+    </tr> 
+    <tr>
+        <td height="16"><strong> SÓCIOS:</strong></td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+            <td colspan="2"><br><br></td>
+    </tr> 
+    <tr>
+        <td>
+            <div align="left" style=" margin:0;margin-right:10px; border-top:1px solid">
+            <strong>1º SÓCIO : </strong>' . $list_cliente['socio_1']  . '<br />
+            <strong> &nbsp; &nbsp; CPF: </strong>' . $list_cliente['cpf_socio1'] . '<br />
+            </div>
+        </td>
+        <td>
+            <div align="left" style=" margin:0;margin-left:30px; border-top:1px solid; font-weight:bold">
+                <strong>2º SÓCIO : </strong>' . $list_cliente['socio_2']  . '<br />
+                <strong> &nbsp; &nbsp; CPF: </strong>' . $list_cliente['cpf_socio2'] . '<br />
+            </div>
+        </td>
+    </tr>';
+
+endif;
+
+if (!empty($list_cliente['socio_1']) && empty($list_cliente['socio_2'])) :
+
+	$html .= '
+    <tr>
+        <td colspan="2"><br><br></td>
+    </tr> 
+    <tr>
+        <td height="16"><strong> SÓCIO:</strong></td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td colspan="2"><br><br></td>
+    </tr> 
+    <tr>
+        <td>
+            <div align="left" style=" margin:0;margin-right:10px; border-top:1px solid">
+            <strong>1º SÓCIO : </strong>' . $list_cliente['socio_1']  . '<br />
+            <strong> &nbsp; &nbsp; CPF: </strong>' . $list_cliente['cpf_socio1'] . '<br />
+            </div>
+        </td>
+    </tr>	';
+
+endif;
+
+
+
+
+$html .= '
 					  <tr>
 						<td colspan="2"><br><br></td>
 					  </tr>
@@ -194,14 +240,14 @@
 						<td>&nbsp;</td>
 					  </tr>
 					  <tr>
-						<td align="center"><img src="../img/assinaturas/'.$list_assinatura['assinatura'].'" alt="" width="143" height="45"  border="0"/></td>
+						<td align="center"><img src="../img/assinaturas/' . $list_assinatura['assinatura'] . '" alt="" width="143" height="45"  border="0"/></td>
 						<td>&nbsp;</td>
 					  </tr>
 					  <tr>
 						<td>
 						  <div align="left" style=" margin:0;margin-right:10px; border-top:1px solid">
-							<strong>1º NOME : </strong>'.$list_assinatura['nome'].'<br />
-							<strong> &nbsp; &nbsp; CPF: </strong>'.$list_assinatura['cpf'].'<br />
+							<strong>1º NOME : </strong>' . $list_assinatura['nome'] . '<br />
+							<strong> &nbsp; &nbsp; CPF: </strong>' . $list_assinatura['cpf'] . '<br />
 						  </div>
 						</td>
 						<td>

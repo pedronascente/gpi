@@ -1,0 +1,133 @@
+._color-red {
+color: red
+}
+
+p {
+font-weight: 400;
+font-style: normal;
+white-space: normal;
+font-size: 14px
+}
+
+.F9yp7e {
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+font-family: "Google Sans", Roboto, Arial, sans-serif;
+font-size: 32px;
+font-weight: 400;
+line-height: 40px;
+color: #202124;
+line-height: 135%;
+max-width: 100%;
+min-width: 0%;
+
+}
+
+.RVEQke {
+background-color: rgb(87 170 118);
+color: rgba(0, 0, 0, 1);
+}
+
+.D8bnZd {
+background-color: rgb(230, 242, 234);
+}
+
+.M7eMe {
+font-family: Roboto, Arial, sans-serif;
+font-size: 16px;
+letter-spacing: .2px;
+line-height: 24px;
+color: #202124;
+font-weight: 400;
+}
+
+.nWQGrd {
+
+width: 100%;
+min-height: 24px;
+padding: 0.2em 20px;
+}
+
+.c2gzEf {
+margin-top: 25px;
+}
+
+.error {
+color: red;
+font-weight: 400;
+display: block;
+padding: 6px 0;
+font-size: 14px;
+}
+
+.border-error {
+border-color: red;
+
+}
+
+label {
+font-weight: 500;
+font-size: 16px;
+}
+
+._error-alert {
+border: 1px solid;
+border-color: red;
+}
+.myXFAc.RjsPE {
+font-family: Roboto, Arial, sans-serif;
+font-size: 16px;
+letter-spacing: .2px;
+line-height: 24px;
+color: #202124;
+font-weight: 400;
+}
+
+.myXFAc {
+font-family: "Google Sans", Roboto, Arial, sans-serif;
+font-size: 16px;
+letter-spacing: .1px;
+line-height: 24px;
+color: #202124;
+font-weight: 400;
+max-width: 100%;
+min-width: 0%;
+word-break: break-word;
+}
+
+.bXtdDb {
+font-family: Roboto, Arial, sans-serif;
+font-size: 12px;
+font-weight: 400;
+letter-spacing: .3px;
+line-height: 16px;
+color: #70757a;
+color: #202124;
+padding-top: 8px;
+}
+
+.SLvR0 {
+-webkit-box-align: start;
+box-align: start;
+-webkit-align-items: flex-start;
+align-items: flex-start;
+display: -webkit-box;
+display: -webkit-flex;
+display: flex;
+-webkit-flex-direction: column;
+flex-direction: column;
+-webkit-flex-wrap: wrap;
+flex-wrap: wrap;
+font-size: 20px;
+line-height: 135%;
+margin-bottom: 24px;
+margin-right: 8px;
+margin-top: 8px;
+min-width: 0;
+}
+
+.rPU8He {
+overflow-x: auto;
+overflow-y: hidden;
+width: 100%;
+}

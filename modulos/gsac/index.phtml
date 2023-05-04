@@ -1,7 +1,7 @@
 <?php
 	include_once (__DIR__ . "\src\controllers\SacController.php");
 
-	$url = 'http://10.1.1.58:9093';
+	$url = "http://$_SERVER[HTTP_HOST]";
 	$URL_ATUAL= "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 	$rota_principal = $url."/api_gpi/public/api";
 	$id = $_SESSION['user_info']['id_usuario'];
@@ -74,7 +74,7 @@
 							</div>
 							<div class="col-xs-12 col-sm-2 col-md-2">
 								<input type="submit" class="btn btn-success"  value="Buscar">
-								<a href="http://10.1.1.58:9093/gpi/index.php?pg=60" class="btn  btn-danger">Reset</a>
+								<a href="/gpi/index.php?pg=60" class="btn  btn-danger">Reset</a>
 							</div>
 						</div>
 					</form>

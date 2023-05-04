@@ -96,5 +96,42 @@ if(ITEMID1>=1){
                 'type'=>'true'
             )));
         }
-    }
+    }else{
+		 include_once "../views/_corpo_email.php";
+        $email = new PHPMailer ();
+        //Define que será usado SMTP.
+        $email->IsSMTP(); 
+        //Define os dados técnicos da Mensagem.
+        $email->IsHTML(true);
+        $email->CharSet = CHARSET; 
+        // Configurações do SMTP:
+        $email->SMTPAuth = SMTPAuth;
+        //$email->SMTPSecure = 'ssl';
+        $email->Host = HOST;
+        $email->Port = PORT;
+        //Usuário do servidor SMTP.
+        $email->Username = USERNAME;
+        //Senha do servidor SMTPmente
+        $email->Password = PASSWORD;
+        //Define a mensagem (Assunto).
+        $email->Subject = $asssunto; 
+        //Define remetente:
+        $email->From = $emailRementente;
+        $email->FromName = $remetente;
+        //Para quando responder, não vá para o email de autenticação.
+        $email->AddReplyTo($emailResposta, $nomeEmailResposta); 
+        //Define 0(s) destinatarios:
+        $email->AddAddress($email_clinete, $cliente);
+        //Corpo da mensagem:
+        $email->Body = $html;
+        //corpo da mensagem em modo texto:
+        $email->AltBody = $html;
+        if (!$email->send()) {
+	     die(var_dump($email->ErrorInfo));
+        }else{
+            die(json_encode(array(
+                'type'=>'true'
+            )));
+        }
+	}
 }

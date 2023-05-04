@@ -14,8 +14,8 @@ define("_DESTINO_MIDIAS_", "../../../../../_MIDIAS_/anexosContrato/clientes/");
 
 define("_BUSCAR_MIDIAS_LOCAL_", "/_MIDIAS_/anexosContrato/clientes/");
 
-if ($_SERVER ['SERVER_NAME'] == 'localhost') :
-    define("PASS", "");
+if ($_SERVER['SERVER_NAME'] == 'localhost') :
+    define("PASS", "rooooot");
     define("DBSA", "volpato_novo");
 else :
     define("PASS", "@g@pi.@v@olpato.911");
@@ -33,9 +33,6 @@ define('MAIL_HOST', 'smtp.seguidor.com.br');
 define('MAIL_PORT', 587);
 define('MAIL_USER_NAME', "seguidor@seguidor.com.br");
 define('MAIL_PASSWORD', '33jps666');
-
-
-
 
 
 
@@ -58,12 +55,13 @@ define('MODULO_CLIENTE', 'modulos/clientes/');
 define('MODULO_COMPRAS', 'modulos/compras/');
 define('MODULO_MONITORAMENTO', 'modulos/monitoramento/');
 define('MODULO_CERTIFICADOS', 'modulos/certificados/');
+define('MODULO_SESMT', 'modulos/sesmt/');
 
 
 
-function __autoload($class){
-//function spl_autoload_register($class){
-
+function __autoload($class)
+{
+    //function spl_autoload_register($class){
 
     $cDir = array(
         DIRETORIO . 'Conn',
@@ -82,7 +80,9 @@ function __autoload($class){
         MODULO_DESENVOLVIMENTO . 'src/models/classes',
         MODULO_ARQUIVO . 'src/models/classes',
         MODULO_MONITORAMENTO . 'src/models/classes',
-        MODULO_CERTIFICADOS . 'src/models/classes'
+        MODULO_CERTIFICADOS . 'src/models/classes',
+        MODULO_SESMT . 'src/models/classes',
+
     );
 
     $iDir = null;
@@ -96,7 +96,7 @@ function __autoload($class){
 
     if (!$iDir) :
         trigger_error("Não foi possivel incluir {$class}.class.php", E_USER_ERROR);
-        die ();
+        die();
     endif;
 }
 
@@ -110,7 +110,7 @@ function WSErro($ErrMsg, $ErrNo, $ErrDie = null)
     $CssClass = ($ErrNo == E_USER_NOTICE ? WS_INFOR : ($ErrNo == E_USER_WARNING ? WS_ALERT : ($ErrNo == E_USER_ERROR ? WS_ERROR : $ErrNo)));
     echo "<p class=\"trigger {$CssClass}\">{$ErrMsg}<span class=\"ajax_close\"></span></p>";
     if ($ErrDie) :
-        die ();
+        die();
     endif;
 }
 
@@ -127,7 +127,7 @@ function PHPErro($ErrNo, $ErrMsg, $ErrFile, $ErrLine)
     echo "<small>{$ErrFile}</small>";
     echo "<span class=\"ajax_close\"></span></p>";
     if ($ErrNo == E_USER_ERROR) :
-        die ();
+        die();
     endif;
 }
 
@@ -143,8 +143,3 @@ define("WS_ERROR", "error");
 */
 set_error_handler('PHPErro');
 ini_set('xdebug.var_display_max_data', 3000000);
- 
- 
-
- 
- 

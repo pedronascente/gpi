@@ -1,5 +1,5 @@
 <div class="panel panel-primary">
-    <div class="panel-heading ">Cadastrar novo Gestor</div>
+    <div class="panel-heading ">Cadastrar Gestor</div>
     <div class="panel-body"> 
         <form action="index.php?pg=67" method="post"> 
             <div class="row">
@@ -19,7 +19,7 @@
             <div class="row">
                 <div class="col-xs-12 col-md-12">
 				<hr>
-                    <input type="submit" class="btn btn-success"  value="Cadastrar Gestor">
+                    <input type="submit" class="btn btn-success"  value="Salvar">
 					<a href="/gpi/index.php?pg=61" class="btn  btn-danger">Voltar</a>
                 </div>
             </div>

@@ -1,6 +1,6 @@
 <?php
 
-$url = 'http://10.1.1.58:9093';
+$url = "http://$_SERVER[HTTP_HOST]";
 $Dados = filter_input_array(INPUT_POST);
 $rota_api = $url.'/api_gpi/public/api/clientes/'.$Dados['id'];
 

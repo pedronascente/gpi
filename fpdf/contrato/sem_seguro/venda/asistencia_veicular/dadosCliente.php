@@ -95,6 +95,31 @@
                         </tr>
                     ';
                 }
+    
+	
+	
+/*
+if (!empty($list_cliente['socio_1'])) {
+        $html .= '
+                        <tr>
+                            <td style="padding:2px" colspan="3"><strong>1°SÓCIO:</strong><br />' . $list_cliente['socio_1'] . '</td>  
+                            <td style="padding:2px" colspan="2"><strong>CPF:</strong><br />' . $list_cliente['cpf_socio1'] . '</td>                 
+                        </tr>
+                        
+                    ';
+    }
+    if (!empty($list_cliente['socio_2'])) {
+        $html .= '
+                        <tr>
+                            <td style="padding:2px" colspan="3"><strong>2°SÓCIO:</strong><br />' . $list_cliente['socio_2'] . '</td>  
+                            <td style="padding:2px" colspan="2"><strong>CPF:</strong><br />' . $list_cliente['cpf_socio2'] . '</td>                 
+                        </tr>
+                        
+                    ';
+    }
+*/
+
+
                 $html.='                
                 <tr>
                     <td  colspan="3"><strong>ENDEREÇO RESIDENCIAL: </strong><br>'.$list_cliente['logradouro_cliente'].' N&deg; '.$list_cliente['numero_cliente'].'&nbsp;&nbsp;'.$list_cliente['complemento_cliente'].'</td>

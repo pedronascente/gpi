@@ -1,5 +1,6 @@
+
 <?php
-	$url = 'http://10.1.1.58:9093';
+	$url = "http://$_SERVER[HTTP_HOST]";
 	$id = $_GET['id'];
 	$rota_api_cliente =  $url."/api_gpi/public/api/clientes/{$id}/edit";
 	$rota_api_gestor = $url."/api_gpi/public/api/gestores";
@@ -28,7 +29,7 @@
 ?>
 
 <div class="panel panel-primary">
-    <div class="panel-heading ">Editar caadastro cliente</div>
+    <div class="panel-heading ">Editar cliente</div>
     <div class="panel-body"> 
         <form action="index.php?pg=64" method="post"> 
             <input type="hidden" name="id" value="<?=$cliente->id;?>">
@@ -67,12 +68,6 @@
                 </div>
             </div>
             <div class="row">
-                <!--<div class="col-xs-12 col-sm-4  col-md-4" >
-                    <div class="form-group">
-                        <label>CPF / CNPJ:</label>
-                        <input type="text" name="cpf_cnpj" value="<?=$cliente->cpf_cnpj;?>" class="form-control"  required />
-                    </div>
-                </div>-->
                 <div class="col-xs-12 col-sm-4  col-md-4" >
                     <div class="form-group">
                         <label>Placa:</label>

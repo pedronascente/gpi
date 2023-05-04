@@ -1069,8 +1069,11 @@ switch ($acao) {
                 break;
         }
 
-        if ($inicial == 12 && $final == 1) {
+        
 
+        /*
+
+        if ($inicial == 12 && $final == 1) {
             $ano_seguinte =   $ano + 1;
 
             $inicial = $ano . "-" . $inicial . "-16 00:00:00";
@@ -1080,24 +1083,21 @@ switch ($acao) {
             $final = $ano . "-" . $final . "-16 23:59:59";
         }
 
-        /*
-
-        if ($periodo[0] == 'DEZ') {
-
-            if ($final == '1') {
-                $inicial = ($ano - 1) . "-" . $inicial . "-21 00:00:00";
-            } else {
-                $inicial = $ano . "-" . $inicial . "-21 00:00:00";
-            }
-
-            $final = $ano . "-" . $final . "-21 23:59:59";
-        } else {
-            $inicial = $ano . "-" . $inicial . "-21 00:00:00";
-            $final = $ano . "-" . $final . "-21 23:59:59";
-        }
-
         */
-        $contratos = $pc->gerarComissoes($_SESSION['user_info']['id_usuario'], $inicial, $final);
+ 
+           if ($inicial == 12 && $final == 01) {
+            $ano_seguinte =   $ano - 1;
+
+            $inicial = $ano_seguinte . "-" . $inicial . "-16 00:00:00";
+            $final = $ano . "-" . $final . "-16 23:59:59";
+        } else {
+            $inicial = $ano . "-" . $inicial . "-16 00:00:00";
+            $final = $ano . "-" . $final . "-16 23:59:59";
+        }
+			
+
+
+ $contratos = $pc->gerarComissoes($_SESSION['user_info']['id_usuario'], $inicial, $final);
 
         if (!empty($contratos)) {
             foreach ($contratos as $con) {

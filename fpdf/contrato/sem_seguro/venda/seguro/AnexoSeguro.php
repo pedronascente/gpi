@@ -173,7 +173,7 @@ No caso de omissão ou  declarações inverídicas na proposta de seguro, que se
     E, por  estarem de acordo com todas Cláusulas e condições, as partes firmam o presente  instrumento em 02 (duas) vias de igual teor, para um só efeito, na presença de  02 (duas) testemunhas.<br>
   </p>
    <p align="center">
-   		 Porto  Alegre, '.$dma[0].'  de '.$mes.' de'.$dma[2].'
+   		 Porto  Alegre, ' . $dma[0] . '  de ' . $mes . ' de' . $dma[2] . '
    </p>
   <p>&nbsp;</p>
   
@@ -189,56 +189,98 @@ No caso de omissão ou  declarações inverídicas na proposta de seguro, que se
         	<td width="55%" valign="top">	   
             	<div align="left" style=" margin:0;margin-left:10px; border-top:1px solid">
             	<strong>CONTRATADA:</strong>';
-				if($seguro !=true){
-					$html.='VOLPMANN SEGURANÇA ELETRÔNICA LTDA.';
-				}else{
-					$html.='VOLPATO SERVIÇOS DE SEGURANÇA LTDA.';	
-				}
-				
-				$html.='<br>';
-			  
-			    if($seguro !=true){
-					$html.='<strong>CNPJ Nº:</strong>03.438.029/0001-48';
-				}else{
-					$html.='<strong>CNPJ Nº: </strong>07.086.942/0001-83';	
-				}
-			    $html.='<br>			
+if ($seguro != true) {
+  $html .= 'VOLPMANN SEGURANÇA ELETRÔNICA LTDA.';
+} else {
+  $html .= 'VOLPATO SERVIÇOS DE SEGURANÇA LTDA.';
+}
+
+$html .= '<br>';
+
+if ($seguro != true) {
+  $html .= '<strong>CNPJ Nº:</strong>03.438.029/0001-48';
+} else {
+  $html .= '<strong>CNPJ Nº: </strong>07.086.942/0001-83';
+}
+$html .= '<br>			
                 <strong>NOME LEGÍVEL:</strong>Cristina Rosmann Volpato<br>
                <strong> CPF:</strong>954.787.950-20<br>
             </td>
             <td width="55%" valign="top">
 				<div align="left" style=" margin:0;margin-left:10px; border-top:1px solid">
                ';
-			  if($list_cliente['tipo_pessoa']=='F' || $list_cliente['tipo_pessoa']=='f'):
-				$html .='
-				<strong>CONTRATANTE  : </strong>'.$nome_cliente.'<br />   
-				<strong>CNPJ/CPF Nº  : </strong>'.$cpf_cliente.'<br />
-				<strong>NOME LEGÍVEL : </strong>'.$nome_cliente.'<br />
-				<strong>CPF N º      : </strong>'.$cpf_cliente.'</div>'; 
-			  endif;
-			  
-			  if($list_cliente['tipo_pessoa']=='J' || $list_cliente['tipo_pessoa']=='j'):
-					$html .='
-					<strong>CONTRATANTE  : </strong>'.$list_cliente['nome_cliente'].'<br />
-					<strong>CNPJ/CPF Nº  : </strong>'.$list_cliente['cnpjcpf_cliente'].'<br />';
-					if(!empty($list_cliente['socio_1']) && empty($list_cliente['socio_2'])):
-					   $html .='
-							<strong>NOME LEGÍVEL : </strong>'.$list_cliente['socio_1'].'<br />
-							<strong>CPF N º      : </strong>'.$list_cliente['cpf_socio1'].'</div>
-					   ';								
-					endif;
-					if(!empty($list_cliente['socio_1']) && !empty($list_cliente['socio_2'])):
-					   $html .='
-							 <strong>NOME LEGÍVEL : </strong>'.$list_cliente['socio_1'].'<br />
-							 <strong>CPF N º      : </strong>'.$list_cliente['cpf_socio1'].'<br />
-							 <strong>NOME LEGÍVEL : </strong>'.$list_cliente['socio_2'].'<br />
-							<strong>CPF N º      : </strong>'.$list_cliente['cpf_socio2'].'</div>
-					   ';								
-					endif;
-			  endif;
-			  $html .='
+if ($list_cliente['tipo_pessoa'] == 'F' || $list_cliente['tipo_pessoa'] == 'f') :
+  $html .= '
+				<strong>CONTRATANTE  : </strong>' . $nome_cliente . '<br />   
+				<strong>CNPJ/CPF Nº  : </strong>' . $cpf_cliente . '<br />
+				<strong>NOME LEGÍVEL : </strong>' . $nome_cliente . '<br />
+				<strong>CPF N º      : </strong>' . $cpf_cliente . '</div>';
+endif;
+
+if ($list_cliente['tipo_pessoa'] == 'J' || $list_cliente['tipo_pessoa'] == 'j') :
+  $html .= '
+					<strong>CONTRATANTE  : </strong>' . $list_cliente['nome_cliente'] . '<br />
+					<strong>CNPJ/CPF Nº  : </strong>' . $list_cliente['cnpjcpf_cliente'] . '<br />';
+endif;
+$html .= '
             </td>
-        </tr>
+        </tr>';
+
+
+if (!empty($list_cliente['socio_1']) && !empty($list_cliente['socio_2'])) :
+
+  $html .= '
+    <tr>
+        <td colspan="2"><br><br></td>
+    </tr> 
+    <tr>
+        <td height="16"><strong> SÓCIOS:</strong></td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+            <td colspan="2"><br><br></td>
+    </tr> 
+    <tr>
+        <td>
+            <div align="left" style=" margin:0;margin-right:10px; border-top:1px solid">
+            <strong>1º SÓCIO : </strong>' . $list_cliente['socio_1']  . '<br />
+            <strong> &nbsp; &nbsp; CPF: </strong>' . $list_cliente['cpf_socio1'] . '<br />
+            </div>
+        </td>
+        <td>
+            <div align="left" style=" margin:0;margin-left:30px; border-top:1px solid; font-weight:bold">
+                <strong>2º SÓCIO : </strong>' . $list_cliente['socio_2']  . '<br />
+                <strong> &nbsp; &nbsp; CPF: </strong>' . $list_cliente['cpf_socio2'] . '<br />
+            </div>
+        </td>
+    </tr>';
+
+endif;
+
+if (!empty($list_cliente['socio_1']) && empty($list_cliente['socio_2'])) :
+
+  $html .= '
+    <tr>
+        <td colspan="2"><br><br></td>
+    </tr> 
+    <tr>
+        <td height="16"><strong> SÓCIO:</strong></td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td colspan="2"><br><br></td>
+    </tr> 
+    <tr>
+        <td>
+            <div align="left" style=" margin:0;margin-right:10px; border-top:1px solid">
+            <strong>1º SÓCIO : </strong>' . $list_cliente['socio_1']  . '<br />
+            <strong> &nbsp; &nbsp; CPF: </strong>' . $list_cliente['cpf_socio1'] . '<br />
+            </div>
+        </td>
+    </tr>	';
+endif;
+
+$html .= '
         <tr>
 			<td>
 			 &nbsp;
@@ -254,14 +296,14 @@ No caso de omissão ou  declarações inverídicas na proposta de seguro, que se
 			<td>&nbsp;</td>
 		  </tr>
 		  <tr>
-			<td align="center"><img src="../img/assinaturas/'.$list_assinatura['assinatura'].'" alt="" width="143" height="45"  border="0"/></td>
+			<td align="center"><img src="../img/assinaturas/' . $list_assinatura['assinatura'] . '" alt="" width="143" height="45"  border="0"/></td>
 			<td>&nbsp;</td>
 		  </tr>
 		  <tr>
 			<td>
 			  <div align="left" style=" margin:0;margin-right:10px; border-top:1px solid">
-				<strong>1º NOME : </strong>'.$list_assinatura['nome'].'<br />
-				<strong> &nbsp; &nbsp; CPF: </strong>'.$list_assinatura['cpf'].'<br />
+				<strong>1º NOME : </strong>' . $list_assinatura['nome'] . '<br />
+				<strong> &nbsp; &nbsp; CPF: </strong>' . $list_assinatura['cpf'] . '<br />
 			  </div>
 			</td>
 			<td>
@@ -273,4 +315,4 @@ No caso de omissão ou  declarações inverídicas na proposta de seguro, que se
 		  </tr>
   </table>
 </div>
-'; 
+';

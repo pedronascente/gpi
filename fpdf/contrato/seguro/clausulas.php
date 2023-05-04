@@ -488,21 +488,73 @@ if ($list_cliente['tipo_pessoa'] == 'J' || $list_cliente['tipo_pessoa'] == 'j') 
         			<strong>CONTRATANTE  : </strong>' . $list_cliente['nome_cliente'] . '<br />
         			<strong>CNPJ/CPF Nº  : </strong>' . $list_cliente['cnpjcpf_cliente'] . '<br />';
 endif;
-if (!empty($list_cliente['socio_1']) && empty($list_cliente['socio_2'])) :
-	$html .= '
-                  <strong>NOME LEGÍVEL : </strong>' . $list_cliente['socio_1'] . '<br />
-                  <strong>CPF N º      : </strong>' . $list_cliente['cpf_socio1'] . '';
-endif;
-if (!empty($list_cliente['socio_1']) && !empty($list_cliente['socio_2'])) :
-	$html .= '
-                <strong>NOME LEGÍVEL : </strong>' . $list_cliente['socio_1'] . '<br />
-                <strong>CPF N º      : </strong>' . $list_cliente['cpf_socio1'] . '<br />
-                <strong>NOME LEGÍVEL : </strong>' . $list_cliente['socio_2'] . '<br />
-                <strong>CPF N º      : </strong>' . $list_cliente['cpf_socio2'] . '';
-endif;
+
 $html .= '</div>
         </td>
-    </tr>
+    </tr>';
+
+
+
+
+
+if (!empty($list_cliente['socio_1']) && empty($list_cliente['socio_2'])) :
+
+	$html .= '
+				<tr>
+						<td colspan="2"><br><br></td>
+				</tr> 
+				<tr>
+						<td height="16"><strong> SÓCIOS:</strong></td>
+						<td>&nbsp;</td>
+				</tr>
+				<tr>
+						<td colspan="2"><br><br></td>
+				</tr> 
+				<tr>
+						<td>
+							<div align="left" style=" margin:0;margin-right:10px; border-top:1px solid">
+							<strong>1º SÓCIO : </strong>' . $list_cliente['socio_1']  . '<br />
+							<strong> &nbsp; &nbsp; CPF: </strong>' . $list_cliente['cpf_socio1'] . '<br />
+							</div>
+						</td>
+						<td>
+								<div align="left" style=" margin:0;margin-left:30px; border-top:1px solid; font-weight:bold">
+									<strong>1º SÓCIO : </strong>' . $list_cliente['socio_2']  . '<br />
+									<strong> &nbsp; &nbsp; CPF: </strong>' . $list_cliente['cpf_socio2'] . '<br />
+								</div>
+						</td>
+				</tr>	';
+
+endif;
+
+if (!empty($list_cliente['socio_1'])) :
+
+	$html .= '
+				<tr>
+						<td colspan="2"><br><br></td>
+				</tr> 
+				<tr>
+						<td height="16"><strong> SÓCIO:</strong></td>
+						<td>&nbsp;</td>
+				</tr>
+				<tr>
+						<td colspan="2"><br><br></td>
+				</tr> 
+				<tr>
+						<td>
+							<div align="left" style=" margin:0;margin-right:10px; border-top:1px solid">
+							<strong>1º SÓCIO : </strong>' . $list_cliente['socio_1']  . '<br />
+							<strong> &nbsp; &nbsp; CPF: </strong>' . $list_cliente['cpf_socio1'] . '<br />
+							</div>
+						</td>
+				</tr>	';
+
+endif;
+
+
+
+
+$html .='		
     <tr>
         <td colspan="2"><br><br></td>
     </tr> 
@@ -512,9 +564,11 @@ $html .= '</div>
     </tr>
     <tr>
         <td align="center">';
+
 if ($list_cliente["tipo_assinatura"] == "ad") {
 	$html .= '<img src="../img/assinaturas/' . $list_assinatura['assinatura'] . '" alt="" width="143" height="45"  border="0"/>';
 }
+
 $html .= ' </td>
         <td>&nbsp;</td>
     </tr>
@@ -530,5 +584,9 @@ $html .= ' </td>
               2º<br/>.
             </div>
         </td>
-    </tr>
+    </tr>';
+
+
+
+$html .= '
   </table>';
